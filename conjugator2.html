@@ -41,7 +41,7 @@
 </head>
 <body>
 
-<h1 style="font-size: 50%;">Conjugador de verbos en checo - presente</h1>
+<h1 style="font-size: 1.2rem;">Conjugador de verbos en checo - presente</h1>
 
 <!-- Counter -->
 <div id="contador">
@@ -91,4 +91,54 @@ function updateCounter() {
   const percent = total > 0 ? ((correct / total) * 100).toFixed(1) : 0;
   document.getElementById("contador").innerHTML =
     `<p><strong>Preguntas:</strong> ${total} | 
-     <strong>Aciertos:</strong> ${correct
+     <strong>Aciertos:</strong> ${correct} | 
+     <strong>Porcentaje:</strong> ${percent}%</p>`;
+}
+
+function newQuestion() {
+  if (!verbs.length) return;
+
+  waitingForNext = false;
+
+  currentVerb = verbs[Math.floor(Math.random() * verbs.length)];
+  currentPerson = persons[Math.floor(Math.random() * persons.length)];
+
+  document.getElementById("pregunta").innerHTML =
+    `<h2>Verbo: <em>${currentVerb.Infinitiv}</em></h2>
+     <p>Persona: <strong>${currentPerson}</strong></p>`;
+
+  document.getElementById("result").innerHTML = "";
+
+  const input = document.getElementById("answer");
+  input.value = "";
+  input.focus();
+}
+
+function checkAnswer() {
+  if (waitingForNext) return;
+
+  const user = document.getElementById("answer").value.trim();
+  const correctForm = currentVerb[currentPerson];
+
+  total++;
+
+  // Case-insensitive comparison
+  if (user.toLowerCase() === correctForm.toLowerCase()) {
+    correct++;
+    document.getElementById("result").innerHTML =
+      `<span class="correct">Correcto</span><br>
+       Forma: <strong>${correctForm}</strong>`;
+  } else {
+    document.getElementById("result").innerHTML =
+      `<span class="incorrect">Incorrecto</span><br>
+       La forma correcta es: <strong>${correctForm}</strong>`;
+  }
+
+  updateCounter();
+
+  waitingForNext = true;
+}
+</script>
+
+</body>
+</html>
