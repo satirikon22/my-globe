@@ -67,7 +67,7 @@ let currentPerson = null;
 let total = 0;
 let correct = 0;
 
-let waitingForNext = false; // prevents auto-continue
+let waitingForNext = false;
 
 const persons = [
   "já",
@@ -115,26 +115,28 @@ function newQuestion() {
 }
 
 function checkAnswer() {
-  if (waitingForNext) return; // block until user clicks Siguiente
+  if (waitingForNext) return;
 
   const user = document.getElementById("answer").value.trim();
   const correctForm = currentVerb[currentPerson];
 
   total++;
 
+  // Case-insensitive comparison
   if (user.toLowerCase() === correctForm.toLowerCase()) {
     correct++;
     document.getElementById("result").innerHTML =
-      `<span class="correct">¡Correcto!</span>`;
+      `<span class="correct">Correcto</span><br>
+       Forma: <strong>${correctForm}</strong>`;
   } else {
     document.getElementById("result").innerHTML =
-      `<span class="incorrect">Incorrecto.</span><br>
+      `<span class="incorrect">Incorrecto</span><br>
        La forma correcta es: <strong>${correctForm}</strong>`;
   }
 
   updateCounter();
 
-  // stop until user clicks Siguiente
+  // Stop until user clicks Siguiente
   waitingForNext = true;
 }
 </script>
