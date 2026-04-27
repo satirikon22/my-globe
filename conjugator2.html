@@ -14,27 +14,25 @@
 </div>
 
 <!-- Question -->
-<div id="pregunta">
-  <p>Cargando verbos…</p>
-</div>
+<div id="pregunta"></div>
 
 <!-- Input + Buttons -->
-<input id="respuesta" type="text" placeholder="Escribe la forma correcta…" autocomplete="off">
-<button onclick="comprobar()">Comprobar</button>
-<button onclick="nuevaPregunta()">Siguiente</button>
+<input id="answer" type="text" placeholder="Escribe la forma correcta…" autocomplete="off">
+<button onclick="checkAnswer()">Comprobar</button>
+<button onclick="newQuestion()">Siguiente</button>
 
 <!-- Result -->
-<div id="resultado"></div>
+<div id="result"></div>
 
 <script>
-let verbos = [];
-let verboActual = null;
-let personaActual = null;
+let verbs = [];
+let currentVerb = null;
+let currentPerson = null;
 
 let total = 0;
-let aciertos = 0;
+let correct = 0;
 
-const personas = [
+const persons = [
   "já",
   "ty",
   "on, ona, ono, to",
@@ -43,14 +41,67 @@ const personas = [
   "oni, ony"
 ];
 
-// Load JSON
+// this fetch is exactly like the one that worked for you before
 fetch('verbs2.json?nocache=' + Date.now())
-  .then(r => r.json())
+  .then(response => response.json())
   .then(data => {
-    verbos = data;
-    actualizarContador();
-    nuevaPregunta();
-  })
-  .catch(err => {
-    document.getElementById("pregunta").innerHTML =
-      "<p style='color:red;'>Error al cargar los
+    verbs = data;
+    updateCounter();
+    newQuestion();
+  });
+
+function updateCounter() {
+  const percent = total > 0 ? ((correct / total) * 100).toFixed(1) : 0;
+  document.getElementById("contador").innerHTML =
+    `<p><strong>Preguntas:</strong> ${total} | 
+     <strong>Aciertos:</strong> ${correct} | 
+     <strong>Porcentaje:</strong> ${percent}%</p>`;
+}
+
+function newQuestion() {
+  if (!verbs.length) return;
+
+  // random verb
+  currentVerb = verbs[Math.floor(Math.random() * verbs.length)];
+
+  // random person
+  currentPerson = persons[Math.floor(Math.random() * persons.length)];
+
+  // show question
+  document.getElementById("pregunta").innerHTML =
+    `<h2>Verbo: <em>${currentVerb.Infinitiv}</em></h2>
+     <p>Persona: <strong>${currentPerson}</strong></p>`;
+
+  // clear result
+  document.getElementById("result").innerHTML = "";
+
+  // clear input
+  const input = document.getElementById("answer");
+  input.value = "";
+  input.focus();
+}
+
+function checkAnswer() {
+  if (!currentVerb || !currentPerson) return;
+
+  const user = document.getElementById("answer").value.trim();
+  const correctForm = currentVerb[currentPerson];
+
+  total++;
+
+  if (user === correctForm) {
+    correct++;
+    document.getElementById("result").innerHTML =
+      `<span style="color: green; font-weight: bold;">¡Correcto!</span>`;
+  } else {
+    document.getElementById("result").innerHTML =
+      `<span style="color: red; font-weight: bold;">Incorrecto.</span><br>
+       La forma correcta es: <strong>${correctForm}</strong>`;
+  }
+
+  updateCounter();
+}
+</script>
+
+</body>
+</html>
