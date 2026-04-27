@@ -2,38 +2,71 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Verb Conjugator</title>
+  <title>Conjugador de verbos en checo – presente</title>
 </head>
 <body>
 
-  <h1>Verb Conjugator</h1>
+<h1>Conjugador de verbos en checo – presente</h1>
 
-  <!-- This is where the verb will appear -->
-  <div id="output"></div>
+<div id="pregunta"></div>
 
-  <script>
-    fetch('verbs2.json?nocache=' + Date.now())
-      .then(response => response.json())
-      .then(data => {
-        console.log('Loaded verbs:', data);
+<input id="respuesta" type="text" placeholder="Escribe la forma correcta…" autocomplete="off">
+<button onclick="comprobar()">Comprobar</button>
 
-        // take the first verb in the array
-        const verb = data[0];
+<div id="resultado"></div>
 
-        // build HTML
-        let html = `
-          <h2>${verb.Infinitiv}</h2>
-          <p><strong>já:</strong> ${verb["já"]}</p>
-          <p><strong>ty:</strong> ${verb["ty"]}</p>
-          <p><strong>on, ona, ono, to:</strong> ${verb["on, ona, ono, to"]}</p>
-          <p><strong>my:</strong> ${verb["my"]}</p>
-          <p><strong>vy:</strong> ${verb["vy"]}</p>
-          <p><strong>oni, ony:</strong> ${verb["oni, ony"]}</p>
-        `;
+<script>
+let verbos = [];
+let verboActual = null;
+let personaActual = null;
 
-        document.getElementById('output').innerHTML = html;
-      });
-  </script>
+const personas = [
+  "já",
+  "ty",
+  "on, ona, ono, to",
+  "my",
+  "vy",
+  "oni, ony"
+];
+
+fetch('verbs2.json?nocache=' + Date.now())
+  .then(r => r.json())
+  .then(data => {
+    verbos = data;
+    nuevaPregunta();
+  });
+
+function nuevaPregunta() {
+  verboActual = verbos[Math.floor(Math.random() * verbos.length)];
+  personaActual = personas[Math.floor(Math.random() * personas.length)];
+
+  document.getElementById("pregunta").innerHTML =
+    `<h2>Verbo: <em>${verboActual.Infinitiv}</em></h2>
+     <p>Persona: <strong>${personaActual}</strong></p>`;
+
+  document.getElementById("resultado").innerHTML = "";
+
+  const input = document.getElementById("respuesta");
+  input.value = "";
+  input.focus();
+}
+
+function comprobar() {
+  const usuario = document.getElementById("respuesta").value.trim();
+  const correcto = verboActual[personaActual];
+
+  if (usuario === correcto) {
+    document.getElementById("resultado").innerHTML =
+      `<span style="color: green; font-weight: bold;">¡Correcto!</span>`;
+  } else {
+    document.getElementById("resultado").innerHTML =
+      `<span style="color: red; font-weight: bold;">Incorrecto.</span><br>
+       La forma correcta es: <strong>${correcto}</strong>`;
+  }
+
+  setTimeout(nuevaPregunta, 1500);
+}
+</script>
 
 </body>
 </html>
