@@ -1,3 +1,596 @@
-{
-  "test": "ok"
-}
+[
+  {
+    "Infinitiv": "analyzovat",
+    "já": "analyzuju",
+    "ty": "analyzuješ",
+    "on, ona, ono, to": "analyzuje",
+    "my": "analyzujeme",
+    "vy": "analyzujete",
+    "oni, ony": "analyzujou"
+  },
+  {
+    "Infinitiv": "bydlet",
+    "já": "bydlím",
+    "ty": "bydlíš",
+    "on, ona, ono, to": "bydlí",
+    "my": "bydlíme",
+    "vy": "bydlíte",
+    "oni, ony": "bydlí"
+  },
+  {
+    "Infinitiv": "být",
+    "já": "jsem",
+    "ty": "jsi",
+    "on, ona, ono, to": "je",
+    "my": "jsme",
+    "vy": "jste",
+    "oni, ony": "jsou"
+  },
+  {
+    "Infinitiv": "čekat",
+    "já": "čekám",
+    "ty": "čekáš",
+    "on, ona, ono, to": "čeká",
+    "my": "čekáme",
+    "vy": "čekáte",
+    "oni, ony": "čekají"
+  },
+  {
+    "Infinitiv": "cestovat",
+    "já": "cestuju",
+    "ty": "cestuješ",
+    "on, ona, ono, to": "cestuje",
+    "my": "cestujeme",
+    "vy": "cestujete",
+    "oni, ony": "cestujou"
+  },
+  {
+    "Infinitiv": "chodit",
+    "já": "chodím",
+    "ty": "chodíš",
+    "on, ona, ono, to": "chodí",
+    "my": "chodíme",
+    "vy": "chodíte",
+    "oni, ony": "chodí"
+  },
+  {
+    "Infinitiv": "chtít",
+    "já": "chci",
+    "ty": "chceš",
+    "on, ona, ono, to": "chce",
+    "my": "chceme",
+    "vy": "chcete",
+    "oni, ony": "chtějí"
+  },
+  {
+    "Infinitiv": "číst",
+    "já": "čtu",
+    "ty": "čteš",
+    "on, ona, ono, to": "čte",
+    "my": "čteme",
+    "vy": "čtete",
+    "oni, ony": "čtou"
+  },
+  {
+    "Infinitiv": "děkovat",
+    "já": "děkuju",
+    "ty": "děkuješ",
+    "on, ona, ono, to": "děkuje",
+    "my": "děkujeme",
+    "vy": "děkujete",
+    "oni, ony": "děkují"
+  },
+  {
+    "Infinitiv": "dělat",
+    "já": "dělám",
+    "ty": "děláš",
+    "on, ona, ono, to": "dělá",
+    "my": "děláme",
+    "vy": "děláte",
+    "oni, ony": "dělají"
+  },
+  {
+    "Infinitiv": "diskutovat",
+    "já": "diskutuju",
+    "ty": "diskutuješ",
+    "on, ona, ono, to": "diskutuje",
+    "my": "diskutujeme",
+    "vy": "diskutujete",
+    "oni, ony": "diskutujou"
+  },
+  {
+    "Infinitiv": "dívat se",
+    "já": "dívám se",
+    "ty": "díváš se",
+    "on, ona, ono, to": "dívá se",
+    "my": "díváme se",
+    "vy": "díváte se",
+    "oni, ony": "dívají se"
+  },
+  {
+    "Infinitiv": "hledat",
+    "já": "hledám",
+    "ty": "hledáš",
+    "on, ona, ono, to": "hledá",
+    "my": "hledáme",
+    "vy": "hledáte",
+    "oni, ony": "hledají"
+  },
+  {
+    "Infinitiv": "hodit se",
+    "já": "hodím se",
+    "ty": "hodíš se",
+    "on, ona, ono, to": "hodí se",
+    "my": "hodíme se",
+    "vy": "hodíte se",
+    "oni, ony": "hodí se"
+  },
+  {
+    "Infinitiv": "hrát",
+    "já": "hraju",
+    "ty": "hraješ",
+    "on, ona, ono, to": "hraje",
+    "my": "hrajeme",
+    "vy": "hrajete",
+    "oni, ony": "hrajou"
+  },
+  {
+    "Infinitiv": "jet",
+    "já": "jedu",
+    "ty": "jedeš",
+    "on, ona, ono, to": "jede",
+    "my": "jedeme",
+    "vy": "jedete",
+    "oni, ony": "jedou"
+  },
+  {
+    "Infinitiv": "jezdit",
+    "já": "jezdím",
+    "ty": "jezdíš",
+    "on, ona, ono, to": "jezdí",
+    "my": "jezdíme",
+    "vy": "jezdíte",
+    "oni, ony": "jezdí"
+  },
+  {
+    "Infinitiv": "jíst",
+    "já": "jím",
+    "ty": "jíš",
+    "on, ona, ono, to": "jí",
+    "my": "jíme",
+    "vy": "jíte",
+    "oni, ony": "jí"
+  },
+  {
+    "Infinitiv": "jít",
+    "já": "jdu",
+    "ty": "jdeš",
+    "on, ona, ono, to": "jde",
+    "my": "jdeme",
+    "vy": "jdete",
+    "oni, ony": "jdou"
+  },
+  {
+    "Infinitiv": "jmenovat se",
+    "já": "jmenuju se",
+    "ty": "jmenuješ se",
+    "on, ona, ono, to": "jmenuje se",
+    "my": "jmenujeme se",
+    "vy": "jmenujete se",
+    "oni, ony": "jmenujou se"
+  },
+  {
+    "Infinitiv": "komunikovat",
+    "já": "komunikuju",
+    "ty": "komunikuješ",
+    "on, ona, ono, to": "komunikuje",
+    "my": "komunikujeme",
+    "vy": "komunikujete",
+    "oni, ony": "komunikujou"
+  },
+  {
+    "Infinitiv": "končit",
+    "já": "končím",
+    "ty": "končíš",
+    "on, ona, ono, to": "končí",
+    "my": "končíme",
+    "vy": "končíte",
+    "oni, ony": "končí"
+  },
+  {
+    "Infinitiv": "kontrolovat",
+    "já": "kontroluju",
+    "ty": "kontroluješ",
+    "on, ona, ono, to": "kontroluje",
+    "my": "kontrolujeme",
+    "vy": "kontrolujete",
+    "oni, ony": "kontrolujou"
+  },
+  {
+    "Infinitiv": "ležet",
+    "já": "ležím",
+    "ty": "ležíš",
+    "on, ona, ono, to": "leží",
+    "my": "ležíme",
+    "vy": "ležíte",
+    "oni, ony": "leží"
+  },
+  {
+    "Infinitiv": "lyžovat",
+    "já": "lyžuju",
+    "ty": "lyžuješ",
+    "on, ona, ono, to": "lyžuje",
+    "my": "lyžujeme",
+    "vy": "lyžujete",
+    "oni, ony": "lyžujou"
+  },
+  {
+    "Infinitiv": "mít",
+    "já": "mám",
+    "ty": "máš",
+    "on, ona, ono, to": "má",
+    "my": "máme",
+    "vy": "máte",
+    "oni, ony": "mají"
+  },
+  {
+    "Infinitiv": "mluvit",
+    "já": "mluvím",
+    "ty": "mluvíš",
+    "on, ona, ono, to": "mluví",
+    "my": "mluvíme",
+    "vy": "mluvíte",
+    "oni, ony": "mluví"
+  },
+  {
+    "Infinitiv": "moct",
+    "já": "můžu",
+    "ty": "můžeš",
+    "on, ona, ono, to": "může",
+    "my": "můžeme",
+    "vy": "můžete",
+    "oni, ony": "můžou"
+  },
+  {
+    "Infinitiv": "muset",
+    "já": "musím",
+    "ty": "musíš",
+    "on, ona, ono, to": "musí",
+    "my": "musíme",
+    "vy": "musíte",
+    "oni, ony": "musí"
+  },
+  {
+    "Infinitiv": "myslet",
+    "já": "myslím",
+    "ty": "myslíš",
+    "on, ona, ono, to": "myslí",
+    "my": "myslíme",
+    "vy": "myslíte",
+    "oni, ony": "myslí"
+  },
+  {
+    "Infinitiv": "myslet si",
+    "já": "myslím si",
+    "ty": "myslíš si",
+    "on, ona, ono, to": "myslí si",
+    "my": "myslíme si",
+    "vy": "myslíte si",
+    "oni, ony": "myslí si"
+  },
+  {
+    "Infinitiv": "nakupovat",
+    "já": "nakupuju",
+    "ty": "nakupuješ",
+    "on, ona, ono, to": "nakupuje",
+    "my": "nakupujeme",
+    "vy": "nakupujete",
+    "oni, ony": "nakupujou"
+  },
+  {
+    "Infinitiv": "opakovat",
+    "já": "opakuju",
+    "ty": "opakuješ",
+    "on, ona, ono, to": "opakuje",
+    "my": "opakujeme",
+    "vy": "opakujete",
+    "oni, ony": "opakujou"
+  },
+  {
+    "Infinitiv": "opalovat se",
+    "já": "opaluju se",
+    "ty": "opaluješ se",
+    "on, ona, ono, to": "opaluje se",
+    "my": "opalujeme se",
+    "vy": "opalujete se",
+    "oni, ony": "opalujou se"
+  },
+  {
+    "Infinitiv": "opravit",
+    "já": "opravím",
+    "ty": "opravíš",
+    "on, ona, ono, to": "opraví",
+    "my": "opravíme",
+    "vy": "opravíte",
+    "oni, ony": "opraví"
+  },
+  {
+    "Infinitiv": "organizovat",
+    "já": "organizuju",
+    "ty": "organizuješ",
+    "on, ona, ono, to": "organizuje",
+    "my": "organizujeme",
+    "vy": "organizujete",
+    "oni, ony": "organizujou"
+  },
+  {
+    "Infinitiv": "pít",
+    "já": "piju",
+    "ty": "piješ",
+    "on, ona, ono, to": "pije",
+    "my": "pijeme",
+    "vy": "pijete",
+    "oni, ony": "pijou"
+  },
+  {
+    "Infinitiv": "plánovat",
+    "já": "plánuju",
+    "ty": "plánuješ",
+    "on, ona, ono, to": "plánuje",
+    "my": "plánujeme",
+    "vy": "plánujete",
+    "oni, ony": "plánujou"
+  },
+  {
+    "Infinitiv": "počítat",
+    "já": "počítám",
+    "ty": "počítáš",
+    "on, ona, ono, to": "počítá",
+    "my": "počítáme",
+    "vy": "počítáte",
+    "oni, ony": "počítají"
+  },
+  {
+    "Infinitiv": "poslouchat",
+    "já": "poslouchám",
+    "ty": "posloucháš",
+    "on, ona, ono, to": "poslouchá",
+    "my": "posloucháme",
+    "vy": "posloucháte",
+    "oni, ony": "poslouchají"
+  },
+  {
+    "Infinitiv": "používat",
+    "já": "používám",
+    "ty": "používáš",
+    "on, ona, ono, to": "používá",
+    "my": "používáme",
+    "vy": "používáte",
+    "oni, ony": "používají"
+  },
+  {
+    "Infinitiv": "povídat",
+    "já": "povídám",
+    "ty": "povídáš",
+    "on, ona, ono, to": "povídá",
+    "my": "povídáme",
+    "vy": "povídáte",
+    "oni, ony": "povídají"
+  },
+  {
+    "Infinitiv": "pracovat",
+    "já": "pracuju",
+    "ty": "pracuješ",
+    "on, ona, ono, to": "pracuje",
+    "my": "pracujeme",
+    "vy": "pracujete",
+    "oni, ony": "pracujou"
+  },
+  {
+    "Infinitiv": "prosit",
+    "já": "prosím",
+    "ty": "prosíš",
+    "on, ona, ono, to": "prosí",
+    "my": "prosíme",
+    "vy": "prosite",
+    "oni, ony": "prosí"
+  },
+  {
+    "Infinitiv": "psát",
+    "já": "píšu",
+    "ty": "píšeš",
+    "on, ona, ono, to": "píše",
+    "my": "píšeme",
+    "vy": "píšete",
+    "oni, ony": "píšou"
+  },
+  {
+    "Infinitiv": "ptát se",
+    "já": "ptám se",
+    "ty": "ptáš se",
+    "on, ona, ono, to": "ptá se",
+    "my": "ptáme se",
+    "vy": "ptáte se",
+    "oni, ony": "ptají se"
+  },
+  {
+    "Infinitiv": "reagovat",
+    "já": "reaguju",
+    "ty": "reaguješ",
+    "on, ona, ono, to": "reaguje",
+    "my": "reagujeme",
+    "vy": "reagujete",
+    "oni, ony": "reagujou"
+  },
+  {
+    "Infinitiv": "říkat",
+    "já": "říkám",
+    "ty": "říkáš",
+    "on, ona, ono, to": "říká",
+    "my": "říkáme",
+    "vy": "říkáte",
+    "oni, ony": "říkají"
+  },
+  {
+    "Infinitiv": "rozumět",
+    "já": "rozumím",
+    "ty": "rozumíš",
+    "on, ona, ono, to": "rozumí",
+    "my": "rozumíme",
+    "vy": "rozumíte",
+    "oni, ony": "rozumí"
+  },
+  {
+    "Infinitiv": "slyšet",
+    "já": "slyším",
+    "ty": "slyšíš",
+    "on, ona, ono, to": "slyší",
+    "my": "slyšíme",
+    "vy": "slyšíte",
+    "oni, ony": "slyší"
+  },
+  {
+    "Infinitiv": "spát",
+    "já": "spím",
+    "ty": "spíš",
+    "on, ona, ono, to": "spí",
+    "my": "spíme",
+    "vy": "spíte",
+    "oni, ony": "spí"
+  },
+  {
+    "Infinitiv": "sportovat",
+    "já": "sportuju",
+    "ty": "sportuješ",
+    "on, ona, ono, to": "sportuje",
+    "my": "sportujeme",
+    "vy": "sportujete",
+    "oni, ony": "sportujou"
+  },
+  {
+    "Infinitiv": "stát",
+    "já": "stojím",
+    "ty": "stojíš",
+    "on, ona, ono, to": "stojí",
+    "my": "stojíme",
+    "vy": "stojíte",
+    "oni, ony": "stojí"
+  },
+  {
+    "Infinitiv": "tancovat",
+    "já": "tancuju",
+    "ty": "tancuješ",
+    "on, ona, ono, to": "tancuje",
+    "my": "tancujeme",
+    "vy": "tancujete",
+    "oni, ony": "tancujou"
+  },
+  {
+    "Infinitiv": "telefonovat",
+    "já": "telefonuju",
+    "ty": "telefonuješ",
+    "on, ona, ono, to": "telefonuje",
+    "my": "telefonujeme",
+    "vy": "telefonujete",
+    "oni, ony": "telefonujou"
+  },
+  {
+    "Infinitiv": "učit",
+    "já": "učím",
+    "ty": "učíš",
+    "on, ona, ono, to": "učí",
+    "my": "učíme",
+    "vy": "učíte",
+    "oni, ony": "učí"
+  },
+  {
+    "Infinitiv": "učit se",
+    "já": "učím se",
+    "ty": "učíš se",
+    "on, ona, ono, to": "učí se",
+    "my": "učíme se",
+    "vy": "učíte se",
+    "oni, ony": "učí se"
+  },
+  {
+    "Infinitiv": "uklízet",
+    "já": "uklízím",
+    "ty": "uklízíš",
+    "on, ona, ono, to": "uklízí",
+    "my": "uklízíme",
+    "vy": "uklízíte",
+    "oni, ony": "uklízí"
+  },
+  {
+    "Infinitiv": "umět",
+    "já": "umím",
+    "ty": "umíš",
+    "on, ona, ono, to": "umí",
+    "my": "umíme",
+    "vy": "umíte",
+    "oni, ony": "umí"
+  },
+  {
+    "Infinitiv": "vařit",
+    "já": "vařím",
+    "ty": "vaříš",
+    "on, ona, ono, to": "vaří",
+    "my": "vaříme",
+    "vy": "vaříte",
+    "oni, ony": "vaří"
+  },
+  {
+    "Infinitiv": "vědět",
+    "já": "vím",
+    "ty": "víš",
+    "on, ona, ono, to": "ví",
+    "my": "víme",
+    "vy": "víte",
+    "oni, ony": "ví"
+  },
+  {
+    "Infinitiv": "vidět",
+    "já": "vidím",
+    "ty": "vidíš",
+    "on, ona, ono, to": "vidí",
+    "my": "vidíme",
+    "vy": "vidíte",
+    "oni, ony": "vidí"
+  },
+  {
+    "Infinitiv": "začínat",
+    "já": "začínám",
+    "ty": "začínáš",
+    "on, ona, ono, to": "začíná",
+    "my": "začínáme",
+    "vy": "začínáte",
+    "oni, ony": "začínají"
+  },
+  {
+    "Infinitiv": "zajímat se",
+    "já": "zajímám se",
+    "ty": "zajímáš se",
+    "on, ona, ono, to": "zajímá se",
+    "my": "zajímáme se",
+    "vy": "zajímáte se",
+    "oni, ony": "zajímají se"
+  },
+  {
+    "Infinitiv": "znát",
+    "já": "znám",
+    "ty": "znáš",
+    "on, ona, ono, to": "zná",
+    "my": "známe",
+    "vy": "znáte",
+    "oni, ony": "znají"
+  },
+  {
+    "Infinitiv": "zpívat",
+    "já": "zpívám",
+    "ty": "zpíváš",
+    "on, ona, ono, to": "zpívá",
+    "my": "zpíváme",
+    "vy": "zpíváte",
+    "oni, ony": "zpívají"
+  }
+]
