@@ -8,10 +8,13 @@
 
 <h1>Conjugador de verbos en checo – presente</h1>
 
+<div id="contador"></div>
+
 <div id="pregunta"></div>
 
 <input id="respuesta" type="text" placeholder="Escribe la forma correcta…" autocomplete="off">
 <button onclick="comprobar()">Comprobar</button>
+<button onclick="nuevaPregunta()">Siguiente</button>
 
 <div id="resultado"></div>
 
@@ -19,6 +22,9 @@
 let verbos = [];
 let verboActual = null;
 let personaActual = null;
+
+let total = 0;
+let aciertos = 0;
 
 const personas = [
   "já",
@@ -33,8 +39,17 @@ fetch('verbs2.json?nocache=' + Date.now())
   .then(r => r.json())
   .then(data => {
     verbos = data;
+    actualizarContador();
     nuevaPregunta();
   });
+
+function actualizarContador() {
+  const porcentaje = total > 0 ? ((aciertos / total) * 100).toFixed(1) : 0;
+  document.getElementById("contador").innerHTML =
+    `<p><strong>Preguntas:</strong> ${total} | 
+     <strong>Aciertos:</strong> ${aciertos} | 
+     <strong>Porcentaje:</strong> ${porcentaje}%</p>`;
+}
 
 function nuevaPregunta() {
   verboActual = verbos[Math.floor(Math.random() * verbos.length)];
@@ -55,19 +70,7 @@ function comprobar() {
   const usuario = document.getElementById("respuesta").value.trim();
   const correcto = verboActual[personaActual];
 
-  if (usuario === correcto) {
-    document.getElementById("resultado").innerHTML =
-      `<span style="color: green; font-weight: bold;">¡Correcto!</span>`;
-  } else {
-    document.getElementById("resultado").innerHTML =
-      `<span style="color: red; font-weight: bold;">Incorrecto.</span><br>
-       La forma correcta es: <strong>${correcto}</strong>`;
-  }
+  total++;
 
-  setTimeout(nuevaPregunta, 1500);
-}
-</script>
 
-</body>
-</html>
 
