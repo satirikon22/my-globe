@@ -16,7 +16,7 @@
     }
 
     .title {
-      font-size: 1.15rem;     /* bigger title */
+      font-size: 1.15rem;
       font-weight: 500;
       margin: 0 0 6px 0;
     }
@@ -28,7 +28,7 @@
 
     #pregunta {
       margin: 5px 0 7px 0;
-      font-size: 1.1rem;      /* bigger verb text */
+      font-size: 1.1rem;
     }
 
     #result {
@@ -50,7 +50,7 @@
       font-family: 'Rubik', sans-serif;
       padding: 5px;
       font-size: 14px;
-      width: 75%;             /* ← 50% LONGER NOW */
+      width: 50%;
       box-sizing: border-box;
       margin-bottom: 4px;
     }
@@ -61,6 +61,16 @@
       margin: 3px 3px 0 0;
       font-size: 13px;
       cursor: pointer;
+    }
+
+    /* ⭐ Bigger title + verb on desktop only */
+    @media (min-width: 700px) {
+      .title {
+        font-size: 1.4rem;
+      }
+      #pregunta {
+        font-size: 1.3rem;
+      }
     }
   </style>
 </head>
