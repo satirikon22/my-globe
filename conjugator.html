@@ -1,1 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Verb Conjugator</title>
+</head>
+<body>
+  <h1>Verb Conjugator</h1>
 
+  <script>
+    fetch('verbs.json')
+      .then(response => response.json())
+      .then(data => {
+        console.log('Loaded verbs:', data);
+      });
+  </script>
+</body>
+</html>
