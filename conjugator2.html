@@ -5,14 +5,36 @@
   <title>Verb Conjugator</title>
 </head>
 <body>
+
   <h1>Verb Conjugator</h1>
+
+  <!-- This is where the verb will appear -->
+  <div id="output"></div>
 
   <script>
     fetch('verbs2.json?nocache=' + Date.now())
       .then(response => response.json())
       .then(data => {
         console.log('Loaded verbs:', data);
+
+        // take the first verb in the array
+        const verb = data[0];
+
+        // build HTML
+        let html = `
+          <h2>${verb.Infinitiv}</h2>
+          <p><strong>já:</strong> ${verb["já"]}</p>
+          <p><strong>ty:</strong> ${verb["ty"]}</p>
+          <p><strong>on, ona, ono, to:</strong> ${verb["on, ona, ono, to"]}</p>
+          <p><strong>my:</strong> ${verb["my"]}</p>
+          <p><strong>vy:</strong> ${verb["vy"]}</p>
+          <p><strong>oni, ony:</strong> ${verb["oni, ony"]}</p>
+        `;
+
+        document.getElementById('output').innerHTML = html;
       });
   </script>
+
 </body>
 </html>
+
