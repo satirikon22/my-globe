@@ -21,7 +21,6 @@
       margin: 0 0 6px 0;
     }
 
-    /* ⭐ Only “presente” bigger */
     .presente {
       font-size: 1.3em;
       font-weight: 600;
@@ -69,7 +68,6 @@
       cursor: pointer;
     }
 
-    /* ⭐ Bigger title + verb on desktop only */
     @media (min-width: 700px) {
       .title {
         font-size: 1.4rem;
@@ -153,12 +151,17 @@ function newQuestion() {
 function checkAnswer() {
   if (waitingForNext) return;
 
-  const user = document.getElementById("answer").value.trim();
+  const user = document.getElementById("answer").value.trim().toLowerCase();
   const correctForm = currentVerb[currentPerson];
+
+  // ⭐ NEW: allow multiple correct forms separated by "/"
+  const variants = correctForm
+    .split("/")
+    .map(v => v.trim().toLowerCase());
 
   total++;
 
-  if (user.toLowerCase() === correctForm.toLowerCase()) {
+  if (variants.includes(user)) {
     correct++;
     document.getElementById("result").innerHTML =
       `<span class="correct">Correcto</span><br>
@@ -176,4 +179,3 @@ function checkAnswer() {
 
 </body>
 </html>
-
