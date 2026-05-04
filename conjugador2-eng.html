@@ -151,12 +151,17 @@ function newQuestion() {
 function checkAnswer() {
   if (waitingForNext) return;
 
-  const user = document.getElementById("answer").value.trim();
+  const user = document.getElementById("answer").value.trim().toLowerCase();
   const correctForm = currentVerb[currentPerson];
+
+  // allow multiple correct forms separated by "/"
+  const variants = correctForm
+    .split("/")
+    .map(v => v.trim().toLowerCase());
 
   total++;
 
-  if (user.toLowerCase() === correctForm.toLowerCase()) {
+  if (variants.includes(user)) {
     correct++;
     document.getElementById("result").innerHTML =
       `<span class="correct">Correct</span><br>
@@ -174,3 +179,4 @@ function checkAnswer() {
 
 </body>
 </html>
+
