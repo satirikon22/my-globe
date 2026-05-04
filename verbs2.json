@@ -1,12 +1,12 @@
 [
   {
     "Infinitiv": "analyzovat",
-    "já": "analyzuju",
+    "já": "analyzuju/analyzuji",
     "ty": "analyzuješ",
     "on, ona, ono, to": "analyzuje",
     "my": "analyzujeme",
     "vy": "analyzujete",
-    "oni, ony": "analyzujou"
+    "oni, ony": "analyzujou/analyzují"
   },
   {
     "Infinitiv": "bydlet",
@@ -37,12 +37,12 @@
   },
   {
     "Infinitiv": "cestovat",
-    "já": "cestuju",
+    "já": "cestuju/cestuji",
     "ty": "cestuješ",
     "on, ona, ono, to": "cestuje",
     "my": "cestujeme",
     "vy": "cestujete",
-    "oni, ony": "cestujou"
+    "oni, ony": "cestujou/cestují"
   },
   {
     "Infinitiv": "chodit",
@@ -73,12 +73,12 @@
   },
   {
     "Infinitiv": "děkovat",
-    "já": "děkuju",
+    "já": "děkuju/děkuji",
     "ty": "děkuješ",
     "on, ona, ono, to": "děkuje",
     "my": "děkujeme",
     "vy": "děkujete",
-    "oni, ony": "děkují"
+    "oni, ony": "děkujou/děkují"
   },
   {
     "Infinitiv": "dělat",
@@ -91,12 +91,12 @@
   },
   {
     "Infinitiv": "diskutovat",
-    "já": "diskutuju",
+    "já": "diskutuju/diskutuju",
     "ty": "diskutuješ",
     "on, ona, ono, to": "diskutuje",
     "my": "diskutujeme",
     "vy": "diskutujete",
-    "oni, ony": "diskutujou"
+    "oni, ony": "diskutujou/diskutují"
   },
   {
     "Infinitiv": "dívat se",
@@ -127,12 +127,12 @@
   },
   {
     "Infinitiv": "hrát",
-    "já": "hraju",
+    "já": "hraju/hraji",
     "ty": "hraješ",
     "on, ona, ono, to": "hraje",
     "my": "hrajeme",
     "vy": "hrajete",
-    "oni, ony": "hrajou"
+    "oni, ony": "hrajou/hrají"
   },
   {
     "Infinitiv": "jet",
@@ -159,7 +159,7 @@
     "on, ona, ono, to": "jí",
     "my": "jíme",
     "vy": "jíte",
-    "oni, ony": "jí"
+    "oni, ony": "jí/jedí"
   },
   {
     "Infinitiv": "jít",
@@ -172,21 +172,21 @@
   },
   {
     "Infinitiv": "jmenovat se",
-    "já": "jmenuju se",
+    "já": "jmenuju se/jmenuji se",
     "ty": "jmenuješ se",
     "on, ona, ono, to": "jmenuje se",
     "my": "jmenujeme se",
     "vy": "jmenujete se",
-    "oni, ony": "jmenujou se"
+    "oni, ony": "jmenujou se/jmenují se"
   },
   {
     "Infinitiv": "komunikovat",
-    "já": "komunikuju",
+    "já": "komunikuju/komunikuji",
     "ty": "komunikuješ",
     "on, ona, ono, to": "komunikuje",
     "my": "komunikujeme",
     "vy": "komunikujete",
-    "oni, ony": "komunikujou"
+    "oni, ony": "komunikujou/komunikují"
   },
   {
     "Infinitiv": "končit",
@@ -199,12 +199,12 @@
   },
   {
     "Infinitiv": "kontrolovat",
-    "já": "kontroluju",
+    "já": "kontroluju/kontroluji",
     "ty": "kontroluješ",
     "on, ona, ono, to": "kontroluje",
     "my": "kontrolujeme",
     "vy": "kontrolujete",
-    "oni, ony": "kontrolujou"
+    "oni, ony": "kontrolujou/kontrolují"
   },
   {
     "Infinitiv": "ležet",
@@ -217,12 +217,12 @@
   },
   {
     "Infinitiv": "lyžovat",
-    "já": "lyžuju",
+    "já": "lyžuju/lyžuji",
     "ty": "lyžuješ",
     "on, ona, ono, to": "lyžuje",
     "my": "lyžujeme",
     "vy": "lyžujete",
-    "oni, ony": "lyžujou"
+    "oni, ony": "lyžujou/lyžují"
   },
   {
     "Infinitiv": "mít",
@@ -244,12 +244,12 @@
   },
   {
     "Infinitiv": "moct",
-    "já": "můžu",
+    "já": "můžu/mohu",
     "ty": "můžeš",
     "on, ona, ono, to": "může",
     "my": "můžeme",
     "vy": "můžete",
-    "oni, ony": "můžou"
+    "oni, ony": "můžou/mohou"
   },
   {
     "Infinitiv": "muset",
@@ -280,66 +280,66 @@
   },
   {
     "Infinitiv": "nakupovat",
-    "já": "nakupuju",
+    "já": "nakupuju/nakupuji",
     "ty": "nakupuješ",
     "on, ona, ono, to": "nakupuje",
     "my": "nakupujeme",
     "vy": "nakupujete",
-    "oni, ony": "nakupujou"
+    "oni, ony": "nakupujou/nakupují"
   },
   {
     "Infinitiv": "opakovat",
-    "já": "opakuju",
+    "já": "opakuju/opakuji",
     "ty": "opakuješ",
     "on, ona, ono, to": "opakuje",
     "my": "opakujeme",
     "vy": "opakujete",
-    "oni, ony": "opakujou"
+    "oni, ony": "opakujou/opakují"
   },
   {
     "Infinitiv": "opalovat se",
-    "já": "opaluju se",
+    "já": "opaluju se/opaluji se",
     "ty": "opaluješ se",
     "on, ona, ono, to": "opaluje se",
     "my": "opalujeme se",
     "vy": "opalujete se",
-    "oni, ony": "opalujou se"
+    "oni, ony": "opalujou se/opalují se"
   },
   {
     "Infinitiv": "opravovat",
-    "já": "opravuju",
+    "já": "opravuju/opravuji",
     "ty": "opravuješ",
     "on, ona, ono, to": "opravuje",
     "my": "opravujeme",
     "vy": "opravujete",
-    "oni, ony": "opravujou"
+    "oni, ony": "opravujou/opravají"
   },
   {
     "Infinitiv": "organizovat",
-    "já": "organizuju",
+    "já": "organizuju/organizuji",
     "ty": "organizuješ",
     "on, ona, ono, to": "organizuje",
     "my": "organizujeme",
     "vy": "organizujete",
-    "oni, ony": "organizujou"
+    "oni, ony": "organizujou/organizují"
   },
   {
     "Infinitiv": "pít",
-    "já": "piju",
+    "já": "piju/piji",
     "ty": "piješ",
     "on, ona, ono, to": "pije",
     "my": "pijeme",
     "vy": "pijete",
-    "oni, ony": "pijou"
+    "oni, ony": "pijou/pijí"
   },
   {
     "Infinitiv": "plánovat",
-    "já": "plánuju",
+    "já": "plánuju/plánuji",
     "ty": "plánuješ",
     "on, ona, ono, to": "plánuje",
     "my": "plánujeme",
     "vy": "plánujete",
-    "oni, ony": "plánujou"
+    "oni, ony": "plánujou/plánují"
   },
   {
     "Infinitiv": "počítat",
@@ -379,12 +379,12 @@
   },
   {
     "Infinitiv": "pracovat",
-    "já": "pracuju",
+    "já": "pracuju/pracuji",
     "ty": "pracuješ",
     "on, ona, ono, to": "pracuje",
     "my": "pracujeme",
     "vy": "pracujete",
-    "oni, ony": "pracujou"
+    "oni, ony": "pracujou/pracují"
   },
   {
     "Infinitiv": "prosit",
@@ -397,12 +397,12 @@
   },
   {
     "Infinitiv": "psát",
-    "já": "píšu",
+    "já": "píšu/píši",
     "ty": "píšeš",
     "on, ona, ono, to": "píše",
     "my": "píšeme",
     "vy": "píšete",
-    "oni, ony": "píšou"
+    "oni, ony": "píšou/píší"
   },
   {
     "Infinitiv": "ptát se",
@@ -415,12 +415,12 @@
   },
   {
     "Infinitiv": "reagovat",
-    "já": "reaguju",
+    "já": "reaguju/reaguji",
     "ty": "reaguješ",
     "on, ona, ono, to": "reaguje",
     "my": "reagujeme",
     "vy": "reagujete",
-    "oni, ony": "reagujou"
+    "oni, ony": "reagujou/reagují"
   },
   {
     "Infinitiv": "říkat",
@@ -438,7 +438,7 @@
     "on, ona, ono, to": "rozumí",
     "my": "rozumíme",
     "vy": "rozumíte",
-    "oni, ony": "rozumí"
+    "oni, ony": "rozumí/rozumějí"
   },
   {
     "Infinitiv": "slyšet",
@@ -460,12 +460,12 @@
   },
   {
     "Infinitiv": "sportovat",
-    "já": "sportuju",
+    "já": "sportuju/sportuji",
     "ty": "sportuješ",
     "on, ona, ono, to": "sportuje",
     "my": "sportujeme",
     "vy": "sportujete",
-    "oni, ony": "sportujou"
+    "oni, ony": "sportujou/sportují"
   },
   {
     "Infinitiv": "stát",
@@ -478,21 +478,21 @@
   },
   {
     "Infinitiv": "tancovat",
-    "já": "tancuju",
+    "já": "tancuju/tancuji",
     "ty": "tancuješ",
     "on, ona, ono, to": "tancuje",
     "my": "tancujeme",
     "vy": "tancujete",
-    "oni, ony": "tancujou"
+    "oni, ony": "tancujou/tancují"
   },
   {
     "Infinitiv": "telefonovat",
-    "já": "telefonuju",
+    "já": "telefonuju/telefonuji",
     "ty": "telefonuješ",
     "on, ona, ono, to": "telefonuje",
     "my": "telefonujeme",
     "vy": "telefonujete",
-    "oni, ony": "telefonujou"
+    "oni, ony": "telefonujou/telefonují"
   },
   {
     "Infinitiv": "učit",
@@ -519,7 +519,7 @@
     "on, ona, ono, to": "uklízí",
     "my": "uklízíme",
     "vy": "uklízíte",
-    "oni, ony": "uklízí"
+    "oni, ony": "uklízí/uklízejí"
   },
   {
     "Infinitiv": "umět",
@@ -528,7 +528,7 @@
     "on, ona, ono, to": "umí",
     "my": "umíme",
     "vy": "umíte",
-    "oni, ony": "umí"
+    "oni, ony": "umí/umění"
   },
   {
     "Infinitiv": "vařit",
@@ -546,7 +546,7 @@
     "on, ona, ono, to": "ví",
     "my": "víme",
     "vy": "víte",
-    "oni, ony": "ví"
+    "oni, ony": "ví/vědí"
   },
   {
     "Infinitiv": "vidět",
