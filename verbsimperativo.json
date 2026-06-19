@@ -106,13 +106,13 @@
  },
  {
    "Infinitiv": "hrát",
-   "ty": "hraj ",
-   "vy, Vy": "hrajte "
+   "ty": "hraj/hrej ",
+   "vy, Vy": "hrajte/hrejte "
  },
  {
    "Infinitiv": "hrát si",
-   "ty": "hraj si",
-   "vy, Vy": "hrajte si"
+   "ty": "hraj si/hrej si",
+   "vy, Vy": "hrajte si/hrejte si"
  },
  {
    "Infinitiv": "jednat",
@@ -181,8 +181,8 @@
  },
  {
    "Infinitiv": "nechat",
-   "ty": "nechej",
-   "vy, Vy": "nechejte"
+   "ty": "nechej/nech",
+   "vy, Vy": "nechejte/nechte"
  },
  {
    "Infinitiv": "objevit",
@@ -208,11 +208,6 @@
    "Infinitiv": "pamatovat si",
    "ty": "pamatuj si",
    "vy, Vy": "pamatujte si"
- },
- {
-   "Infinitiv": "patřit",
-   "ty": "patři",
-   "vy, Vy": "patřte"
  },
  {
    "Infinitiv": "platit",
@@ -340,7 +335,7 @@
    "vy, Vy": "říkejte"
  },
  {
-   "Infinitiv": "rozhodnout ",
+   "Infinitiv": "rozhodnout",
    "ty": "rozhodni",
    "vy, Vy": "rozhodněte"
  },
@@ -431,13 +426,13 @@
  },
  {
    "Infinitiv": "vzít",
-   "ty": "vezmi",
-   "vy, Vy": "vezměte"
+   "ty": "vezmi/vem",
+   "vy, Vy": "vezměte/vemte"
  },
  {
    "Infinitiv": "vzít si",
-   "ty": "vezmi si",
-   "vy, Vy": "vezměte si "
+   "ty": "vezmi si/vem si",
+   "vy, Vy": "vezměte si/vemte si "
  },
  {
    "Infinitiv": "začínat",
