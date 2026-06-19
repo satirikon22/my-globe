@@ -80,7 +80,7 @@
 </head>
 <body>
 
-<div class="title">Conjugador de verbos en checo - <span class="presente">Imperativo positivo</span></div>
+<div class="title">Conjugador de verbos en checo - <span class="presente">imperativo positivo</span></div>
 
 <div id="contador">
   <p><strong>Preguntas:</strong> 0 | <strong>Aciertos:</strong> 0 | <strong>Porcentaje:</strong> 0%</p>
@@ -104,8 +104,11 @@ let correct = 0;
 
 let waitingForNext = false;
 
-// Imperativo: show ty, vy, Vy (formal), but JSON uses keys "ty" and "vy"
-const persons = ["ty", "vy", "Vy"];
+const persons = [
+  "ty",
+  "vy",
+  "Vy"
+];
 
 fetch('verbsimperativo.json?nocache=' + Date.now())
   .then(r => r.json())
@@ -146,11 +149,7 @@ function checkAnswer() {
   if (waitingForNext) return;
 
   const user = document.getElementById("answer").value.trim().toLowerCase();
-
-  // Map "Vy" → "vy" to match JSON key
-  const key = (currentPerson === "Vy") ? "vy" : currentPerson;
-
-  const correctForm = currentVerb[key];
+  const correctForm = currentVerb[currentPerson];
 
   const variants = correctForm
     .split("/")
