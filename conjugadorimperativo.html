@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Conjugador de verbos en checo - Imperativo positivo</title>
+  <title>Conjugador de verbos en checo - imperativo positivo</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
 
@@ -104,8 +104,8 @@ let correct = 0;
 
 let waitingForNext = false;
 
-// Imperativo only has TY and VY
-const persons = ["ty", "vy"];
+// Imperativo: show ty, vy, Vy (formal), but JSON uses keys "ty" and "vy"
+const persons = ["ty", "vy", "Vy"];
 
 fetch('verbsimperativo.json?nocache=' + Date.now())
   .then(r => r.json())
@@ -146,7 +146,11 @@ function checkAnswer() {
   if (waitingForNext) return;
 
   const user = document.getElementById("answer").value.trim().toLowerCase();
-  const correctForm = currentVerb[currentPerson];
+
+  // Map "Vy" → "vy" to match JSON key
+  const key = (currentPerson === "Vy") ? "vy" : currentPerson;
+
+  const correctForm = currentVerb[key];
 
   const variants = correctForm
     .split("/")
@@ -172,4 +176,3 @@ function checkAnswer() {
 
 </body>
 </html>
-
