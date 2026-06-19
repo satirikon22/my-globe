@@ -15,7 +15,7 @@
    "vy,Vy": "buďte"
  },
  {
-   "Infinitiv": "čekat ",
+   "Infinitiv": "čekat",
    "ty": "čekej",
    "vy, Vy": "čekejte"
  },
@@ -40,7 +40,7 @@
    "vy, Vy": "čtěte"
  },
  {
-   "Infinitiv": "dát ",
+   "Infinitiv": "dát",
    "ty": "dej",
    "vy, Vy": "dejte"
  },
@@ -106,7 +106,7 @@
  },
  {
    "Infinitiv": "hrát",
-   "ty": "hraj/hrej ",
+   "ty": "hraj/hrej",
    "vy, Vy": "hrajte/hrejte "
  },
  {
@@ -135,7 +135,7 @@
    "vy, Vy": "jděte"
  },
  {
-   "Infinitiv": "koukat ",
+   "Infinitiv": "koukat",
    "ty": "koukej",
    "vy, Vy": "koukejte"
  },
@@ -325,7 +325,7 @@
    "vy, Vy": "ptejte se"
  },
  {
-   "Infinitiv": "říct  ",
+   "Infinitiv": "říct",
    "ty": "řekni",
    "vy, Vy": "řekněte"
  },
