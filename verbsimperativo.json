@@ -1,0 +1,492 @@
+[
+ {
+   "Infinitiv": "bát se",
+   "ty": "boj se",
+   "vy": "bojte se"
+ },
+ {
+   "Infinitiv": "brát",
+   "ty": "ber",
+   "vy": "berte"
+ },
+ {
+   "Infinitiv": "být",
+   "ty": "buď",
+   "vy": "buďte"
+ },
+ {
+   "Infinitiv": "čekat ",
+   "ty": "čekej",
+   "vy": "čekejte"
+ },
+ {
+   "Infinitiv": "chápat",
+   "ty": "chápej",
+   "vy": "chápejte"
+ },
+ {
+   "Infinitiv": "chodit",
+   "ty": "choď",
+   "vy": "choďte"
+ },
+ {
+   "Infinitiv": "chtít",
+   "ty": "chtěj",
+   "vy": "chtějte"
+ },
+ {
+   "Infinitiv": "číst",
+   "ty": "čti",
+   "vy": "čtěte"
+ },
+ {
+   "Infinitiv": "dát ",
+   "ty": "dej",
+   "vy": "dejte"
+ },
+ {
+   "Infinitiv": "dát si",
+   "ty": "dej si",
+   "vy": "dejte si"
+ },
+ {
+   "Infinitiv": "dávat",
+   "ty": "dávej",
+   "vy": "dávejte"
+ },
+ {
+   "Infinitiv": "dělat",
+   "ty": "dělej",
+   "vy": "dělejte"
+ },
+ {
+   "Infinitiv": "dívat se",
+   "ty": "dívej se",
+   "vy": "dívejte se"
+ },
+ {
+   "Infinitiv": "dodat",
+   "ty": "dodej",
+   "vy": "dodejte"
+ },
+ {
+   "Infinitiv": "dojít",
+   "ty": "dojdi",
+   "vy": "dojděte"
+ },
+ {
+   "Infinitiv": "dokázat",
+   "ty": "dokaž",
+   "vy": "dokažte"
+ },
+ {
+   "Infinitiv": "dosáhnout",
+   "ty": "dosáhni",
+   "vy": "dosáhněte"
+ },
+ {
+   "Infinitiv": "dostat",
+   "ty": "dostaň",
+   "vy": "dostaňte"
+ },
+ {
+   "Infinitiv": "držet",
+   "ty": "drž",
+   "vy": "držte"
+ },
+ {
+   "Infinitiv": "existovat",
+   "ty": "existuj",
+   "vy": "existujte"
+ },
+ {
+   "Infinitiv": "hledat",
+   "ty": "hledej",
+   "vy": "hledejte"
+ },
+ {
+   "Infinitiv": "hrát",
+   "ty": "hraj ",
+   "vy": "hrajte "
+ },
+ {
+   "Infinitiv": "hrát si",
+   "ty": "hraj si",
+   "vy": "hrajte si"
+ },
+ {
+   "Infinitiv": "jednat",
+   "ty": "jednej",
+   "vy": "jednejte"
+ },
+ {
+   "Infinitiv": "jet",
+   "ty": "jeď",
+   "vy": "jeďte"
+ },
+ {
+   "Infinitiv": "jezdit",
+   "ty": "jezdi",
+   "vy": "jezděte"
+ },
+ {
+   "Infinitiv": "jít",
+   "ty": "jdi",
+   "vy": "jděte"
+ },
+ {
+   "Infinitiv": "koukat ",
+   "ty": "koukej",
+   "vy": "koukejte"
+ },
+ {
+   "Infinitiv": "koupit",
+   "ty": "kup",
+   "vy": "kupte"
+ },
+ {
+   "Infinitiv": "ležet",
+   "ty": "lež",
+   "vy": "ležte"
+ },
+ {
+   "Infinitiv": "mít",
+   "ty": "měj",
+   "vy": "mějte"
+ },
+ {
+   "Infinitiv": "mluvit",
+   "ty": "mluv",
+   "vy": "mluvte"
+ },
+ {
+   "Infinitiv": "myslet",
+   "ty": "mysli",
+   "vy": "myslete"
+ },
+ {
+   "Infinitiv": "myslet si",
+   "ty": "mysli si",
+   "vy": "myslete si"
+ },
+ {
+   "Infinitiv": "najít",
+   "ty": "najdi",
+   "vy": "najděte"
+ },
+ {
+   "Infinitiv": "napsat",
+   "ty": "napiš",
+   "vy": "napište"
+ },
+ {
+   "Infinitiv": "nechat",
+   "ty": "nechej",
+   "vy": "nechejte"
+ },
+ {
+   "Infinitiv": "objevit",
+   "ty": "objev",
+   "vy": "objevte"
+ },
+ {
+   "Infinitiv": "objevit se",
+   "ty": "objev se",
+   "vy": "objevte se"
+ },
+ {
+   "Infinitiv": "odejít",
+   "ty": "odejdi",
+   "vy": "odejděte"
+ },
+ {
+   "Infinitiv": "otevřít",
+   "ty": "otevři",
+   "vy": "otevřete"
+ },
+ {
+   "Infinitiv": "pamatovat si",
+   "ty": "pamatuj si",
+   "vy": "pamatujte si"
+ },
+ {
+   "Infinitiv": "patřit",
+   "ty": "patři",
+   "vy": "patřte"
+ },
+ {
+   "Infinitiv": "platit",
+   "ty": "plať",
+   "vy": "plaťte"
+ },
+ {
+   "Infinitiv": "počkat",
+   "ty": "počkej",
+   "vy": "počkejte"
+ },
+ {
+   "Infinitiv": "podívat se",
+   "ty": "podívej se",
+   "vy": "podívejte se"
+ },
+ {
+   "Infinitiv": "pokračovat",
+   "ty": "pokračuj",
+   "vy": "pokračujte"
+ },
+ {
+   "Infinitiv": "pomoct",
+   "ty": "pomoz",
+   "vy": "pomozte"
+ },
+ {
+   "Infinitiv": "postavit",
+   "ty": "postav",
+   "vy": "postavte"
+ },
+ {
+   "Infinitiv": "postavit se",
+   "ty": "postav se",
+   "vy": "postavte se"
+ },
+ {
+   "Infinitiv": "potřebovat",
+   "ty": "potřebuj",
+   "vy": "potřebujte"
+ },
+ {
+   "Infinitiv": "používat",
+   "ty": "používej",
+   "vy": "používejte"
+ },
+ {
+   "Infinitiv": "považovat",
+   "ty": "považuj",
+   "vy": "považujte"
+ },
+ {
+   "Infinitiv": "poznat",
+   "ty": "poznej",
+   "vy": "poznejte"
+ },
+ {
+   "Infinitiv": "pracovat",
+   "ty": "pracuj",
+   "vy": "pracujte"
+ },
+ {
+   "Infinitiv": "představit",
+   "ty": "představ",
+   "vy": "představte"
+ },
+ {
+   "Infinitiv": "představit se",
+   "ty": "představ se",
+   "vy": "představte se"
+ },
+ {
+   "Infinitiv": "představit si",
+   "ty": "představ si",
+   "vy": "představte si"
+ },
+ {
+   "Infinitiv": "představovat si",
+   "ty": "představuj si",
+   "vy": "představujte si"
+ },
+ {
+   "Infinitiv": "přijet",
+   "ty": "přijeď",
+   "vy": "přijeďte"
+ },
+ {
+   "Infinitiv": "přijít",
+   "ty": "přijď",
+   "vy": "přijďte"
+ },
+ {
+   "Infinitiv": "přinést",
+   "ty": "přines",
+   "vy": "přineste"
+ },
+ {
+   "Infinitiv": "připravit",
+   "ty": "připrav",
+   "vy": "připravte"
+ },
+ {
+   "Infinitiv": "prosit",
+   "ty": "pros",
+   "vy": "proste"
+ },
+ {
+   "Infinitiv": "psát",
+   "ty": "piš",
+   "vy": "pište"
+ },
+ {
+   "Infinitiv": "ptát se",
+   "ty": "ptej se",
+   "vy": "ptejte se"
+ },
+ {
+   "Infinitiv": "říct  ",
+   "ty": "řekni",
+   "vy": "řekněte"
+ },
+ {
+   "Infinitiv": "říkat",
+   "ty": "říkej",
+   "vy": "říkejte"
+ },
+ {
+   "Infinitiv": "rozhodnout ",
+   "ty": "rozhodni",
+   "vy": "rozhodněte"
+ },
+ {
+   "Infinitiv": "rozumět",
+   "ty": "rozuměj",
+   "vy": "rozumějte"
+ },
+ {
+   "Infinitiv": "sedět",
+   "ty": "seď",
+   "vy": "seďte"
+ },
+ {
+   "Infinitiv": "skončit",
+   "ty": "skonči",
+   "vy": "skončete"
+ },
+ {
+   "Infinitiv": "slyšet",
+   "ty": "slyš",
+   "vy": "slyšte"
+ },
+ {
+   "Infinitiv": "snažit se",
+   "ty": "snaž se",
+   "vy": "snažte se"
+ },
+ {
+   "Infinitiv": "stačit",
+   "ty": "stač",
+   "vy": "stačte"
+ },
+ {
+   "Infinitiv": "stát",
+   "ty": "stůj ",
+   "vy": "stůjte "
+ },
+ {
+   "Infinitiv": "udělat",
+   "ty": "udělej",
+   "vy": "udělejte"
+ },
+ {
+   "Infinitiv": "ukázat",
+   "ty": "ukaž",
+   "vy": "ukažte"
+ },
+ {
+   "Infinitiv": "umět",
+   "ty": "uměj",
+   "vy": "umějte"
+ },
+ {
+   "Infinitiv": "vědět",
+   "ty": "věz",
+   "vy": "vězte"
+ },
+ {
+   "Infinitiv": "věřit",
+   "ty": "věř",
+   "vy": "věřte"
+ },
+ {
+   "Infinitiv": "vést",
+   "ty": "veď",
+   "vy": "veďte"
+ },
+ {
+   "Infinitiv": "vrátit",
+   "ty": "vrať",
+   "vy": "vraťte"
+ },
+ {
+   "Infinitiv": "vrátit se ",
+   "ty": "vrať se",
+   "vy": "vraťte se"
+ },
+ {
+   "Infinitiv": "vyjít",
+   "ty": "vyjdi",
+   "vy": "vyjděte"
+ },
+ {
+   "Infinitiv": "vytvořit",
+   "ty": "vytvoř",
+   "vy": "vytvořte"
+ },
+ {
+   "Infinitiv": "vzít",
+   "ty": "vezmi",
+   "vy": "vezměte"
+ },
+ {
+   "Infinitiv": "vzít si",
+   "ty": "vezmi si",
+   "vy": "vezměte si "
+ },
+ {
+   "Infinitiv": "začínat",
+   "ty": "začínej",
+   "vy": "začínejte"
+ },
+ {
+   "Infinitiv": "začít",
+   "ty": "začni",
+   "vy": "začněte"
+ },
+ {
+   "Infinitiv": "zapomenout",
+   "ty": "zapomeň",
+   "vy": "zapomeňte"
+ },
+ {
+   "Infinitiv": "zastavit",
+   "ty": "zastav",
+   "vy": "zastavte"
+ },
+ {
+   "Infinitiv": "zeptat se",
+   "ty": "zeptej se",
+   "vy": "zeptej se"
+ },
+ {
+   "Infinitiv": "získat",
+   "ty": "získej",
+   "vy": "získejte"
+ },
+ {
+   "Infinitiv": "žít",
+   "ty": "žij",
+   "vy": "žijte"
+ },
+ {
+   "Infinitiv": "zjistit",
+   "ty": "zjisti",
+   "vy": "zjisti"
+ },
+ {
+   "Infinitiv": "změnit",
+   "ty": "změň",
+   "vy": "změňte"
+ },
+ {
+   "Infinitiv": "zůstat",
+   "ty": "zůstaň",
+   "vy": "zůstaňte"
+ }
+]
