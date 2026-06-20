@@ -1,1 +1,492 @@
-
+[
+ {
+   "Infinitiv": "bát se",
+   "ty": "neboj se",
+   "vy, Vy": "nebojte se"
+ },
+ {
+   "Infinitiv": "brát",
+   "ty": "neber",
+   "vy, Vy": "neberte"
+ },
+ {
+   "Infinitiv": "být",
+   "ty": "nebuď",
+   "vy, Vy": "nebuďte"
+ },
+ {
+   "Infinitiv": "čekat ",
+   "ty": "nečekej",
+   "vy, Vy": "nečekejte"
+ },
+ {
+   "Infinitiv": "chápat",
+   "ty": "nechápej",
+   "vy, Vy": "nechápejte"
+ },
+ {
+   "Infinitiv": "chodit",
+   "ty": "nechoď",
+   "vy, Vy": "nechoďte"
+ },
+ {
+   "Infinitiv": "chtít",
+   "ty": "nechtěj",
+   "vy, Vy": "nechtějte"
+ },
+ {
+   "Infinitiv": "číst",
+   "ty": "nečti",
+   "vy, Vy": "nečtěte"
+ },
+ {
+   "Infinitiv": "cítit se",
+   "ty": "neciť se",
+   "vy, Vy": "neciťte se"
+ },
+ {
+   "Infinitiv": "dát ",
+   "ty": "nedej",
+   "vy, Vy": "nedejte"
+ },
+ {
+   "Infinitiv": "dát si",
+   "ty": "nedávej si",
+   "vy, Vy": "nedávejte si"
+ },
+ {
+   "Infinitiv": "dávat",
+   "ty": "nedávej",
+   "vy, Vy": "nedávejte"
+ },
+ {
+   "Infinitiv": "dělat",
+   "ty": "nedělej",
+   "vy, Vy": "nedělejte"
+ },
+ {
+   "Infinitiv": "dívat se",
+   "ty": "nedívej se",
+   "vy, Vy": "nedívejte se"
+ },
+ {
+   "Infinitiv": "dodat",
+   "ty": "nedodej",
+   "vy, Vy": "nedodejte"
+ },
+ {
+   "Infinitiv": "dokázat",
+   "ty": "nedokazuj",
+   "vy, Vy": "nedokazujte"
+ },
+ {
+   "Infinitiv": "dosáhnout",
+   "ty": "nedosahuj",
+   "vy, Vy": "nedosahujte"
+ },
+ {
+   "Infinitiv": "dostat se",
+   "ty": "nedostaň se/nedostávej se",
+   "vy, Vy": "nedostaňte se/nedostávejte se"
+ },
+ {
+   "Infinitiv": "držet",
+   "ty": "nedrž",
+   "vy, Vy": "nedržte"
+ },
+ {
+   "Infinitiv": "existovat",
+   "ty": "neexistuj",
+   "vy, Vy": "neexistujte"
+ },
+ {
+   "Infinitiv": "hledat",
+   "ty": "nehledej",
+   "vy, Vy": "nehledejte"
+ },
+ {
+   "Infinitiv": "hrát",
+   "ty": "nehraj/nehrej",
+   "vy, Vy": "nehrajte/nehrejte"
+ },
+ {
+   "Infinitiv": "hrát si",
+   "ty": "nehraj si/nehrej si",
+   "vy, Vy": "nehrajte si/nerejte si"
+ },
+ {
+   "Infinitiv": "jednat",
+   "ty": "nejednej",
+   "vy, Vy": "nejednejte"
+ },
+ {
+   "Infinitiv": "jet",
+   "ty": "nejedzi",
+   "vy, Vy": "nejezděte"
+ },
+ {
+   "Infinitiv": "jezdit",
+   "ty": "nejezdi",
+   "vy, Vy": "nejezděte"
+ },
+ {
+   "Infinitiv": "jít",
+   "ty": "nechoď ",
+   "vy, Vy": "nechoďte"
+ },
+ {
+   "Infinitiv": "koukat ",
+   "ty": "nekoukej",
+   "vy, Vy": "nekoukejte"
+ },
+ {
+   "Infinitiv": "koupit",
+   "ty": "nekupuj",
+   "vy, Vy": "nekupujte"
+ },
+ {
+   "Infinitiv": "ležet",
+   "ty": "nelež",
+   "vy, Vy": "neležte"
+ },
+ {
+   "Infinitiv": "mít",
+   "ty": "neměj",
+   "vy, Vy": "nemějte"
+ },
+ {
+   "Infinitiv": "mluvit",
+   "ty": "nemluv",
+   "vy, Vy": "nemluvte"
+ },
+ {
+   "Infinitiv": "myslet",
+   "ty": "nemysli",
+   "vy, Vy": "nemyslete"
+ },
+ {
+   "Infinitiv": "myslet si",
+   "ty": "nemysli si",
+   "vy, Vy": "nemyslete si"
+ },
+ {
+   "Infinitiv": "najít",
+   "ty": "nenacházej",
+   "vy, Vy": "nenacházejte"
+ },
+ {
+   "Infinitiv": "napsat",
+   "ty": "nepiš",
+   "vy, Vy": "nepište"
+ },
+ {
+   "Infinitiv": "nechat",
+   "ty": "nenechej/nenech",
+   "vy, Vy": "nenechejte/nenechte"
+ },
+ {
+   "Infinitiv": "objevit",
+   "ty": "neobjevuj",
+   "vy, Vy": "neobjevujte"
+ },
+ {
+   "Infinitiv": "objevit se",
+   "ty": "neobjevuj se",
+   "vy, Vy": "neobjevujte se"
+ },
+ {
+   "Infinitiv": "odejít",
+   "ty": "neodcházej",
+   "vy, Vy": "neodcházejte"
+ },
+ {
+   "Infinitiv": "otevřít",
+   "ty": "neotvírejte",
+   "vy, Vy": "neotvírejte"
+ },
+ {
+   "Infinitiv": "pamatovat si",
+   "ty": "nepamatuj si",
+   "vy, Vy": "nepamatujte si"
+ },
+ {
+   "Infinitiv": "patřit",
+   "ty": "nepatři",
+   "vy, Vy": "nepatřte"
+ },
+ {
+   "Infinitiv": "platit",
+   "ty": "neplať",
+   "vy, Vy": "neplaťte"
+ },
+ {
+   "Infinitiv": "počkat",
+   "ty": "nečekej",
+   "vy, Vy": "nečekejte"
+ },
+ {
+   "Infinitiv": "podívat se",
+   "ty": "nepodívej se",
+   "vy, Vy": "nepodívejte se"
+ },
+ {
+   "Infinitiv": "pokračovat",
+   "ty": "nepokračuj",
+   "vy, Vy": "nepokračujte"
+ },
+ {
+   "Infinitiv": "pomoct",
+   "ty": "nepomáhej",
+   "vy, Vy": "nepomáhejte"
+ },
+ {
+   "Infinitiv": "postavit",
+   "ty": "nestavěj/nestav",
+   "vy, Vy": "nestavějte/nestavte"
+ },
+ {
+   "Infinitiv": "postavit se",
+   "ty": "nestavěj se",
+   "vy, Vy": "nestavějte se"
+ },
+ {
+   "Infinitiv": "potřebovat",
+   "ty": "nepotřebuj",
+   "vy, Vy": "nepotřebujte"
+ },
+ {
+   "Infinitiv": "používat",
+   "ty": "nepoužívej",
+   "vy, Vy": "nepoužívejte"
+ },
+ {
+   "Infinitiv": "považovat",
+   "ty": "nepovažuj",
+   "vy, Vy": "nepovažujte"
+ },
+ {
+   "Infinitiv": "poznat",
+   "ty": "nepoznávej",
+   "vy, Vy": "nepoznávejte"
+ },
+ {
+   "Infinitiv": "pracovat",
+   "ty": "nepracuj",
+   "vy, Vy": "nepracujte"
+ },
+ {
+   "Infinitiv": "představit",
+   "ty": "nepředstavuj",
+   "vy, Vy": "nepředstavujte"
+ },
+ {
+   "Infinitiv": "představit se",
+   "ty": "nepředstavuj se",
+   "vy, Vy": "nepředstavujte se"
+ },
+ {
+   "Infinitiv": "představit si",
+   "ty": "nepředstavuj si",
+   "vy, Vy": "nepředstavujte si"
+ },
+ {
+   "Infinitiv": "představovat",
+   "ty": "nepředstavuj",
+   "vy, Vy": "nepředstavujte"
+ },
+ {
+   "Infinitiv": "představovat se",
+   "ty": "nepředstavuj se",
+   "vy, Vy": "nepředstavujte se"
+ },
+ {
+   "Infinitiv": "představovat si",
+   "ty": "nepředstavuj si",
+   "vy, Vy": "nepředstavujte si"
+ },
+ {
+   "Infinitiv": "přijet",
+   "ty": "nejezdi",
+   "vy, Vy": "nejezděte"
+ },
+ {
+   "Infinitiv": "přijít",
+   "ty": "nechoď",
+   "vy, Vy": "nechoďte"
+ },
+ {
+   "Infinitiv": "přinést",
+   "ty": "nenos",
+   "vy, Vy": "nenoste"
+ },
+ {
+   "Infinitiv": "připravit",
+   "ty": "nepřipravuj",
+   "vy, Vy": "nepřipravujte"
+ },
+ {
+   "Infinitiv": "prosit",
+   "ty": "nepros",
+   "vy, Vy": "neproste"
+ },
+ {
+   "Infinitiv": "psát",
+   "ty": "nepiš",
+   "vy, Vy": "nepište"
+ },
+ {
+   "Infinitiv": "ptát se",
+   "ty": "neptej se",
+   "vy, Vy": "neptejte se"
+ },
+ {
+   "Infinitiv": "říct  ",
+   "ty": "neříkej",
+   "vy, Vy": "neříkejte"
+ },
+ {
+   "Infinitiv": "říkat",
+   "ty": "neříkej",
+   "vy, Vy": "neříkejte"
+ },
+ {
+   "Infinitiv": "rozhodnout ",
+   "ty": "nerozhoduj",
+   "vy, Vy": "nerozhodujte"
+ },
+ {
+   "Infinitiv": "sedět",
+   "ty": "neseď",
+   "vy, Vy": "neseďte"
+ },
+ {
+   "Infinitiv": "skončit",
+   "ty": "nekonči",
+   "vy, Vy": "nekončete"
+ },
+ {
+   "Infinitiv": "snažit se",
+   "ty": "nesnaž se",
+   "vy, Vy": "nesnažte se"
+ },
+ {
+   "Infinitiv": "stát",
+   "ty": "nestůj",
+   "vy, Vy": "nestůjte"
+ },
+ {
+   "Infinitiv": "stát se",
+   "ty": "nestávej se",
+   "vy, Vy": "nestávejte se"
+ },
+ {
+   "Infinitiv": "tvrdit",
+   "ty": "netvrď",
+   "vy, Vy": "netvrďte"
+ },
+ {
+   "Infinitiv": "udělat",
+   "ty": "nedělej",
+   "vy, Vy": "nedělejte"
+ },
+ {
+   "Infinitiv": "ukázat",
+   "ty": "neukazuj",
+   "vy, Vy": "neukazujte"
+ },
+ {
+   "Infinitiv": "věřit",
+   "ty": "nevěř",
+   "vy, Vy": "nevěřte"
+ },
+ {
+   "Infinitiv": "vést",
+   "ty": "neveď",
+   "vy, Vy": "neveďte"
+ },
+ {
+   "Infinitiv": "vrátit",
+   "ty": "nevracej",
+   "vy, Vy": "nevracejte"
+ },
+ {
+   "Infinitiv": "vrátit se ",
+   "ty": "nevracej se",
+   "vy, Vy": "nevracejte se"
+ },
+ {
+   "Infinitiv": "vyjít",
+   "ty": "nevycházej",
+   "vy, Vy": "nevydházejte"
+ },
+ {
+   "Infinitiv": "vypadat",
+   "ty": "nevypadej",
+   "vy, Vy": "nevypadejte"
+ },
+ {
+   "Infinitiv": "vytvořit",
+   "ty": "nevytvářej",
+   "vy, Vy": "nevytvářejte"
+ },
+ {
+   "Infinitiv": "vzít",
+   "ty": "neber",
+   "vy, Vy": "neberte"
+ },
+ {
+   "Infinitiv": "vzít si",
+   "ty": "neber si",
+   "vy, Vy": "neberte si"
+ },
+ {
+   "Infinitiv": "začínat",
+   "ty": "nezačínej",
+   "vy, Vy": "nezačínejte"
+ },
+ {
+   "Infinitiv": "začít",
+   "ty": "nezačínej",
+   "vy, Vy": "nezačínejte"
+ },
+ {
+   "Infinitiv": "zapomenout",
+   "ty": "nezapomeň",
+   "vy, Vy": "nezapomeňte"
+ },
+ {
+   "Infinitiv": "zastavit",
+   "ty": "nezastavuj",
+   "vy, Vy": "nezastavujte"
+ },
+ {
+   "Infinitiv": "zeptat se",
+   "ty": "nezeptaj se",
+   "vy, Vy": "nezeptajte se"
+ },
+ {
+   "Infinitiv": "získat",
+   "ty": "nezískávej",
+   "vy, Vy": "nezískávejte"
+ },
+ {
+   "Infinitiv": "žít",
+   "ty": "nežij",
+   "vy, Vy": "nežijte"
+ },
+ {
+   "Infinitiv": "zjistit",
+   "ty": "nezjišťuj",
+   "vy, Vy": "nezjišťujte"
+ },
+ {
+   "Infinitiv": "změnit",
+   "ty": "neměň",
+   "vy, Vy": "neměňte"
+ },
+ {
+   "Infinitiv": "zůstat",
+   "ty": "nezůstávej",
+   "vy, Vy": "nezůstávejte"
+ }
+]
