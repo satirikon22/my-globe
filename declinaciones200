@@ -1,1 +1,1802 @@
-
+[
+ {
+   "NOM1": "rok",
+   "GEN2": "roku / roka",
+   "DAT3": "roku ",
+   "AKU4": "rok",
+   "VOK5": "roce",
+   "LOK6": "roku / roce",
+   "INST7": "rokem"
+ },
+ {
+   "NOM1": "člověk",
+   "GEN2": "člověka",
+   "DAT3": "člověku",
+   "AKU4": "člověka",
+   "VOK5": "člověče",
+   "LOK6": "člověku",
+   "INST7": "člověkem"
+ },
+ {
+   "NOM1": "den",
+   "GEN2": "dne",
+   "DAT3": "dni / dnu",
+   "AKU4": "den",
+   "VOK5": "dni / dne",
+   "LOK6": "dni / dnu / dne",
+   "INST7": "dnem"
+ },
+ {
+   "NOM1": "doba",
+   "GEN2": "doby",
+   "DAT3": "době",
+   "AKU4": "dobu",
+   "VOK5": "dobo",
+   "LOK6": "době",
+   "INST7": "dobou"
+ },
+ {
+   "NOM1": "místo",
+   "GEN2": "místa",
+   "DAT3": "místu",
+   "AKU4": "místo",
+   "VOK5": "místo",
+   "LOK6": "místě",
+   "INST7": "místem"
+ },
+ {
+   "NOM1": "život",
+   "GEN2": "života",
+   "DAT3": "životu",
+   "AKU4": "život",
+   "VOK5": "živote",
+   "LOK6": "životu / životě",
+   "INST7": "životem"
+ },
+ {
+   "NOM1": "práce",
+   "GEN2": "práce",
+   "DAT3": "práci",
+   "AKU4": "práci",
+   "VOK5": "práce",
+   "LOK6": "práci",
+   "INST7": "prací"
+ },
+ {
+   "NOM1": "ruka",
+   "GEN2": "ruky",
+   "DAT3": "ruce",
+   "AKU4": "ruku",
+   "VOK5": "ruko",
+   "LOK6": "ruce",
+   "INST7": "rukou"
+ },
+ {
+   "NOM1": "strana",
+   "GEN2": "strany",
+   "DAT3": "straně",
+   "AKU4": "stranu",
+   "VOK5": "strano",
+   "LOK6": "straně",
+   "INST7": "stranou"
+ },
+ {
+   "NOM1": "věc   ",
+   "GEN2": "věci",
+   "DAT3": "věci",
+   "AKU4": "věc",
+   "VOK5": "věci",
+   "LOK6": "věci",
+   "INST7": "věcí"
+ },
+ {
+   "NOM1": "země ",
+   "GEN2": "země",
+   "DAT3": "zemi",
+   "AKU4": "zemi",
+   "VOK5": "země",
+   "LOK6": "zemi",
+   "INST7": "zemí"
+ },
+ {
+   "NOM1": "čas",
+   "GEN2": "času",
+   "DAT3": "času",
+   "AKU4": "čas",
+   "VOK5": "čase",
+   "LOK6": "čase / času",
+   "INST7": "časem"
+ },
+ {
+   "NOM1": "případ",
+   "GEN2": "případu",
+   "DAT3": "případu",
+   "AKU4": "případ",
+   "VOK5": "případe",
+   "LOK6": "případu / případě",
+   "INST7": "případem"
+ },
+ {
+   "NOM1": "svět",
+   "GEN2": "světa",
+   "DAT3": "světu",
+   "AKU4": "svět",
+   "VOK5": "světe",
+   "LOK6": "světě",
+   "INST7": "světem"
+ },
+ {
+   "NOM1": "hodina",
+   "GEN2": "hodiny",
+   "DAT3": "hodině",
+   "AKU4": "hodinu",
+   "VOK5": "hodino",
+   "LOK6": "hodině",
+   "INST7": "hodinou"
+ },
+ {
+   "NOM1": "cesta",
+   "GEN2": "cesty",
+   "DAT3": "cestě",
+   "AKU4": "cestu",
+   "VOK5": "cesto",
+   "LOK6": "cestě",
+   "INST7": "cestou"
+ },
+ {
+   "NOM1": "dítě",
+   "GEN2": "dítěte",
+   "DAT3": "dítěti",
+   "AKU4": "dítě",
+   "VOK5": "dítě",
+   "LOK6": "dítěti",
+   "INST7": "dítětem"
+ },
+ {
+   "NOM1": "hlava",
+   "GEN2": "hlavy",
+   "DAT3": "hlavě",
+   "AKU4": "hlavu",
+   "VOK5": "hlavo",
+   "LOK6": "hlavě",
+   "INST7": "hlavou"
+ },
+ {
+   "NOM1": "část",
+   "GEN2": "části",
+   "DAT3": "části",
+   "AKU4": "část",
+   "VOK5": "části",
+   "LOK6": "části",
+   "INST7": "částí"
+ },
+ {
+   "NOM1": "problém",
+   "GEN2": "problému",
+   "DAT3": "problému",
+   "AKU4": "problém",
+   "VOK5": "probléme",
+   "LOK6": "problému",
+   "INST7": "problémem"
+ },
+ {
+   "NOM1": "oko",
+   "GEN2": "oka",
+   "DAT3": "oku",
+   "AKU4": "oko",
+   "VOK5": "oko",
+   "LOK6": "oku",
+   "INST7": "okem"
+ },
+ {
+   "NOM1": "konec",
+   "GEN2": "konce",
+   "DAT3": "konci",
+   "AKU4": "konec",
+   "VOK5": "konci",
+   "LOK6": "konci",
+   "INST7": "koncem"
+ },
+ {
+   "NOM1": "chvíle",
+   "GEN2": "chvíle",
+   "DAT3": "chvíli",
+   "AKU4": "chvíli",
+   "VOK5": "chvíle",
+   "LOK6": "chvíli",
+   "INST7": "chvílí"
+ },
+ {
+   "NOM1": "město",
+   "GEN2": "města",
+   "DAT3": "městu",
+   "AKU4": "město",
+   "VOK5": "město",
+   "LOK6": "městě",
+   "INST7": "městem"
+ },
+ {
+   "NOM1": "muž",
+   "GEN2": "muže",
+   "DAT3": "muži",
+   "AKU4": "muže",
+   "VOK5": "muži",
+   "LOK6": "muži",
+   "INST7": "mužem"
+ },
+ {
+   "NOM1": "pán",
+   "GEN2": "pána",
+   "DAT3": "pánu / pánovi",
+   "AKU4": "pána",
+   "VOK5": "pane",
+   "LOK6": "pánu / pánovi",
+   "INST7": "pánem"
+ },
+ {
+   "NOM1": "způsob",
+   "GEN2": "způsobu",
+   "DAT3": "způsobu",
+   "AKU4": "způsob",
+   "VOK5": "způsobe",
+   "LOK6": "způsobu",
+   "INST7": "způsobem"
+ },
+ {
+   "NOM1": "slovo",
+   "GEN2": "slova",
+   "DAT3": "slovu",
+   "AKU4": "slovo",
+   "VOK5": "slovo",
+   "LOK6": "slově",
+   "INST7": "slovem"
+ },
+ {
+   "NOM1": "žena",
+   "GEN2": "ženy",
+   "DAT3": "ženě",
+   "AKU4": "ženu",
+   "VOK5": "ženo",
+   "LOK6": "ženě",
+   "INST7": "ženou"
+ },
+ {
+   "NOM1": "společnost  ",
+   "GEN2": "společnosti",
+   "DAT3": "společnosti",
+   "AKU4": "společnost",
+   "VOK5": "společnosti",
+   "LOK6": "společnosti",
+   "INST7": "společností"
+ },
+ {
+   "NOM1": "řada",
+   "GEN2": "řady",
+   "DAT3": "řadě",
+   "AKU4": "řadu",
+   "VOK5": "řado",
+   "LOK6": "řadě",
+   "INST7": "řadou"
+ },
+ {
+   "NOM1": "týden",
+   "GEN2": "týdne",
+   "DAT3": "týdnu",
+   "AKU4": "týden",
+   "VOK5": "týdne",
+   "LOK6": "týdnu / týdne",
+   "INST7": "týdnem"
+ },
+ {
+   "NOM1": "voda",
+   "GEN2": "vody",
+   "DAT3": "vodě",
+   "AKU4": "vodu",
+   "VOK5": "vodo",
+   "LOK6": "vodě",
+   "INST7": "vodou"
+ },
+ {
+   "NOM1": "koruna",
+   "GEN2": "koruny",
+   "DAT3": "koruně",
+   "AKU4": "korunu",
+   "VOK5": "koruno",
+   "LOK6": "koruně",
+   "INST7": "korunou"
+ },
+ {
+   "NOM1": "měsíc",
+   "GEN2": "měsíce",
+   "DAT3": "měsíci",
+   "AKU4": "měsíc",
+   "VOK5": "měsíci",
+   "LOK6": "měsíci",
+   "INST7": "měsícem"
+ },
+ {
+   "NOM1": "dům",
+   "GEN2": "domu",
+   "DAT3": "domu",
+   "AKU4": "dům",
+   "VOK5": "dome",
+   "LOK6": "domě / domu",
+   "INST7": "domem"
+ },
+ {
+   "NOM1": "možnost",
+   "GEN2": "možnosti",
+   "DAT3": "možnosti",
+   "AKU4": "možnost",
+   "VOK5": "možnosti",
+   "LOK6": "možnosti",
+   "INST7": "možností"
+ },
+ {
+   "NOM1": "škola",
+   "GEN2": "školy",
+   "DAT3": "škole",
+   "AKU4": "školu",
+   "VOK5": "školo",
+   "LOK6": "škole",
+   "INST7": "školou"
+ },
+ {
+   "NOM1": "stát",
+   "GEN2": "státu",
+   "DAT3": "státu",
+   "AKU4": "stát",
+   "VOK5": "státe",
+   "LOK6": "státu",
+   "INST7": "státem"
+ },
+ {
+   "NOM1": "otázka",
+   "GEN2": "otázky",
+   "DAT3": "otázce",
+   "AKU4": "otázku",
+   "VOK5": "otázko",
+   "LOK6": "otázce",
+   "INST7": "otázkou"
+ },
+ {
+   "NOM1": "skupina",
+   "GEN2": "skupiny",
+   "DAT3": "skupině",
+   "AKU4": "skupinu",
+   "VOK5": "skupino",
+   "LOK6": "skupině",
+   "INST7": "skupinou"
+ },
+ {
+   "NOM1": "pravda",
+   "GEN2": "pravdy",
+   "DAT3": "pravdě",
+   "AKU4": "pravdu",
+   "VOK5": "pravdo",
+   "LOK6": "pravdě",
+   "INST7": "pravdou"
+ },
+ {
+   "NOM1": "cena",
+   "GEN2": "ceny",
+   "DAT3": "ceně",
+   "AKU4": "cenu",
+   "VOK5": "ceno",
+   "LOK6": "ceně",
+   "INST7": "cenou"
+ },
+ {
+   "NOM1": "systém",
+   "GEN2": "systému",
+   "DAT3": "systému",
+   "AKU4": "systém",
+   "VOK5": "systéme",
+   "LOK6": "systému",
+   "INST7": "systémem"
+ },
+ {
+   "NOM1": "oblast",
+   "GEN2": "oblasti",
+   "DAT3": "oblasti",
+   "AKU4": "oblast",
+   "VOK5": "oblasti",
+   "LOK6": "oblasti",
+   "INST7": "oblastí"
+ },
+ {
+   "NOM1": "situace",
+   "GEN2": "situace",
+   "DAT3": "situaci",
+   "AKU4": "situaci",
+   "VOK5": "situace",
+   "LOK6": "situaci",
+   "INST7": "situací"
+ },
+ {
+   "NOM1": "půl",
+   "GEN2": "půli",
+   "DAT3": "půli",
+   "AKU4": "půl",
+   "VOK5": "půli",
+   "LOK6": "půli",
+   "INST7": "půlí"
+ },
+ {
+   "NOM1": "většina",
+   "GEN2": "většiny",
+   "DAT3": "většině",
+   "AKU4": "většinu",
+   "VOK5": "většino",
+   "LOK6": "většině",
+   "INST7": "většinou"
+ },
+ {
+   "NOM1": "firma",
+   "GEN2": "firmy",
+   "DAT3": "firmě",
+   "AKU4": "firmu",
+   "VOK5": "firmo",
+   "LOK6": "firmě",
+   "INST7": "firmou"
+ },
+ {
+   "NOM1": "jméno",
+   "GEN2": "jména",
+   "DAT3": "jménu",
+   "AKU4": "jméno",
+   "VOK5": "jméno",
+   "LOK6": "jménu",
+   "INST7": "jménem"
+ },
+ {
+   "NOM1": "důvod",
+   "GEN2": "důvodu",
+   "DAT3": "důvodu",
+   "AKU4": "důvod",
+   "VOK5": "důvode",
+   "LOK6": "důvodu",
+   "INST7": "důvodem"
+ },
+ {
+   "NOM1": "změna",
+   "GEN2": "změny",
+   "DAT3": "změně",
+   "AKU4": "změnu",
+   "VOK5": "změno",
+   "LOK6": "změně",
+   "INST7": "změnou"
+ },
+ {
+   "NOM1": "síla",
+   "GEN2": "síly",
+   "DAT3": "síle",
+   "AKU4": "sílu",
+   "VOK5": "sílo",
+   "LOK6": "síle",
+   "INST7": "silou"
+ },
+ {
+   "NOM1": "noc",
+   "GEN2": "noci",
+   "DAT3": "noci",
+   "AKU4": "noc",
+   "VOK5": "noci",
+   "LOK6": "noci",
+   "INST7": "nocí"
+ },
+ {
+   "NOM1": "výsledek",
+   "GEN2": "výsledku",
+   "DAT3": "výsledku",
+   "AKU4": "výsledek",
+   "VOK5": "výsledku",
+   "LOK6": "výsledku",
+   "INST7": "výsledkem"
+ },
+ {
+   "NOM1": "pohled",
+   "GEN2": "pohledu",
+   "DAT3": "pohledu",
+   "AKU4": "pohled",
+   "VOK5": "pohlede",
+   "LOK6": "pohledu",
+   "INST7": "pohledem"
+ },
+ {
+   "NOM1": "zájem",
+   "GEN2": "zájmu",
+   "DAT3": "zájmu",
+   "AKU4": "zájem",
+   "VOK5": "zájme",
+   "LOK6": "zájmu",
+   "INST7": "zájmem"
+ },
+ {
+   "NOM1": "vztah",
+   "GEN2": "vztahu",
+   "DAT3": "vztahu",
+   "AKU4": "vztah",
+   "VOK5": "vztahu",
+   "LOK6": "vztahu",
+   "INST7": "vztahem"
+ },
+ {
+   "NOM1": "dveře",
+   "GEN2": "dveří",
+   "DAT3": "dveřím",
+   "AKU4": "dveře",
+   "VOK5": "dveře (plural only)",
+   "LOK6": "dveřích",
+   "INST7": "dveřmi / dveřemi"
+ },
+ {
+   "NOM1": "auto",
+   "GEN2": "auta",
+   "DAT3": "autu",
+   "AKU4": "auto",
+   "VOK5": "auto",
+   "LOK6": "autě",
+   "INST7": "autem"
+ },
+ {
+   "NOM1": "informace",
+   "GEN2": "informace",
+   "DAT3": "informaci",
+   "AKU4": "informaci",
+   "VOK5": "informace",
+   "LOK6": "informaci",
+   "INST7": "informací"
+ },
+ {
+   "NOM1": "noha",
+   "GEN2": "nohy",
+   "DAT3": "noze",
+   "AKU4": "nohu",
+   "VOK5": "noho",
+   "LOK6": "noze",
+   "INST7": "nohou"
+ },
+ {
+   "NOM1": "stav",
+   "GEN2": "stavu",
+   "DAT3": "stavu",
+   "AKU4": "stav",
+   "VOK5": "stave",
+   "LOK6": "stavu",
+   "INST7": "stavem"
+ },
+ {
+   "NOM1": "základ",
+   "GEN2": "základu",
+   "DAT3": "základu",
+   "AKU4": "základ",
+   "VOK5": "základe",
+   "LOK6": "základu",
+   "INST7": "základem"
+ },
+ {
+   "NOM1": "podmínka",
+   "GEN2": "podmínky",
+   "DAT3": "podmínce",
+   "AKU4": "podmínku",
+   "VOK5": "podmínko",
+   "LOK6": "podmínce",
+   "INST7": "podmínkou"
+ },
+ {
+   "NOM1": "rodina",
+   "GEN2": "rodiny",
+   "DAT3": "rodině",
+   "AKU4": "rodinu",
+   "VOK5": "rodino",
+   "LOK6": "rodině",
+   "INST7": "rodinou"
+ },
+ {
+   "NOM1": "služba",
+   "GEN2": "služby",
+   "DAT3": "službě",
+   "AKU4": "službu",
+   "VOK5": "službo",
+   "LOK6": "službě",
+   "INST7": "službou"
+ },
+ {
+   "NOM1": "zákon",
+   "GEN2": "zákona",
+   "DAT3": "zákonu",
+   "AKU4": "zákon",
+   "VOK5": "zákone",
+   "LOK6": "zákonu / zákoně",
+   "INST7": "zákonem"
+ },
+ {
+   "NOM1": "počet",
+   "GEN2": "počtu",
+   "DAT3": "počtu",
+   "AKU4": "počet",
+   "VOK5": "počtu",
+   "LOK6": "počtu",
+   "INST7": "počtem"
+ },
+ {
+   "NOM1": "tvář",
+   "GEN2": "tváře",
+   "DAT3": "tváři",
+   "AKU4": "tvář",
+   "VOK5": "tváři",
+   "LOK6": "tváři",
+   "INST7": "tváří"
+ },
+ {
+   "NOM1": "právo",
+   "GEN2": "práva",
+   "DAT3": "právu",
+   "AKU4": "právo",
+   "VOK5": "právo",
+   "LOK6": "právu",
+   "INST7": "právem"
+ },
+ {
+   "NOM1": "začátek",
+   "GEN2": "začátku",
+   "DAT3": "začátku",
+   "AKU4": "začátek",
+   "VOK5": "začátku",
+   "LOK6": "začátku",
+   "INST7": "začátkem"
+ },
+ {
+   "NOM1": "pocit",
+   "GEN2": "pocitu",
+   "DAT3": "pocitu",
+   "AKU4": "pocit",
+   "VOK5": "pocite",
+   "LOK6": "pocitu",
+   "INST7": "pocitem"
+ },
+ {
+   "NOM1": "stutečnost",
+   "GEN2": "skutečnosti",
+   "DAT3": "skutečnosti",
+   "AKU4": "skutečnost",
+   "VOK5": "skutečnosti",
+   "LOK6": "skutečnosti",
+   "INST7": "skutečností"
+ },
+ {
+   "NOM1": "typ",
+   "GEN2": "typu",
+   "DAT3": "typu",
+   "AKU4": "typ",
+   "VOK5": "type",
+   "LOK6": "typu",
+   "INST7": "typem"
+ },
+ {
+   "NOM1": "směr",
+   "GEN2": "směru",
+   "DAT3": "směru",
+   "AKU4": "směr",
+   "VOK5": "směre",
+   "LOK6": "směru",
+   "INST7": "směrem"
+ },
+ {
+   "NOM1": "hlas",
+   "GEN2": "hlasu",
+   "DAT3": "hlasu",
+   "AKU4": "hlas",
+   "VOK5": "hlase",
+   "LOK6": "hlasu / hlase",
+   "INST7": "hlasem"
+ },
+ {
+   "NOM1": "druh",
+   "GEN2": "druhu",
+   "DAT3": "druhu",
+   "AKU4": "druh",
+   "VOK5": "druhu",
+   "LOK6": "druhu",
+   "INST7": "druhem"
+ },
+ {
+   "NOM1": "vláda",
+   "GEN2": "vlády",
+   "DAT3": "vládě",
+   "AKU4": "vládu",
+   "VOK5": "vládo",
+   "LOK6": "vládě",
+   "INST7": "vládou"
+ },
+ {
+   "NOM1": "minuta",
+   "GEN2": "minuty",
+   "DAT3": "minutě",
+   "AKU4": "minutu",
+   "VOK5": "minuto",
+   "LOK6": "minutě",
+   "INST7": "minutou"
+ },
+ {
+   "NOM1": "cíl",
+   "GEN2": "cíle",
+   "DAT3": "cíli",
+   "AKU4": "cíl",
+   "VOK5": "cíli",
+   "LOK6": "cíli",
+   "INST7": "cílem"
+ },
+ {
+   "NOM1": "tělo",
+   "GEN2": "těla",
+   "DAT3": "tělu",
+   "AKU4": "tělo",
+   "VOK5": "tělo",
+   "LOK6": "těle",
+   "INST7": "tělem"
+ },
+ {
+   "NOM1": "smysl",
+   "GEN2": "smyslu",
+   "DAT3": "smyslu",
+   "AKU4": "smysl",
+   "VOK5": "smysle",
+   "LOK6": "smyslu",
+   "INST7": "smyslem"
+ },
+ {
+   "NOM1": "rozdíl",
+   "GEN2": "rozdílu",
+   "DAT3": "rozdílu",
+   "AKU4": "rozdíl",
+   "VOK5": "rozdíle",
+   "LOK6": "rozdílu",
+   "INST7": "rozdílem"
+ },
+ {
+   "NOM1": "program",
+   "GEN2": "programu",
+   "DAT3": "programu",
+   "AKU4": "program",
+   "VOK5": "programe",
+   "LOK6": "programu",
+   "INST7": "programem"
+ },
+ {
+   "NOM1": "ulice",
+   "GEN2": "ulice",
+   "DAT3": "ulici",
+   "AKU4": "ulici",
+   "VOK5": "ulice",
+   "LOK6": "ulici",
+   "INST7": "ulicí"
+ },
+ {
+   "NOM1": "člen",
+   "GEN2": "člena",
+   "DAT3": "členu / členovi",
+   "AKU4": "člena",
+   "VOK5": "člene",
+   "LOK6": "členu / členovi",
+   "INST7": "členem"
+ },
+ {
+   "NOM1": "prostor",
+   "GEN2": "prostoru",
+   "DAT3": "prostoru",
+   "AKU4": "prostor",
+   "VOK5": "prostore",
+   "LOK6": "prostoru",
+   "INST7": "prostorem"
+ },
+ {
+   "NOM1": "forma",
+   "GEN2": "formy",
+   "DAT3": "formě",
+   "AKU4": "formu",
+   "VOK5": "formo",
+   "LOK6": "formě",
+   "INST7": "formou"
+ },
+ {
+   "NOM1": "činnost",
+   "GEN2": "činnosti",
+   "DAT3": "činnosti",
+   "AKU4": "činnost",
+   "VOK5": "činnosti",
+   "LOK6": "činnosti",
+   "INST7": "činností"
+ },
+ {
+   "NOM1": "hodnota",
+   "GEN2": "hodnoty",
+   "DAT3": "hodnotě",
+   "AKU4": "hodnotu",
+   "VOK5": "hodnoto",
+   "LOK6": "hodnotě",
+   "INST7": "hodnotou"
+ },
+ {
+   "NOM1": "smrt",
+   "GEN2": "smrti",
+   "DAT3": "smrti",
+   "AKU4": "smrt",
+   "VOK5": "smrti",
+   "LOK6": "smrti",
+   "INST7": "smrtí"
+ },
+ {
+   "NOM1": "paní",
+   "GEN2": "paní",
+   "DAT3": "paní",
+   "AKU4": "paní",
+   "VOK5": "paní",
+   "LOK6": "paní",
+   "INST7": "paní"
+ },
+ {
+   "NOM1": "polovina",
+   "GEN2": "poloviny",
+   "DAT3": "polovině",
+   "AKU4": "polovinu",
+   "VOK5": "polovino",
+   "LOK6": "polovině",
+   "INST7": "polovinou"
+ },
+ {
+   "NOM1": "republika",
+   "GEN2": "republiky",
+   "DAT3": "republice",
+   "AKU4": "republiku",
+   "VOK5": "republiko",
+   "LOK6": "republice",
+   "INST7": "republikou"
+ },
+ {
+   "NOM1": "názor",
+   "GEN2": "názoru",
+   "DAT3": "názoru",
+   "AKU4": "názor",
+   "VOK5": "názore",
+   "LOK6": "názoru",
+   "INST7": "názorem"
+ },
+ {
+   "NOM1": "prostředí",
+   "GEN2": "prostředí",
+   "DAT3": "prostředí",
+   "AKU4": "prostředí",
+   "VOK5": "prostředí",
+   "LOK6": "prostředí",
+   "INST7": "prostředím"
+ },
+ {
+   "NOM1": "léto",
+   "GEN2": "léta",
+   "DAT3": "létu",
+   "AKU4": "léto",
+   "VOK5": "léto",
+   "LOK6": "létě",
+   "INST7": "létem"
+ },
+ {
+   "NOM1": "zpráva",
+   "GEN2": "zprávy",
+   "DAT3": "zprávě",
+   "AKU4": "zprávu",
+   "VOK5": "zprávo",
+   "LOK6": "zprávě",
+   "INST7": "zprávou"
+ },
+ {
+   "NOM1": "osoba",
+   "GEN2": "osoby",
+   "DAT3": "osobě",
+   "AKU4": "osobu",
+   "VOK5": "osobo",
+   "LOK6": "osobě",
+   "INST7": "osobou"
+ },
+ {
+   "NOM1": "století",
+   "GEN2": "století",
+   "DAT3": "století",
+   "AKU4": "století",
+   "VOK5": "století",
+   "LOK6": "století",
+   "INST7": "stoletím"
+ },
+ {
+   "NOM1": "otec",
+   "GEN2": "otce",
+   "DAT3": "otci / otcovi",
+   "AKU4": "otce",
+   "VOK5": "otče",
+   "LOK6": "otci / otcovi",
+   "INST7": "otcem"
+ },
+ {
+   "NOM1": "válka",
+   "GEN2": "války",
+   "DAT3": "válce",
+   "AKU4": "válku",
+   "VOK5": "válko",
+   "LOK6": "válce",
+   "INST7": "válkou"
+ },
+ {
+   "NOM1": "kniha",
+   "GEN2": "knihy",
+   "DAT3": "knize",
+   "AKU4": "knihu",
+   "VOK5": "kniho",
+   "LOK6": "knize",
+   "INST7": "knihou"
+ },
+ {
+   "NOM1": "okno",
+   "GEN2": "okna",
+   "DAT3": "oknu",
+   "AKU4": "okno",
+   "VOK5": "okno",
+   "LOK6": "okně",
+   "INST7": "oknem"
+ },
+ {
+   "NOM1": "období",
+   "GEN2": "období",
+   "DAT3": "období",
+   "AKU4": "období",
+   "VOK5": "období",
+   "LOK6": "období",
+   "INST7": "obdobím"
+ },
+ {
+   "NOM1": "hra",
+   "GEN2": "hry",
+   "DAT3": "hře",
+   "AKU4": "hru",
+   "VOK5": "hro",
+   "LOK6": "hře",
+   "INST7": "hrou"
+ },
+ {
+   "NOM1": "procento",
+   "GEN2": "procenta",
+   "DAT3": "procentu",
+   "AKU4": "procento",
+   "VOK5": "procento",
+   "LOK6": "procentu",
+   "INST7": "procentem"
+ },
+ {
+   "NOM1": "číslo",
+   "GEN2": "čísla",
+   "DAT3": "číslu",
+   "AKU4": "číslo",
+   "VOK5": "číslo",
+   "LOK6": "číslu",
+   "INST7": "číslem"
+ },
+ {
+   "NOM1": "stůl",
+   "GEN2": "stolu",
+   "DAT3": "stolu",
+   "AKU4": "stůl",
+   "VOK5": "stole",
+   "LOK6": "stole",
+   "INST7": "stolem"
+ },
+ {
+   "NOM1": "trh",
+   "GEN2": "trhu",
+   "DAT3": "trhu",
+   "AKU4": "trh",
+   "VOK5": "trhu",
+   "LOK6": "trhu",
+   "INST7": "trhem"
+ },
+ {
+   "NOM1": "úřad",
+   "GEN2": "úřadu",
+   "DAT3": "úřadu",
+   "AKU4": "úřad",
+   "VOK5": "úřade",
+   "LOK6": "úřadu",
+   "INST7": "úřadem"
+ },
+ {
+   "NOM1": "vývoj",
+   "GEN2": "vývoje",
+   "DAT3": "vývoji",
+   "AKU4": "vývoj",
+   "VOK5": "vývoji",
+   "LOK6": "vývoji",
+   "INST7": "vývojem"
+ },
+ {
+   "NOM1": "proces",
+   "GEN2": "procesu",
+   "DAT3": "procesu",
+   "AKU4": "proces",
+   "VOK5": "procese",
+   "LOK6": "procesu",
+   "INST7": "procesem"
+ },
+ {
+   "NOM1": "prostředek",
+   "GEN2": "prostředek",
+   "DAT3": "prostředku",
+   "AKU4": "prostředek",
+   "VOK5": "prostředku",
+   "LOK6": "prostředku",
+   "INST7": "prostředkem"
+ },
+ {
+   "NOM1": "úroveň",
+   "GEN2": "úrovně",
+   "DAT3": "úrovni",
+   "AKU4": "úroveň",
+   "VOK5": "úrovni",
+   "LOK6": "úrovni",
+   "INST7": "úrovní"
+ },
+ {
+   "NOM1": "role",
+   "GEN2": "role",
+   "DAT3": "roli",
+   "AKU4": "roli",
+   "VOK5": "role",
+   "LOK6": "roli",
+   "INST7": "rolí"
+ },
+ {
+   "NOM1": "vliv",
+   "GEN2": "vlivu",
+   "DAT3": "vlivu",
+   "AKU4": "vliv",
+   "VOK5": "vlive",
+   "LOK6": "vlivu",
+   "INST7": "vlivem"
+ },
+ {
+   "NOM1": "akce",
+   "GEN2": "akce",
+   "DAT3": "akci",
+   "AKU4": "akci",
+   "VOK5": "akce",
+   "LOK6": "akci",
+   "INST7": "akcí"
+ },
+ {
+   "NOM1": "míra",
+   "GEN2": "míra",
+   "DAT3": "míře",
+   "AKU4": "míru",
+   "VOK5": "míro",
+   "LOK6": "míře",
+   "INST7": "mírou"
+ },
+ {
+   "NOM1": "pomoc",
+   "GEN2": "pomoci",
+   "DAT3": "pomoci",
+   "AKU4": "pomoc",
+   "VOK5": "pomoci",
+   "LOK6": "pomoci",
+   "INST7": "pomocí"
+ },
+ {
+   "NOM1": "krok",
+   "GEN2": "kroku",
+   "DAT3": "kroku",
+   "AKU4": "krok",
+   "VOK5": "kroku",
+   "LOK6": "kroku",
+   "INST7": "krokem"
+ },
+ {
+   "NOM1": "světlo",
+   "GEN2": "světla",
+   "DAT3": "světlu",
+   "AKU4": "světlo",
+   "VOK5": "světlo",
+   "LOK6": "světle",
+   "INST7": "světlem"
+ },
+ {
+   "NOM1": "funkce",
+   "GEN2": "funkce",
+   "DAT3": "funkci",
+   "AKU4": "funkci",
+   "VOK5": "funkce",
+   "LOK6": "funkci",
+   "INST7": "funkcí"
+ },
+ {
+   "NOM1": "ředitel",
+   "GEN2": "ředitele",
+   "DAT3": "řediteli / ředitelovi",
+   "AKU4": "ředitele",
+   "VOK5": "řediteli",
+   "LOK6": "řediteli / ředitelovi",
+   "INST7": "ředitelem"
+ },
+ {
+   "NOM1": "zkušenost",
+   "GEN2": "zkušenosti",
+   "DAT3": "zkušenosti",
+   "AKU4": "zkušenost",
+   "VOK5": "zkušenosti",
+   "LOK6": "zkušenosti",
+   "INST7": "zkušeností"
+ },
+ {
+   "NOM1": "přítel",
+   "GEN2": "přítele",
+   "DAT3": "příteli / přítelovi",
+   "AKU4": "přítele",
+   "VOK5": "příteli",
+   "LOK6": "příteli / přítelovi",
+   "INST7": "přítelem"
+ },
+ {
+   "NOM1": "představa",
+   "GEN2": "představy",
+   "DAT3": "představě",
+   "AKU4": "představu",
+   "VOK5": "představo",
+   "LOK6": "představě",
+   "INST7": "představou"
+ },
+ {
+   "NOM1": "pokoj",
+   "GEN2": "pokoje",
+   "DAT3": "pokoji",
+   "AKU4": "pokoj",
+   "VOK5": "pokoji",
+   "LOK6": "pokoji",
+   "INST7": "pokojem"
+ },
+ {
+   "NOM1": "kluk",
+   "GEN2": "kluka",
+   "DAT3": "kluku / klukovi",
+   "AKU4": "kluka",
+   "VOK5": "kluku",
+   "LOK6": "kluku / klukovi",
+   "INST7": "klukem"
+ },
+ {
+   "NOM1": "potřeba",
+   "GEN2": "potřeby",
+   "DAT3": "potřebě",
+   "AKU4": "potřebu",
+   "VOK5": "potřebo",
+   "LOK6": "potřebě",
+   "INST7": "potřebou"
+ },
+ {
+   "NOM1": "matka",
+   "GEN2": "matky",
+   "DAT3": "matce",
+   "AKU4": "matku",
+   "VOK5": "matko",
+   "LOK6": "matce",
+   "INST7": "matkou"
+ },
+ {
+   "NOM1": "rámec",
+   "GEN2": "rámce",
+   "DAT3": "rámci",
+   "AKU4": "rámec",
+   "VOK5": "rámci",
+   "LOK6": "rámci",
+   "INST7": "rámcem"
+ },
+ {
+   "NOM1": "obraz",
+   "GEN2": "obrazu",
+   "DAT3": "obrazu",
+   "AKU4": "obraz",
+   "VOK5": "obraze",
+   "LOK6": "obraze / obrazu",
+   "INST7": "obrazem"
+ },
+ {
+   "NOM1": "zdroj",
+   "GEN2": "zdroje",
+   "DAT3": "zdroji",
+   "AKU4": "zdroj",
+   "VOK5": "zdroji",
+   "LOK6": "zdroji",
+   "INST7": "zdrojem"
+ },
+ {
+   "NOM1": "součást",
+   "GEN2": "součásti",
+   "DAT3": "součásti",
+   "AKU4": "součást",
+   "VOK5": "součásti",
+   "LOK6": "součásti",
+   "INST7": "součástí"
+ },
+ {
+   "NOM1": "řešení",
+   "GEN2": "řešení",
+   "DAT3": "řešení",
+   "AKU4": "řešení",
+   "VOK5": "řešení",
+   "LOK6": "řešení",
+   "INST7": "řešením"
+ },
+ {
+   "NOM1": "postup",
+   "GEN2": "postupu",
+   "DAT3": "postupu",
+   "AKU4": "postup",
+   "VOK5": "postupe",
+   "LOK6": "postupu",
+   "INST7": "postupem"
+ },
+ {
+   "NOM1": "film",
+   "GEN2": "filmu",
+   "DAT3": "filmu",
+   "AKU4": "film",
+   "VOK5": "filme",
+   "LOK6": "filmu",
+   "INST7": "filmem"
+ },
+ {
+   "NOM1": "hranice",
+   "GEN2": "hranice",
+   "DAT3": "hranici",
+   "AKU4": "hranici",
+   "VOK5": "hranice",
+   "LOK6": "hranici",
+   "INST7": "hranicí"
+ },
+ {
+   "NOM1": "dílo",
+   "GEN2": "díla",
+   "DAT3": "dílu",
+   "AKU4": "dílo",
+   "VOK5": "dílo",
+   "LOK6": "díle",
+   "INST7": "dílem"
+ },
+ {
+   "NOM1": "kolo",
+   "GEN2": "kola",
+   "DAT3": "kolu",
+   "AKU4": "kolo",
+   "VOK5": "kolo",
+   "LOK6": "kole",
+   "INST7": "kolem"
+ },
+ {
+   "NOM1": "rada",
+   "GEN2": "rady",
+   "DAT3": "radě",
+   "AKU4": "radu",
+   "VOK5": "rado",
+   "LOK6": "radě",
+   "INST7": "radou"
+ },
+ {
+   "NOM1": "množství",
+   "GEN2": "množství",
+   "DAT3": "množství",
+   "AKU4": "množství",
+   "VOK5": "množství",
+   "LOK6": "množství",
+   "INST7": "množstvím"
+ },
+ {
+   "NOM1": "podoba",
+   "GEN2": "podoby",
+   "DAT3": "podobě",
+   "AKU4": "podobu",
+   "VOK5": "podobo",
+   "LOK6": "podobě",
+   "INST7": "podobou"
+ },
+ {
+   "NOM1": "byt",
+   "GEN2": "bytu",
+   "DAT3": "bytu",
+   "AKU4": "byt",
+   "VOK5": "byte",
+   "LOK6": "bytu / bytě",
+   "INST7": "bytem"
+ },
+ {
+   "NOM1": "stránka",
+   "GEN2": "stránky",
+   "DAT3": "stránce",
+   "AKU4": "stránku",
+   "VOK5": "stránko",
+   "LOK6": "stránce",
+   "INST7": "stránkou"
+ },
+ {
+   "NOM1": "centrum",
+   "GEN2": "centra",
+   "DAT3": "centru",
+   "AKU4": "centrum",
+   "VOK5": "centrum",
+   "LOK6": "centru",
+   "INST7": "centrem"
+ },
+ {
+   "NOM1": "okamžik",
+   "GEN2": "okamžiku",
+   "DAT3": "okamžiku",
+   "AKU4": "okamžik",
+   "VOK5": "okamžiku",
+   "LOK6": "okamžiku",
+   "INST7": "okamžikem"
+ },
+ {
+   "NOM1": "metr",
+   "GEN2": "metru",
+   "DAT3": "metru",
+   "AKU4": "metr",
+   "VOK5": "metre",
+   "LOK6": "metru",
+   "INST7": "metrem"
+ },
+ {
+   "NOM1": "holka",
+   "GEN2": "holky",
+   "DAT3": "holce",
+   "AKU4": "holku",
+   "VOK5": "holko",
+   "LOK6": "holce",
+   "INST7": "holkou"
+ },
+ {
+   "NOM1": "srdce",
+   "GEN2": "srdce",
+   "DAT3": "srdci",
+   "AKU4": "srdce",
+   "VOK5": "srdce",
+   "LOK6": "srdci",
+   "INST7": "srdcem"
+ },
+ {
+   "NOM1": "Bůh",
+   "GEN2": "Boha",
+   "DAT3": "Bohu / Bohovi",
+   "AKU4": "Boha",
+   "VOK5": "Bože",
+   "LOK6": "Bohu / Bohovi",
+   "INST7": "Bohem"
+ },
+ {
+   "NOM1": "spousta",
+   "GEN2": "spousty",
+   "DAT3": "spoustě",
+   "AKU4": "spoustu",
+   "VOK5": "spousto",
+   "LOK6": "spoustě",
+   "INST7": "spoustou"
+ },
+ {
+   "NOM1": "bod",
+   "GEN2": "bodu",
+   "DAT3": "bodu",
+   "AKU4": "bod",
+   "VOK5": "bodu",
+   "LOK6": "bodu",
+   "INST7": "bodem"
+ },
+ {
+   "NOM1": "televize",
+   "GEN2": "televize",
+   "DAT3": "televizi",
+   "AKU4": "televizi",
+   "VOK5": "televize",
+   "LOK6": "televizi",
+   "INST7": "televizí"
+ },
+ {
+   "NOM1": "myšlenka",
+   "GEN2": "myšlenky",
+   "DAT3": "myšlence",
+   "AKU4": "myšlenku",
+   "VOK5": "myšlenko",
+   "LOK6": "myšlence",
+   "INST7": "myšlenkou"
+ },
+ {
+   "NOM1": "vedení",
+   "GEN2": "vedení",
+   "DAT3": "vedení",
+   "AKU4": "vedení",
+   "VOK5": "vedení",
+   "LOK6": "vedení",
+   "INST7": "vedením"
+ },
+ {
+   "NOM1": "policie",
+   "GEN2": "policie",
+   "DAT3": "policii",
+   "AKU4": "policii",
+   "VOK5": "policie",
+   "LOK6": "policii",
+   "INST7": "policií"
+ },
+ {
+   "NOM1": "materiál",
+   "GEN2": "materiálu",
+   "DAT3": "materiálu",
+   "AKU4": "materiál",
+   "VOK5": "materiále",
+   "LOK6": "materiálu",
+   "INST7": "materiálem"
+ },
+ {
+   "NOM1": "podnik",
+   "GEN2": "podniku",
+   "DAT3": "podniku",
+   "AKU4": "podnik",
+   "VOK5": "podniku",
+   "LOK6": "podniku",
+   "INST7": "podnikem"
+ },
+ {
+   "NOM1": "úspěch",
+   "GEN2": "úspěchu",
+   "DAT3": "úspěchu",
+   "AKU4": "úspěch",
+   "VOK5": "úspěchu",
+   "LOK6": "úspěchu",
+   "INST7": "úspěchem"
+ },
+ {
+   "NOM1": "soud",
+   "GEN2": "soudu",
+   "DAT3": "soudu",
+   "AKU4": "soud",
+   "VOK5": "soudi",
+   "LOK6": "soudu",
+   "INST7": "soudem"
+ },
+ {
+   "NOM1": "podstata",
+   "GEN2": "podstaty",
+   "DAT3": "podstatě",
+   "AKU4": "podstatu",
+   "VOK5": "podstato",
+   "LOK6": "podstatě",
+   "INST7": "podstatou"
+ },
+ {
+   "NOM1": "autor",
+   "GEN2": "autora",
+   "DAT3": "autoru / autorovi",
+   "AKU4": "autora",
+   "VOK5": "autoři",
+   "LOK6": "autoru / autorovi",
+   "INST7": "autorem"
+ },
+ {
+   "NOM1": "význam",
+   "GEN2": "významu",
+   "DAT3": "významu",
+   "AKU4": "význam",
+   "VOK5": "význame",
+   "LOK6": "významu",
+   "INST7": "významem"
+ },
+ {
+   "NOM1": "syn",
+   "GEN2": "syna",
+   "DAT3": "synu / synovi",
+   "AKU4": "syna",
+   "VOK5": "synu",
+   "LOK6": "synu / synovi",
+   "INST7": "synem"
+ },
+ {
+   "NOM1": "obchod",
+   "GEN2": "obchodu",
+   "DAT3": "obchodu",
+   "AKU4": "obchod",
+   "VOK5": "obchode",
+   "LOK6": "obchodu / obchodě",
+   "INST7": "obchodem"
+ },
+ {
+   "NOM1": "škoda",
+   "GEN2": "škody",
+   "DAT3": "škodě",
+   "AKU4": "škodu",
+   "VOK5": "škodo",
+   "LOK6": "škodě",
+   "INST7": "škodou"
+ },
+ {
+   "NOM1": "úkol",
+   "GEN2": "úkolu",
+   "DAT3": "úkolu",
+   "AKU4": "úkol",
+   "VOK5": "úkole",
+   "LOK6": "úkolu",
+   "INST7": "úkolem"
+ },
+ {
+   "NOM1": "věk",
+   "GEN2": "věku",
+   "DAT3": "věku",
+   "AKU4": "věk",
+   "VOK5": "věku",
+   "LOK6": "věku",
+   "INST7": "věkem"
+ },
+ {
+   "NOM1": "počátek",
+   "GEN2": "počátku",
+   "DAT3": "počátku",
+   "AKU4": "počátek",
+   "VOK5": "počátku",
+   "LOK6": "počátku",
+   "INST7": "počátkem"
+ },
+ {
+   "NOM1": "organizace",
+   "GEN2": "organizace",
+   "DAT3": "organizaci",
+   "AKU4": "organizaci",
+   "VOK5": "organizace",
+   "LOK6": "organizaci",
+   "INST7": "organizací"
+ },
+ {
+   "NOM1": "táta",
+   "GEN2": "táty",
+   "DAT3": "tátovi",
+   "AKU4": "tátu",
+   "VOK5": "táto",
+   "LOK6": "tátovi",
+   "INST7": "tátou"
+ },
+ {
+   "NOM1": "kus",
+   "GEN2": "kusu",
+   "DAT3": "kusu",
+   "AKU4": "kus",
+   "VOK5": "kusu",
+   "LOK6": "kusu",
+   "INST7": "kusem"
+ },
+ {
+   "NOM1": "barva",
+   "GEN2": "barvy",
+   "DAT3": "barvě",
+   "AKU4": "barvu",
+   "VOK5": "barvo",
+   "LOK6": "barvě",
+   "INST7": "barvou"
+ },
+ {
+   "NOM1": "příklad",
+   "GEN2": "příkladu",
+   "DAT3": "příkladu",
+   "AKU4": "příklad",
+   "VOK5": "příklade",
+   "LOK6": "příkladu",
+   "INST7": "příkladem"
+ },
+ {
+   "NOM1": "jednání",
+   "GEN2": "jednání",
+   "DAT3": "jednání",
+   "AKU4": "jednání",
+   "VOK5": "jednání",
+   "LOK6": "jednání",
+   "INST7": "jednáním"
+ },
+ {
+   "NOM1": "smlouva",
+   "GEN2": "smlouvy",
+   "DAT3": "smlouvě",
+   "AKU4": "smlouvu",
+   "VOK5": "smlouvo",
+   "LOK6": "smlouvě",
+   "INST7": "smlouvou"
+ },
+ {
+   "NOM1": "plán",
+   "GEN2": "plánu",
+   "DAT3": "plánu",
+   "AKU4": "plán",
+   "VOK5": "pláne",
+   "LOK6": "plánu",
+   "INST7": "plánem"
+ },
+ {
+   "NOM1": "pohyb",
+   "GEN2": "pohybu",
+   "DAT3": "pohybu",
+   "AKU4": "pohyb",
+   "VOK5": "pohybe",
+   "LOK6": "pohybu",
+   "INST7": "pohybem"
+ },
+ {
+   "NOM1": "večer",
+   "GEN2": "večera / večeru",
+   "DAT3": "večeru",
+   "AKU4": "večer",
+   "VOK5": "večere",
+   "LOK6": "večeru / večere",
+   "INST7": "večerem"
+ },
+ {
+   "NOM1": "fakt",
+   "GEN2": "faktu",
+   "DAT3": "faktu",
+   "AKU4": "fakt",
+   "VOK5": "fakte",
+   "LOK6": "faktu",
+   "INST7": "faktem"
+ },
+ {
+   "NOM1": "rozhodnutí",
+   "GEN2": "rozhodnutí",
+   "DAT3": "rozhodnutí",
+   "AKU4": "rozhodnutí",
+   "VOK5": "rozhodnutí",
+   "LOK6": "rozhodnutí",
+   "INST7": "rozhodnutím"
+ },
+ {
+   "NOM1": "kousek",
+   "GEN2": "kousku",
+   "DAT3": "kousku",
+   "AKU4": "kousek",
+   "VOK5": "kousku",
+   "LOK6": "kousku",
+   "INST7": "kouskem"
+ },
+ {
+   "NOM1": "rodič",
+   "GEN2": "rodiče",
+   "DAT3": "rodiči / rodičovi",
+   "AKU4": "rodiče",
+   "VOK5": "rodiči",
+   "LOK6": "rodiči / rodičovi",
+   "INST7": "rodičem"
+ },
+ {
+   "NOM1": "láska",
+   "GEN2": "lásky",
+   "DAT3": "lásce",
+   "AKU4": "lásku",
+   "VOK5": "lásko",
+   "LOK6": "lásce",
+   "INST7": "láskou"
+ },
+ {
+   "NOM1": "neděle",
+   "GEN2": "neděle",
+   "DAT3": "neděli",
+   "AKU4": "neděli",
+   "VOK5": "neděle",
+   "LOK6": "neděli",
+   "INST7": "nedělí"
+ },
+ {
+   "NOM1": "projekt",
+   "GEN2": "projektu",
+   "DAT3": "projektu",
+   "AKU4": "projekt",
+   "VOK5": "projekte",
+   "LOK6": "projektu",
+   "INST7": "projektem"
+ },
+ {
+   "NOM1": "jazyk",
+   "GEN2": "jazyka",
+   "DAT3": "jazyku",
+   "AKU4": "jazyk",
+   "VOK5": "jazyku",
+   "LOK6": "jazyku",
+   "INST7": "jazykem"
+ },
+ {
+   "NOM1": "přístup",
+   "GEN2": "přístupu",
+   "DAT3": "přístupu",
+   "AKU4": "přístup",
+   "VOK5": "přístupe",
+   "LOK6": "přístupu",
+   "INST7": "přístupem"
+ },
+ {
+   "NOM1": "duch",
+   "GEN2": "ducha",
+   "DAT3": "duchu / duchovi",
+   "AKU4": "ducha",
+   "VOK5": "duchu",
+   "LOK6": "duchu / duchovi",
+   "INST7": "duchem"
+ },
+ {
+   "NOM1": "návrh",
+   "GEN2": "návrhu",
+   "DAT3": "návrhu",
+   "AKU4": "návrh",
+   "VOK5": "návrhu",
+   "LOK6": "návrhu",
+   "INST7": "návrhem"
+ },
+ {
+   "NOM1": "náklad",
+   "GEN2": "nákladu",
+   "DAT3": "nákladu",
+   "AKU4": "náklad",
+   "VOK5": "náklade",
+   "LOK6": "nákladu",
+   "INST7": "nákladem"
+ },
+ {
+   "NOM1": "výkon",
+   "GEN2": "výkonu",
+   "DAT3": "výkonu",
+   "AKU4": "výkon",
+   "VOK5": "výkone",
+   "LOK6": "výkonu",
+   "INST7": "výkonem"
+ },
+ {
+   "NOM1": "vlas",
+   "GEN2": "vlasu",
+   "DAT3": "vlasu",
+   "AKU4": "vlas",
+   "VOK5": "vlase",
+   "LOK6": "vlasu",
+   "INST7": "vlasem"
+ },
+ {
+   "NOM1": "strach",
+   "GEN2": "strachu",
+   "DAT3": "strachu",
+   "AKU4": "strach",
+   "VOK5": "strachu",
+   "LOK6": "strachu",
+   "INST7": "strachem"
+ },
+ {
+   "NOM1": "papír",
+   "GEN2": "papíru",
+   "DAT3": "papíru",
+   "AKU4": "papír",
+   "VOK5": "papíre",
+   "LOK6": "papíru / papíře",
+   "INST7": "papírem"
+ },
+ {
+   "NOM1": "závěr",
+   "GEN2": "závěru",
+   "DAT3": "závěru",
+   "AKU4": "závěr",
+   "VOK5": "závěre",
+   "LOK6": "závěru",
+   "INST7": "závěrem"
+ },
+ {
+   "NOM1": "průběh",
+   "GEN2": "průběhu",
+   "DAT3": "průběhu",
+   "AKU4": "průběh",
+   "VOK5": "průběhu",
+   "LOK6": "průběhu",
+   "INST7": "průběhem"
+ }
+]
