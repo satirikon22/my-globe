@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Czech Noun Declension Trainer – A1 Level sg</title>
+  <title>Czech Noun Declension App (sg)– A1 Level </title>
 
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
 
@@ -80,7 +80,7 @@
 </head>
 <body>
 
-<div class="title">Czech Noun Declension App – <span class="level">A1 Level sg</span></div>
+<div class="title">Czech Noun Declension App (sg) – <span class="level">A1 Level </span></div>
 
 <div id="counter">
   <p><strong>Questions:</strong> 0 | <strong>Correct:</strong> 0 | <strong>Accuracy:</strong> 0%</p>
@@ -116,7 +116,8 @@ const cases = [
   { key: "INST7", label: "Instrumental (7)" }
 ];
 
-fetch('declinacionesA1-eng.json?nocache=' + Date.now())
+// ⭐ FIXED: load the correct JSON file
+fetch('declinacionesA1.json?nocache=' + Date.now())
   .then(r => r.json())
   .then(data => {
     words = data;
