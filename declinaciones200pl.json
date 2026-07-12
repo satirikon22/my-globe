@@ -1,0 +1,2002 @@
+[
+ {
+   "NOM1 singular": "rok",
+   "NOM1": "roky",
+   "GEN2": "roků / let",
+   "DAT3": "rokům / letům",
+   "AKU4": "roky / léta",
+   "VOK5": "roky  / léta",
+   "LOK6": "rocích / letech",
+   "INST7": "roky / léty"
+ },
+ {
+   "NOM1 singular": "člověk",
+   "NOM1": "lidé",
+   "GEN2": "lidí",
+   "DAT3": "lidem",
+   "AKU4": "lidi",
+   "VOK5": "lidé",
+   "LOK6": "lidech",
+   "INST7": "lidmi"
+ },
+ {
+   "NOM1 singular": "den",
+   "NOM1": "dny / dni",
+   "GEN2": "dnů / dní",
+   "DAT3": "dnům",
+   "AKU4": "dny",
+   "VOK5": "dny / dni",
+   "LOK6": "dnech",
+   "INST7": "dny / dni"
+ },
+ {
+   "NOM1 singular": "doba",
+   "NOM1": "doby",
+   "GEN2": "dob",
+   "DAT3": "dobám",
+   "AKU4": "doby",
+   "VOK5": "doby",
+   "LOK6": "dobách",
+   "INST7": "dobami"
+ },
+ {
+   "NOM1 singular": "místo",
+   "NOM1": "místa",
+   "GEN2": "míst",
+   "DAT3": "místům",
+   "AKU4": "místa",
+   "VOK5": "místa",
+   "LOK6": "místech",
+   "INST7": "místy"
+ },
+ {
+   "NOM1 singular": "život",
+   "NOM1": "životy",
+   "GEN2": "životů",
+   "DAT3": "životům",
+   "AKU4": "životy",
+   "VOK5": "životy",
+   "LOK6": "životech",
+   "INST7": "životy"
+ },
+ {
+   "NOM1 singular": "práce",
+   "NOM1": "práce",
+   "GEN2": "prací",
+   "DAT3": "pracím",
+   "AKU4": "práce",
+   "VOK5": "práce",
+   "LOK6": "pracích",
+   "INST7": "pracemi"
+ },
+ {
+   "NOM1 singular": "ruka",
+   "NOM1": "ruce",
+   "GEN2": "rukou",
+   "DAT3": "rukám",
+   "AKU4": "ruce",
+   "VOK5": "ruce",
+   "LOK6": "rukách / rukou",
+   "INST7": "rukama"
+ },
+ {
+   "NOM1 singular": "strana",
+   "NOM1": "strany",
+   "GEN2": "stran",
+   "DAT3": "stranám",
+   "AKU4": "strany",
+   "VOK5": "strany",
+   "LOK6": "stranách",
+   "INST7": "stranami"
+ },
+ {
+   "NOM1 singular": "věc   ",
+   "NOM1": "věci",
+   "GEN2": "věcí",
+   "DAT3": "věcem",
+   "AKU4": "věci",
+   "VOK5": "věci",
+   "LOK6": "věcech",
+   "INST7": "věcmi"
+ },
+ {
+   "NOM1 singular": "země ",
+   "NOM1": "země",
+   "GEN2": "zemí",
+   "DAT3": "zemím",
+   "AKU4": "země",
+   "VOK5": "země",
+   "LOK6": "zemích",
+   "INST7": "zeměmi"
+ },
+ {
+   "NOM1 singular": "čas",
+   "NOM1": "časy",
+   "GEN2": "časů",
+   "DAT3": "časům",
+   "AKU4": "časy",
+   "VOK5": "časy",
+   "LOK6": "časech",
+   "INST7": "časy"
+ },
+ {
+   "NOM1 singular": "případ",
+   "NOM1": "případy",
+   "GEN2": "případů",
+   "DAT3": "případům",
+   "AKU4": "případy",
+   "VOK5": "případy",
+   "LOK6": "případech",
+   "INST7": "případy"
+ },
+ {
+   "NOM1 singular": "svět",
+   "NOM1": "světy",
+   "GEN2": "světů",
+   "DAT3": "světům",
+   "AKU4": "světy",
+   "VOK5": "světy",
+   "LOK6": "světech",
+   "INST7": "světy"
+ },
+ {
+   "NOM1 singular": "hodina",
+   "NOM1": "hodiny",
+   "GEN2": "hodin",
+   "DAT3": "hodinám",
+   "AKU4": "hodiny",
+   "VOK5": "hodiny",
+   "LOK6": "hodinách",
+   "INST7": "hodinami"
+ },
+ {
+   "NOM1 singular": "cesta",
+   "NOM1": "cesty",
+   "GEN2": "cest",
+   "DAT3": "cestám",
+   "AKU4": "cesty",
+   "VOK5": "cesty",
+   "LOK6": "cestách",
+   "INST7": "cestami"
+ },
+ {
+   "NOM1 singular": "dítě",
+   "NOM1": "děti",
+   "GEN2": "dětí",
+   "DAT3": "dětem",
+   "AKU4": "děti",
+   "VOK5": "děti",
+   "LOK6": "dětech",
+   "INST7": "dětmi"
+ },
+ {
+   "NOM1 singular": "hlava",
+   "NOM1": "hlavy",
+   "GEN2": "hlav",
+   "DAT3": "hlavám",
+   "AKU4": "hlavy",
+   "VOK5": "hlavy",
+   "LOK6": "hlavách",
+   "INST7": "hlavami"
+ },
+ {
+   "NOM1 singular": "část",
+   "NOM1": "části",
+   "GEN2": "částí",
+   "DAT3": "částem",
+   "AKU4": "části",
+   "VOK5": "části",
+   "LOK6": "částech",
+   "INST7": "částmi"
+ },
+ {
+   "NOM1 singular": "problém",
+   "NOM1": "problémy",
+   "GEN2": "problémů",
+   "DAT3": "problémům",
+   "AKU4": "problémy",
+   "VOK5": "problémy",
+   "LOK6": "problémech",
+   "INST7": "problémy"
+ },
+ {
+   "NOM1 singular": "oko",
+   "NOM1": "oči",
+   "GEN2": "očí",
+   "DAT3": "očím",
+   "AKU4": "oči",
+   "VOK5": "oči",
+   "LOK6": "očích",
+   "INST7": "očima"
+ },
+ {
+   "NOM1 singular": "konec",
+   "NOM1": "konce",
+   "GEN2": "konců",
+   "DAT3": "koncům",
+   "AKU4": "konce",
+   "VOK5": "konce",
+   "LOK6": "koncích",
+   "INST7": "konci"
+ },
+ {
+   "NOM1 singular": "chvíle",
+   "NOM1": "chvíle",
+   "GEN2": "chvil",
+   "DAT3": "chvílím",
+   "AKU4": "chvíle",
+   "VOK5": "chvíle",
+   "LOK6": "chvílích",
+   "INST7": "chvílemi"
+ },
+ {
+   "NOM1 singular": "město",
+   "NOM1": "města",
+   "GEN2": "měst",
+   "DAT3": "městům",
+   "AKU4": "města",
+   "VOK5": "města",
+   "LOK6": "městech",
+   "INST7": "městy"
+ },
+ {
+   "NOM1 singular": "muž",
+   "NOM1": "muži",
+   "GEN2": "mužů",
+   "DAT3": "mužům",
+   "AKU4": "muže",
+   "VOK5": "muži",
+   "LOK6": "mužích",
+   "INST7": "muži"
+ },
+ {
+   "NOM1 singular": "pán",
+   "NOM1": "páni / pánové",
+   "GEN2": "pánů",
+   "DAT3": "pánům",
+   "AKU4": "pány",
+   "VOK5": "páni / pánové",
+   "LOK6": "pánech",
+   "INST7": "pány"
+ },
+ {
+   "NOM1 singular": "způsob",
+   "NOM1": "způsoby",
+   "GEN2": "způsobů",
+   "DAT3": "způsobům",
+   "AKU4": "způsoby",
+   "VOK5": "způsoby",
+   "LOK6": "způsobech",
+   "INST7": "způsoby"
+ },
+ {
+   "NOM1 singular": "slovo",
+   "NOM1": "slova",
+   "GEN2": "slov",
+   "DAT3": "slovům",
+   "AKU4": "slova",
+   "VOK5": "slova",
+   "LOK6": "slovech",
+   "INST7": "slovy"
+ },
+ {
+   "NOM1 singular": "žena",
+   "NOM1": "ženy",
+   "GEN2": "žen",
+   "DAT3": "ženám",
+   "AKU4": "ženy",
+   "VOK5": "ženy",
+   "LOK6": "ženách",
+   "INST7": "ženami"
+ },
+ {
+   "NOM1 singular": "společnost  ",
+   "NOM1": "společnosti",
+   "GEN2": "společností",
+   "DAT3": "společnostem",
+   "AKU4": "společnosti",
+   "VOK5": "společnosti",
+   "LOK6": "společnostech",
+   "INST7": "společnostmi"
+ },
+ {
+   "NOM1 singular": "řada",
+   "NOM1": "řady",
+   "GEN2": "řad",
+   "DAT3": "řadám",
+   "AKU4": "řady",
+   "VOK5": "řady",
+   "LOK6": "řadách",
+   "INST7": "řadami"
+ },
+ {
+   "NOM1 singular": "týden",
+   "NOM1": "týdny",
+   "GEN2": "týdnů",
+   "DAT3": "týdnům",
+   "AKU4": "týdny",
+   "VOK5": "týdny",
+   "LOK6": "týdnech",
+   "INST7": "týdny"
+ },
+ {
+   "NOM1 singular": "voda",
+   "NOM1": "vody",
+   "GEN2": "vod",
+   "DAT3": "vodám",
+   "AKU4": "vody",
+   "VOK5": "vody",
+   "LOK6": "vodách",
+   "INST7": "vodami"
+ },
+ {
+   "NOM1 singular": "koruna",
+   "NOM1": "koruny",
+   "GEN2": "korun",
+   "DAT3": "korunám",
+   "AKU4": "koruny",
+   "VOK5": "koruny",
+   "LOK6": "korunách",
+   "INST7": "korunami"
+ },
+ {
+   "NOM1 singular": "měsíc",
+   "NOM1": "měsíce",
+   "GEN2": "měsíců",
+   "DAT3": "měsícům",
+   "AKU4": "měsíce",
+   "VOK5": "měsíce",
+   "LOK6": "měsících",
+   "INST7": "měsíci"
+ },
+ {
+   "NOM1 singular": "dům",
+   "NOM1": "domy",
+   "GEN2": "domů",
+   "DAT3": "domům",
+   "AKU4": "domy",
+   "VOK5": "domy",
+   "LOK6": "domech",
+   "INST7": "domy"
+ },
+ {
+   "NOM1 singular": "možnost",
+   "NOM1": "možnosti",
+   "GEN2": "možností",
+   "DAT3": "možnostem",
+   "AKU4": "možnosti",
+   "VOK5": "možnosti",
+   "LOK6": "možnostech",
+   "INST7": "možnostmi"
+ },
+ {
+   "NOM1 singular": "škola",
+   "NOM1": "školy",
+   "GEN2": "škol",
+   "DAT3": "školám",
+   "AKU4": "školy",
+   "VOK5": "školy",
+   "LOK6": "školách",
+   "INST7": "školami"
+ },
+ {
+   "NOM1 singular": "stát",
+   "NOM1": "státy",
+   "GEN2": "států",
+   "DAT3": "státům",
+   "AKU4": "státy",
+   "VOK5": "státy",
+   "LOK6": "státech",
+   "INST7": "státy"
+ },
+ {
+   "NOM1 singular": "otázka",
+   "NOM1": "otázky",
+   "GEN2": "otázek",
+   "DAT3": "otázkám",
+   "AKU4": "otázky",
+   "VOK5": "otázky",
+   "LOK6": "otázkách",
+   "INST7": "otázkami"
+ },
+ {
+   "NOM1 singular": "skupina",
+   "NOM1": "skupiny",
+   "GEN2": "skupin",
+   "DAT3": "skupinám",
+   "AKU4": "skupiny",
+   "VOK5": "skupiny",
+   "LOK6": "skupinách",
+   "INST7": "skupinami"
+ },
+ {
+   "NOM1 singular": "pravda",
+   "NOM1": "pravdy",
+   "GEN2": "pravd",
+   "DAT3": "pravdám",
+   "AKU4": "pravdy",
+   "VOK5": "pravdy",
+   "LOK6": "pravdách",
+   "INST7": "pravdami"
+ },
+ {
+   "NOM1 singular": "cena",
+   "NOM1": "ceny",
+   "GEN2": "cen",
+   "DAT3": "cenám",
+   "AKU4": "ceny",
+   "VOK5": "ceny",
+   "LOK6": "cenách",
+   "INST7": "cenami"
+ },
+ {
+   "NOM1 singular": "systém",
+   "NOM1": "systémy",
+   "GEN2": "systémů",
+   "DAT3": "systémům",
+   "AKU4": "systémy",
+   "VOK5": "systémy",
+   "LOK6": "systémech",
+   "INST7": "systémy"
+ },
+ {
+   "NOM1 singular": "oblast",
+   "NOM1": "oblasti",
+   "GEN2": "oblastí",
+   "DAT3": "oblastem",
+   "AKU4": "oblasti",
+   "VOK5": "oblasti",
+   "LOK6": "oblastech",
+   "INST7": "oblastmi"
+ },
+ {
+   "NOM1 singular": "situace",
+   "NOM1": "situace",
+   "GEN2": "situací",
+   "DAT3": "situacím",
+   "AKU4": "situace",
+   "VOK5": "situace",
+   "LOK6": "situacích",
+   "INST7": "situacemi"
+ },
+ {
+   "NOM1 singular": "půl",
+   "NOM1": "půle",
+   "GEN2": "půlí",
+   "DAT3": "půlím",
+   "AKU4": "půle",
+   "VOK5": "půle",
+   "LOK6": "půlích",
+   "INST7": "půlemi"
+ },
+ {
+   "NOM1 singular": "většina",
+   "NOM1": "většiny",
+   "GEN2": "většin",
+   "DAT3": "většinám",
+   "AKU4": "většiny",
+   "VOK5": "většiny",
+   "LOK6": "většinách",
+   "INST7": "většinami"
+ },
+ {
+   "NOM1 singular": "firma",
+   "NOM1": "firmy",
+   "GEN2": "firem",
+   "DAT3": "firmám",
+   "AKU4": "firmy",
+   "VOK5": "firmy",
+   "LOK6": "firmách",
+   "INST7": "firmami"
+ },
+ {
+   "NOM1 singular": "jméno",
+   "NOM1": "jména",
+   "GEN2": "jmen",
+   "DAT3": "jménům",
+   "AKU4": "jména",
+   "VOK5": "jména",
+   "LOK6": "jménech",
+   "INST7": "jmény"
+ },
+ {
+   "NOM1 singular": "důvod",
+   "NOM1": "důvody",
+   "GEN2": "důvodů",
+   "DAT3": "důvodům",
+   "AKU4": "důvody",
+   "VOK5": "důvody",
+   "LOK6": "důvodech",
+   "INST7": "důvody"
+ },
+ {
+   "NOM1 singular": "změna",
+   "NOM1": "změny",
+   "GEN2": "změn",
+   "DAT3": "změnám",
+   "AKU4": "změny",
+   "VOK5": "změny",
+   "LOK6": "změnách",
+   "INST7": "změnami"
+ },
+ {
+   "NOM1 singular": "síla",
+   "NOM1": "síly",
+   "GEN2": "sil",
+   "DAT3": "silám",
+   "AKU4": "síly",
+   "VOK5": "síly",
+   "LOK6": "silách",
+   "INST7": "silami"
+ },
+ {
+   "NOM1 singular": "noc",
+   "NOM1": "noci",
+   "GEN2": "nocí",
+   "DAT3": "nocím",
+   "AKU4": "noci",
+   "VOK5": "noci",
+   "LOK6": "nocích",
+   "INST7": "nocemi"
+ },
+ {
+   "NOM1 singular": "výsledek",
+   "NOM1": "výsledky",
+   "GEN2": "výsledků",
+   "DAT3": "výsledkům",
+   "AKU4": "výsledky",
+   "VOK5": "výsledky",
+   "LOK6": "výsledcích",
+   "INST7": "výsledky"
+ },
+ {
+   "NOM1 singular": "pohled",
+   "NOM1": "pohledy",
+   "GEN2": "pohledů",
+   "DAT3": "pohledům",
+   "AKU4": "pohledy",
+   "VOK5": "pohledy",
+   "LOK6": "pohledech",
+   "INST7": "pohledy"
+ },
+ {
+   "NOM1 singular": "zájem",
+   "NOM1": "zájmy",
+   "GEN2": "zájmů",
+   "DAT3": "zájmům",
+   "AKU4": "zájmy",
+   "VOK5": "zájmy",
+   "LOK6": "zájmech",
+   "INST7": "zájmy"
+ },
+ {
+   "NOM1 singular": "vztah",
+   "NOM1": "vztahy",
+   "GEN2": "vztahů",
+   "DAT3": "vztahům",
+   "AKU4": "vztahy",
+   "VOK5": "vztahy",
+   "LOK6": "vztazích",
+   "INST7": "vztahy"
+ },
+ {
+   "NOM1 singular": "dveře",
+   "NOM1": "dveře",
+   "GEN2": "dveří",
+   "DAT3": "dveřím",
+   "AKU4": "dveře",
+   "VOK5": "dveře",
+   "LOK6": "dveřích",
+   "INST7": "dveřmi"
+ },
+ {
+   "NOM1 singular": "auto",
+   "NOM1": "auta",
+   "GEN2": "aut",
+   "DAT3": "autům",
+   "AKU4": "auta",
+   "VOK5": "auta",
+   "LOK6": "autech",
+   "INST7": "auty"
+ },
+ {
+   "NOM1 singular": "informace",
+   "NOM1": "informace",
+   "GEN2": "informací",
+   "DAT3": "informacím",
+   "AKU4": "informace",
+   "VOK5": "informace",
+   "LOK6": "informacích",
+   "INST7": "informacemi"
+ },
+ {
+   "NOM1 singular": "noha",
+   "NOM1": "nohy",
+   "GEN2": "nohou",
+   "DAT3": "nohám",
+   "AKU4": "nohy",
+   "VOK5": "nohy",
+   "LOK6": "nohách / nohou",
+   "INST7": "nohama"
+ },
+ {
+   "NOM1 singular": "stav",
+   "NOM1": "stavy",
+   "GEN2": "stavů",
+   "DAT3": "stavům",
+   "AKU4": "stavy",
+   "VOK5": "stavy",
+   "LOK6": "stavech",
+   "INST7": "stavy"
+ },
+ {
+   "NOM1 singular": "základ",
+   "NOM1": "základy",
+   "GEN2": "základů",
+   "DAT3": "základům",
+   "AKU4": "základy",
+   "VOK5": "základy",
+   "LOK6": "základech",
+   "INST7": "základy"
+ },
+ {
+   "NOM1 singular": "podmínka",
+   "NOM1": "podmínky",
+   "GEN2": "podmínek",
+   "DAT3": "podmínkám",
+   "AKU4": "podmínky",
+   "VOK5": "podmínky",
+   "LOK6": "podmínkách",
+   "INST7": "podmínkami"
+ },
+ {
+   "NOM1 singular": "rodina",
+   "NOM1": "rodiny",
+   "GEN2": "rodin",
+   "DAT3": "rodinám",
+   "AKU4": "rodiny",
+   "VOK5": "rodiny",
+   "LOK6": "rodinách",
+   "INST7": "rodinami"
+ },
+ {
+   "NOM1 singular": "služba",
+   "NOM1": "služby",
+   "GEN2": "služeb",
+   "DAT3": "službám",
+   "AKU4": "služby",
+   "VOK5": "služby",
+   "LOK6": "službách",
+   "INST7": "službami"
+ },
+ {
+   "NOM1 singular": "zákon",
+   "NOM1": "zákony",
+   "GEN2": "zákonů",
+   "DAT3": "zákonům",
+   "AKU4": "zákony",
+   "VOK5": "zákony",
+   "LOK6": "zákonech",
+   "INST7": "zákony"
+ },
+ {
+   "NOM1 singular": "počet",
+   "NOM1": "počty",
+   "GEN2": "počtů",
+   "DAT3": "počtům",
+   "AKU4": "počty",
+   "VOK5": "počty",
+   "LOK6": "počtech",
+   "INST7": "počty"
+ },
+ {
+   "NOM1 singular": "tvář",
+   "NOM1": "tváře",
+   "GEN2": "tváří",
+   "DAT3": "tvářím",
+   "AKU4": "tváře",
+   "VOK5": "tváře",
+   "LOK6": "tvářích",
+   "INST7": "tvářemi"
+ },
+ {
+   "NOM1 singular": "právo",
+   "NOM1": "práva",
+   "GEN2": "práv",
+   "DAT3": "právům",
+   "AKU4": "práva",
+   "VOK5": "práva",
+   "LOK6": "právech",
+   "INST7": "právy"
+ },
+ {
+   "NOM1 singular": "začátek",
+   "NOM1": "začátky",
+   "GEN2": "začátků",
+   "DAT3": "začátkům",
+   "AKU4": "začátky",
+   "VOK5": "začátky",
+   "LOK6": "začátcích",
+   "INST7": "začátky"
+ },
+ {
+   "NOM1 singular": "pocit",
+   "NOM1": "pocity",
+   "GEN2": "pocitů",
+   "DAT3": "pocitům",
+   "AKU4": "pocity",
+   "VOK5": "pocity",
+   "LOK6": "pocitech",
+   "INST7": "pocity"
+ },
+ {
+   "NOM1 singular": "stutečnost",
+   "NOM1": "skutečnosti",
+   "GEN2": "skutečností",
+   "DAT3": "skutečnostem",
+   "AKU4": "skutečnosti",
+   "VOK5": "skutečnosti",
+   "LOK6": "skutečnostech",
+   "INST7": "skutečnostmi"
+ },
+ {
+   "NOM1 singular": "typ",
+   "NOM1": "typy",
+   "GEN2": "typů",
+   "DAT3": "typům",
+   "AKU4": "typy",
+   "VOK5": "typy",
+   "LOK6": "typech",
+   "INST7": "typy"
+ },
+ {
+   "NOM1 singular": "směr",
+   "NOM1": "směry",
+   "GEN2": "směrů",
+   "DAT3": "směrům",
+   "AKU4": "směry",
+   "VOK5": "směry",
+   "LOK6": "směrech",
+   "INST7": "směry"
+ },
+ {
+   "NOM1 singular": "hlas",
+   "NOM1": "hlasy",
+   "GEN2": "hlasů",
+   "DAT3": "hlasům",
+   "AKU4": "hlasy",
+   "VOK5": "hlasy",
+   "LOK6": "hlasech",
+   "INST7": "hlasy"
+ },
+ {
+   "NOM1 singular": "druh",
+   "NOM1": "druhy",
+   "GEN2": "druhů",
+   "DAT3": "druhům",
+   "AKU4": "druhy",
+   "VOK5": "druhy",
+   "LOK6": "druzích",
+   "INST7": "druhy"
+ },
+ {
+   "NOM1 singular": "vláda",
+   "NOM1": "vlády",
+   "GEN2": "vlád",
+   "DAT3": "vládám",
+   "AKU4": "vlády",
+   "VOK5": "vlády",
+   "LOK6": "vládách",
+   "INST7": "vládami"
+ },
+ {
+   "NOM1 singular": "minuta",
+   "NOM1": "minuty",
+   "GEN2": "minut",
+   "DAT3": "minutám",
+   "AKU4": "minuty",
+   "VOK5": "minuty",
+   "LOK6": "minutách",
+   "INST7": "minutami"
+ },
+ {
+   "NOM1 singular": "cíl",
+   "NOM1": "cíle",
+   "GEN2": "cílů",
+   "DAT3": "cílům",
+   "AKU4": "cíle",
+   "VOK5": "cíle",
+   "LOK6": "cílech",
+   "INST7": "cíli"
+ },
+ {
+   "NOM1 singular": "tělo",
+   "NOM1": "těla",
+   "GEN2": "těl",
+   "DAT3": "tělům",
+   "AKU4": "těla",
+   "VOK5": "těla",
+   "LOK6": "tělech",
+   "INST7": "těly"
+ },
+ {
+   "NOM1 singular": "smysl",
+   "NOM1": "smysly",
+   "GEN2": "smyslů",
+   "DAT3": "smyslům",
+   "AKU4": "smysly",
+   "VOK5": "smysly",
+   "LOK6": "smyslech",
+   "INST7": "smysly"
+ },
+ {
+   "NOM1 singular": "rozdíl",
+   "NOM1": "rozdíly",
+   "GEN2": "rozdílů",
+   "DAT3": "rozdílům",
+   "AKU4": "rozdíly",
+   "VOK5": "rozdíly",
+   "LOK6": "rozdílech",
+   "INST7": "rozdíly"
+ },
+ {
+   "NOM1 singular": "program",
+   "NOM1": "programy",
+   "GEN2": "programů",
+   "DAT3": "programům",
+   "AKU4": "programy",
+   "VOK5": "programy",
+   "LOK6": "programech",
+   "INST7": "programy"
+ },
+ {
+   "NOM1 singular": "ulice",
+   "NOM1": "ulice",
+   "GEN2": "ulic",
+   "DAT3": "ulicím",
+   "AKU4": "ulice",
+   "VOK5": "ulice",
+   "LOK6": "ulicích",
+   "INST7": "ulicemi"
+ },
+ {
+   "NOM1 singular": "člen",
+   "NOM1": "členové",
+   "GEN2": "členů",
+   "DAT3": "členům",
+   "AKU4": "členy",
+   "VOK5": "členové",
+   "LOK6": "členech",
+   "INST7": "členy"
+ },
+ {
+   "NOM1 singular": "prostor",
+   "NOM1": "prostory",
+   "GEN2": "prostorů",
+   "DAT3": "prostorům",
+   "AKU4": "prostory",
+   "VOK5": "prostory",
+   "LOK6": "prostorech",
+   "INST7": "prostory"
+ },
+ {
+   "NOM1 singular": "forma",
+   "NOM1": "formy",
+   "GEN2": "forem",
+   "DAT3": "formám",
+   "AKU4": "formy",
+   "VOK5": "formy",
+   "LOK6": "formách",
+   "INST7": "formami"
+ },
+ {
+   "NOM1 singular": "činnost",
+   "NOM1": "činnosti",
+   "GEN2": "činností",
+   "DAT3": "činnostem",
+   "AKU4": "činnosti",
+   "VOK5": "činnosti",
+   "LOK6": "činnostech",
+   "INST7": "činnostmi"
+ },
+ {
+   "NOM1 singular": "hodnota",
+   "NOM1": "hodnoty",
+   "GEN2": "hodnot",
+   "DAT3": "hodnotám",
+   "AKU4": "hodnoty",
+   "VOK5": "hodnoty",
+   "LOK6": "hodnotách",
+   "INST7": "hodnotami"
+ },
+ {
+   "NOM1 singular": "smrt",
+   "NOM1": "smrti",
+   "GEN2": "smrtí",
+   "DAT3": "smrtím",
+   "AKU4": "smrti",
+   "VOK5": "smrti",
+   "LOK6": "smrtích",
+   "INST7": "smrtmi"
+ },
+ {
+   "NOM1 singular": "paní",
+   "NOM1": "paní",
+   "GEN2": "paní",
+   "DAT3": "paním",
+   "AKU4": "paní",
+   "VOK5": "paní",
+   "LOK6": "paních",
+   "INST7": "paními"
+ },
+ {
+   "NOM1 singular": "polovina",
+   "NOM1": "poloviny",
+   "GEN2": "polovin",
+   "DAT3": "polovinám",
+   "AKU4": "poloviny",
+   "VOK5": "poloviny",
+   "LOK6": "polovinách",
+   "INST7": "polovinami"
+ },
+ {
+   "NOM1 singular": "republika",
+   "NOM1": "republiky",
+   "GEN2": "republik",
+   "DAT3": "republikám",
+   "AKU4": "republiky",
+   "VOK5": "republiky",
+   "LOK6": "republikách",
+   "INST7": "republikami"
+ },
+ {
+   "NOM1 singular": "názor",
+   "NOM1": "názory",
+   "GEN2": "názorů",
+   "DAT3": "názorům",
+   "AKU4": "názory",
+   "VOK5": "názory",
+   "LOK6": "názorech",
+   "INST7": "názory"
+ },
+ {
+   "NOM1 singular": "prostředí",
+   "NOM1": "prostředí",
+   "GEN2": "prostředí",
+   "DAT3": "prostředím",
+   "AKU4": "prostředí",
+   "VOK5": "prostředí",
+   "LOK6": "prostředích",
+   "INST7": "prostředími"
+ },
+ {
+   "NOM1 singular": "léto",
+   "NOM1": "Léta",
+   "GEN2": "let",
+   "DAT3": "létům",
+   "AKU4": "léta",
+   "VOK5": "léta",
+   "LOK6": "létech",
+   "INST7": "léty"
+ },
+ {
+   "NOM1 singular": "zpráva",
+   "NOM1": "zprávy",
+   "GEN2": "zpráv",
+   "DAT3": "zprávám",
+   "AKU4": "zprávy",
+   "VOK5": "zprávy",
+   "LOK6": "zprávách",
+   "INST7": "zprávami"
+ },
+ {
+   "NOM1 singular": "osoba",
+   "NOM1": "osoby",
+   "GEN2": "osob",
+   "DAT3": "osobám",
+   "AKU4": "osoby",
+   "VOK5": "osoby",
+   "LOK6": "osobách",
+   "INST7": "osobami"
+ },
+ {
+   "NOM1 singular": "století",
+   "NOM1": "století",
+   "GEN2": "století",
+   "DAT3": "stoletím",
+   "AKU4": "století",
+   "VOK5": "století",
+   "LOK6": "stoletích",
+   "INST7": "stoletími"
+ },
+ {
+   "NOM1 singular": "otec",
+   "NOM1": "otcové",
+   "GEN2": "otců",
+   "DAT3": "otcům",
+   "AKU4": "otce",
+   "VOK5": "otcové",
+   "LOK6": "otcích",
+   "INST7": "otci"
+ },
+ {
+   "NOM1 singular": "válka",
+   "NOM1": "války",
+   "GEN2": "válek",
+   "DAT3": "válkám",
+   "AKU4": "války",
+   "VOK5": "války",
+   "LOK6": "válkách",
+   "INST7": "válkami"
+ },
+ {
+   "NOM1 singular": "kniha",
+   "NOM1": "knihy",
+   "GEN2": "knih",
+   "DAT3": "knihám",
+   "AKU4": "knihy",
+   "VOK5": "knihy",
+   "LOK6": "knihách",
+   "INST7": "knihami"
+ },
+ {
+   "NOM1 singular": "okno",
+   "NOM1": "okna",
+   "GEN2": "oken",
+   "DAT3": "oknům",
+   "AKU4": "okna",
+   "VOK5": "okna",
+   "LOK6": "oknech",
+   "INST7": "okny"
+ },
+ {
+   "NOM1 singular": "období",
+   "NOM1": "období",
+   "GEN2": "období",
+   "DAT3": "obdobím",
+   "AKU4": "období",
+   "VOK5": "období",
+   "LOK6": "obdobích",
+   "INST7": "obdobími"
+ },
+ {
+   "NOM1 singular": "hra",
+   "NOM1": "hry",
+   "GEN2": "her",
+   "DAT3": "hrám",
+   "AKU4": "hry",
+   "VOK5": "hry",
+   "LOK6": "hrách",
+   "INST7": "hrami"
+ },
+ {
+   "NOM1 singular": "procento",
+   "NOM1": "procenta",
+   "GEN2": "procent",
+   "DAT3": "procentům",
+   "AKU4": "procenta",
+   "VOK5": "procenta",
+   "LOK6": "procentech",
+   "INST7": "procenty"
+ },
+ {
+   "NOM1 singular": "číslo",
+   "NOM1": "čísla",
+   "GEN2": "čísel",
+   "DAT3": "číslům",
+   "AKU4": "čísla",
+   "VOK5": "čísla",
+   "LOK6": "číslech",
+   "INST7": "čísly"
+ },
+ {
+   "NOM1 singular": "stůl",
+   "NOM1": "stoly",
+   "GEN2": "stolů",
+   "DAT3": "stolům",
+   "AKU4": "stoly",
+   "VOK5": "stoly",
+   "LOK6": "stolech",
+   "INST7": "stoly"
+ },
+ {
+   "NOM1 singular": "trh",
+   "NOM1": "trhy",
+   "GEN2": "trhů",
+   "DAT3": "trhům",
+   "AKU4": "trhy",
+   "VOK5": "trhy",
+   "LOK6": "trzích",
+   "INST7": "trhy"
+ },
+ {
+   "NOM1 singular": "úřad",
+   "NOM1": "úřady",
+   "GEN2": "úřadů",
+   "DAT3": "úřadům",
+   "AKU4": "úřady",
+   "VOK5": "úřady",
+   "LOK6": "úřadech",
+   "INST7": "úřady"
+ },
+ {
+   "NOM1 singular": "vývoj",
+   "NOM1": "vývoje",
+   "GEN2": "vývojů",
+   "DAT3": "vývojům",
+   "AKU4": "vývoje",
+   "VOK5": "vývoje",
+   "LOK6": "vývojích",
+   "INST7": "vývoji"
+ },
+ {
+   "NOM1 singular": "proces",
+   "NOM1": "procesy",
+   "GEN2": "procesů",
+   "DAT3": "procesům",
+   "AKU4": "procesy",
+   "VOK5": "procesy",
+   "LOK6": "procesech",
+   "INST7": "procesy"
+ },
+ {
+   "NOM1 singular": "prostředek",
+   "NOM1": "prostředky",
+   "GEN2": "prostředků",
+   "DAT3": "prostředkům",
+   "AKU4": "prostředky",
+   "VOK5": "prostředky",
+   "LOK6": "prostředcích",
+   "INST7": "prostředky"
+ },
+ {
+   "NOM1 singular": "úroveň",
+   "NOM1": "úrovně",
+   "GEN2": "úrovní",
+   "DAT3": "úrovním",
+   "AKU4": "úrovně",
+   "VOK5": "úrovně",
+   "LOK6": "úrovních",
+   "INST7": "úrovněmi"
+ },
+ {
+   "NOM1 singular": "role",
+   "NOM1": "role",
+   "GEN2": "rolí",
+   "DAT3": "rolím",
+   "AKU4": "role",
+   "VOK5": "role",
+   "LOK6": "rolích",
+   "INST7": "rolemi"
+ },
+ {
+   "NOM1 singular": "vliv",
+   "NOM1": "vlivy",
+   "GEN2": "vlivů",
+   "DAT3": "vlivům",
+   "AKU4": "vlivy",
+   "VOK5": "vlivy",
+   "LOK6": "vlivech",
+   "INST7": "vlivy"
+ },
+ {
+   "NOM1 singular": "akce",
+   "NOM1": "akce",
+   "GEN2": "akcí",
+   "DAT3": "akcím",
+   "AKU4": "akce",
+   "VOK5": "akce",
+   "LOK6": "akcích",
+   "INST7": "akcemi"
+ },
+ {
+   "NOM1 singular": "míra",
+   "NOM1": "míry",
+   "GEN2": "mír",
+   "DAT3": "mírám",
+   "AKU4": "míry",
+   "VOK5": "míry",
+   "LOK6": "mírách",
+   "INST7": "mírami"
+ },
+ {
+   "NOM1 singular": "pomoc",
+   "NOM1": "pomoci",
+   "GEN2": "pomocí",
+   "DAT3": "pomocím",
+   "AKU4": "pomoci",
+   "VOK5": "pomoci",
+   "LOK6": "pomocích",
+   "INST7": "pomocemi"
+ },
+ {
+   "NOM1 singular": "krok",
+   "NOM1": "kroky",
+   "GEN2": "kroků",
+   "DAT3": "krokům",
+   "AKU4": "kroky",
+   "VOK5": "kroky",
+   "LOK6": "krocích",
+   "INST7": "kroky"
+ },
+ {
+   "NOM1 singular": "světlo",
+   "NOM1": "světla",
+   "GEN2": "světel",
+   "DAT3": "světlu / světlům",
+   "AKU4": "světla",
+   "VOK5": "světla",
+   "LOK6": "světlech",
+   "INST7": "světly"
+ },
+ {
+   "NOM1 singular": "funkce",
+   "NOM1": "funkce",
+   "GEN2": "funkcí",
+   "DAT3": "funkcím",
+   "AKU4": "funkce",
+   "VOK5": "funkce",
+   "LOK6": "funkcích",
+   "INST7": "funkcemi"
+ },
+ {
+   "NOM1 singular": "ředitel",
+   "NOM1": "ředitelé",
+   "GEN2": "ředitelů",
+   "DAT3": "ředitelům",
+   "AKU4": "ředitele",
+   "VOK5": "ředitelé",
+   "LOK6": "ředitelích",
+   "INST7": "řediteli"
+ },
+ {
+   "NOM1 singular": "zkušenost",
+   "NOM1": "zkušenosti",
+   "GEN2": "zkušeností",
+   "DAT3": "zkušenostem",
+   "AKU4": "zkušenosti",
+   "VOK5": "zkušenosti",
+   "LOK6": "zkušenostech",
+   "INST7": "zkušenostmi"
+ },
+ {
+   "NOM1 singular": "přítel",
+   "NOM1": "přátelé",
+   "GEN2": "přátel",
+   "DAT3": "přátelům",
+   "AKU4": "přátele",
+   "VOK5": "přátelé",
+   "LOK6": "přátelích",
+   "INST7": "přáteli"
+ },
+ {
+   "NOM1 singular": "představa",
+   "NOM1": "představy",
+   "GEN2": "představ",
+   "DAT3": "představám",
+   "AKU4": "představy",
+   "VOK5": "představy",
+   "LOK6": "představách",
+   "INST7": "představami"
+ },
+ {
+   "NOM1 singular": "pokoj",
+   "NOM1": "pokoje",
+   "GEN2": "pokojů",
+   "DAT3": "pokojům",
+   "AKU4": "pokoje",
+   "VOK5": "pokoje",
+   "LOK6": "pokojích",
+   "INST7": "pokoje"
+ },
+ {
+   "NOM1 singular": "kluk",
+   "NOM1": "kluci",
+   "GEN2": "kluků",
+   "DAT3": "klukům",
+   "AKU4": "kluky",
+   "VOK5": "kluci",
+   "LOK6": "klucích",
+   "INST7": "kluky"
+ },
+ {
+   "NOM1 singular": "potřeba",
+   "NOM1": "potřeby",
+   "GEN2": "potřeb",
+   "DAT3": "potřebám",
+   "AKU4": "potřeby",
+   "VOK5": "potřeby",
+   "LOK6": "potřebách",
+   "INST7": "potřebami"
+ },
+ {
+   "NOM1 singular": "matka",
+   "NOM1": "matky",
+   "GEN2": "matek",
+   "DAT3": "matkám",
+   "AKU4": "matky",
+   "VOK5": "matky",
+   "LOK6": "matkách",
+   "INST7": "matkami"
+ },
+ {
+   "NOM1 singular": "rámec",
+   "NOM1": "rámce",
+   "GEN2": "rámců",
+   "DAT3": "rámcům",
+   "AKU4": "rámce",
+   "VOK5": "rámce",
+   "LOK6": "rámcích",
+   "INST7": "rámci"
+ },
+ {
+   "NOM1 singular": "obraz",
+   "NOM1": "obrazy",
+   "GEN2": "obrazů",
+   "DAT3": "obrazům",
+   "AKU4": "obrazy",
+   "VOK5": "obrazy",
+   "LOK6": "obrazech",
+   "INST7": "obrazy"
+ },
+ {
+   "NOM1 singular": "zdroj",
+   "NOM1": "zdroje",
+   "GEN2": "zdrojů",
+   "DAT3": "zdrojům",
+   "AKU4": "zdroje",
+   "VOK5": "zdroje",
+   "LOK6": "zdrojích",
+   "INST7": "zdroji"
+ },
+ {
+   "NOM1 singular": "součást",
+   "NOM1": "součásti",
+   "GEN2": "součástí",
+   "DAT3": "součástem",
+   "AKU4": "součásti",
+   "VOK5": "součásti",
+   "LOK6": "součástech",
+   "INST7": "součástmi"
+ },
+ {
+   "NOM1 singular": "řešení",
+   "NOM1": "řešení",
+   "GEN2": "řešení",
+   "DAT3": "řešením",
+   "AKU4": "řešení",
+   "VOK5": "řešení",
+   "LOK6": "řešeních",
+   "INST7": "řešeními"
+ },
+ {
+   "NOM1 singular": "postup",
+   "NOM1": "postupy",
+   "GEN2": "postupů",
+   "DAT3": "postupům",
+   "AKU4": "postupy",
+   "VOK5": "postupy",
+   "LOK6": "postupech",
+   "INST7": "postupy"
+ },
+ {
+   "NOM1 singular": "film",
+   "NOM1": "filmy",
+   "GEN2": "filmů",
+   "DAT3": "filmům",
+   "AKU4": "filmy",
+   "VOK5": "filmy",
+   "LOK6": "filmech",
+   "INST7": "filmy"
+ },
+ {
+   "NOM1 singular": "hranice",
+   "NOM1": "hranice",
+   "GEN2": "hranic",
+   "DAT3": "hranicím",
+   "AKU4": "hranice",
+   "VOK5": "hranice",
+   "LOK6": "hranicích",
+   "INST7": "hranicemi"
+ },
+ {
+   "NOM1 singular": "dílo",
+   "NOM1": "díla",
+   "GEN2": "děl",
+   "DAT3": "dílům",
+   "AKU4": "díla",
+   "VOK5": "díla",
+   "LOK6": "dílech",
+   "INST7": "díly"
+ },
+ {
+   "NOM1 singular": "kolo",
+   "NOM1": "kola",
+   "GEN2": "kol",
+   "DAT3": "kolům",
+   "AKU4": "kola",
+   "VOK5": "kola",
+   "LOK6": "kolech",
+   "INST7": "koly"
+ },
+ {
+   "NOM1 singular": "rada",
+   "NOM1": "rady",
+   "GEN2": "rad",
+   "DAT3": "radám",
+   "AKU4": "rady",
+   "VOK5": "rady",
+   "LOK6": "radách",
+   "INST7": "radami"
+ },
+ {
+   "NOM1 singular": "množství",
+   "NOM1": "množství",
+   "GEN2": "množství",
+   "DAT3": "množstvím",
+   "AKU4": "množství",
+   "VOK5": "množství",
+   "LOK6": "množstvích",
+   "INST7": "množstvími"
+ },
+ {
+   "NOM1 singular": "podoba",
+   "NOM1": "podoby",
+   "GEN2": "podob",
+   "DAT3": "podobám",
+   "AKU4": "podoby",
+   "VOK5": "podoby",
+   "LOK6": "podobách",
+   "INST7": "podobami"
+ },
+ {
+   "NOM1 singular": "byt",
+   "NOM1": "byty",
+   "GEN2": "bytů",
+   "DAT3": "bytům",
+   "AKU4": "byty",
+   "VOK5": "byty",
+   "LOK6": "bytech",
+   "INST7": "byty"
+ },
+ {
+   "NOM1 singular": "stránka",
+   "NOM1": "stránky",
+   "GEN2": "stránek",
+   "DAT3": "stránkám",
+   "AKU4": "stránky",
+   "VOK5": "stránky",
+   "LOK6": "stránkách",
+   "INST7": "stránkami"
+ },
+ {
+   "NOM1 singular": "centrum",
+   "NOM1": "centra",
+   "GEN2": "center",
+   "DAT3": "centrům",
+   "AKU4": "centra",
+   "VOK5": "centra",
+   "LOK6": "centrech",
+   "INST7": "centry"
+ },
+ {
+   "NOM1 singular": "okamžik",
+   "NOM1": "okamžiky",
+   "GEN2": "okamžiků",
+   "DAT3": "okamžikům",
+   "AKU4": "okamžiky",
+   "VOK5": "okamžiky",
+   "LOK6": "okamžicích",
+   "INST7": "okamžiky"
+ },
+ {
+   "NOM1 singular": "metr",
+   "NOM1": "metry",
+   "GEN2": "metrů",
+   "DAT3": "metrům",
+   "AKU4": "metry",
+   "VOK5": "metry",
+   "LOK6": "metrech",
+   "INST7": "metry"
+ },
+ {
+   "NOM1 singular": "holka",
+   "NOM1": "holky",
+   "GEN2": "holek",
+   "DAT3": "holkám",
+   "AKU4": "holky",
+   "VOK5": "holky",
+   "LOK6": "holkách",
+   "INST7": "holkami"
+ },
+ {
+   "NOM1 singular": "srdce",
+   "NOM1": "srdce",
+   "GEN2": "srdcí",
+   "DAT3": "srdcím",
+   "AKU4": "srdce",
+   "VOK5": "srdce",
+   "LOK6": "srdcích",
+   "INST7": "srdci"
+ },
+ {
+   "NOM1 singular": "Bůh",
+   "NOM1": "bohové",
+   "GEN2": "bohů",
+   "DAT3": "bohům",
+   "AKU4": "bohy",
+   "VOK5": "bohové",
+   "LOK6": "bozích",
+   "INST7": "bohy"
+ },
+ {
+   "NOM1 singular": "bod",
+   "NOM1": "body",
+   "GEN2": "bodů",
+   "DAT3": "bodům",
+   "AKU4": "body",
+   "VOK5": "body",
+   "LOK6": "bodech",
+   "INST7": "body"
+ },
+ {
+   "NOM1 singular": "televize",
+   "NOM1": "televize",
+   "GEN2": "televizí",
+   "DAT3": "televizím",
+   "AKU4": "televize",
+   "VOK5": "televize",
+   "LOK6": "televizích",
+   "INST7": "televizemi"
+ },
+ {
+   "NOM1 singular": "myšlenka",
+   "NOM1": "myšlenky",
+   "GEN2": "myšlenek",
+   "DAT3": "myšlenkám",
+   "AKU4": "myšlenky",
+   "VOK5": "myšlenky",
+   "LOK6": "myšlenkách",
+   "INST7": "myšlenkami"
+ },
+ {
+   "NOM1 singular": "vedení",
+   "NOM1": "vedení",
+   "GEN2": "vedení",
+   "DAT3": "vedením",
+   "AKU4": "vedení",
+   "VOK5": "vedení",
+   "LOK6": "vedeních",
+   "INST7": "vedeními"
+ },
+ {
+   "NOM1 singular": "policie",
+   "NOM1": "policie",
+   "GEN2": "policií",
+   "DAT3": "policiím",
+   "AKU4": "policie",
+   "VOK5": "policie",
+   "LOK6": "policiích",
+   "INST7": "policiemi"
+ },
+ {
+   "NOM1 singular": "materiál",
+   "NOM1": "materiály",
+   "GEN2": "materiálů",
+   "DAT3": "materiálům",
+   "AKU4": "materiály",
+   "VOK5": "materiály",
+   "LOK6": "materiálech",
+   "INST7": "materiály"
+ },
+ {
+   "NOM1 singular": "podnik",
+   "NOM1": "podniky",
+   "GEN2": "podniků",
+   "DAT3": "podnikům",
+   "AKU4": "podniky",
+   "VOK5": "podniky",
+   "LOK6": "podnicích",
+   "INST7": "podniky"
+ },
+ {
+   "NOM1 singular": "úspěch",
+   "NOM1": "úspěchy",
+   "GEN2": "úspěchů",
+   "DAT3": "úspěchům",
+   "AKU4": "úspěchy",
+   "VOK5": "úspěchy",
+   "LOK6": "úspěších",
+   "INST7": "úspěchy"
+ },
+ {
+   "NOM1 singular": "soud",
+   "NOM1": "soudy",
+   "GEN2": "soudů",
+   "DAT3": "soudům",
+   "AKU4": "soudy",
+   "VOK5": "soudy",
+   "LOK6": "soudech",
+   "INST7": "úspěchy"
+ },
+ {
+   "NOM1 singular": "podstata",
+   "NOM1": "podstaty",
+   "GEN2": "podstat",
+   "DAT3": "podstatám",
+   "AKU4": "podstaty",
+   "VOK5": "podstaty",
+   "LOK6": "podstatách",
+   "INST7": "podstatami"
+ },
+ {
+   "NOM1 singular": "autor",
+   "NOM1": "autoři",
+   "GEN2": "autorů",
+   "DAT3": "autorům",
+   "AKU4": "autory",
+   "VOK5": "autoři",
+   "LOK6": "autorech",
+   "INST7": "autory"
+ },
+ {
+   "NOM1 singular": "význam",
+   "NOM1": "významy",
+   "GEN2": "významů",
+   "DAT3": "významům",
+   "AKU4": "významy",
+   "VOK5": "významy",
+   "LOK6": "významech",
+   "INST7": "výzmamy"
+ },
+ {
+   "NOM1 singular": "syn",
+   "NOM1": "synové",
+   "GEN2": "synů",
+   "DAT3": "synům",
+   "AKU4": "syny",
+   "VOK5": "synové",
+   "LOK6": "synech",
+   "INST7": "syny"
+ },
+ {
+   "NOM1 singular": "obchod",
+   "NOM1": "obchody",
+   "GEN2": "obchodů",
+   "DAT3": "obchodům",
+   "AKU4": "obchody",
+   "VOK5": "obchody",
+   "LOK6": "obchodech",
+   "INST7": "obchody"
+ },
+ {
+   "NOM1 singular": "škoda",
+   "NOM1": "škody",
+   "GEN2": "škod",
+   "DAT3": "škodám",
+   "AKU4": "škody",
+   "VOK5": "škody",
+   "LOK6": "škodách",
+   "INST7": "škodami"
+ },
+ {
+   "NOM1 singular": "úkol",
+   "NOM1": "úkoly",
+   "GEN2": "úkolů",
+   "DAT3": "úkolům",
+   "AKU4": "úkoly",
+   "VOK5": "úkoly",
+   "LOK6": "úkolech",
+   "INST7": "úkoly"
+ },
+ {
+   "NOM1 singular": "věk",
+   "NOM1": "věky",
+   "GEN2": "věků",
+   "DAT3": "věkům",
+   "AKU4": "věky",
+   "VOK5": "věky",
+   "LOK6": "věcích",
+   "INST7": "věcmi"
+ },
+ {
+   "NOM1 singular": "počátek",
+   "NOM1": "počátky",
+   "GEN2": "počátků",
+   "DAT3": "počátkům",
+   "AKU4": "počátky",
+   "VOK5": "počátky",
+   "LOK6": "počátcích",
+   "INST7": "počátky"
+ },
+ {
+   "NOM1 singular": "organizace",
+   "NOM1": "organizace",
+   "GEN2": "organizací",
+   "DAT3": "organizacím",
+   "AKU4": "organizace",
+   "VOK5": "organizace",
+   "LOK6": "organizacích",
+   "INST7": "organizacemi"
+ },
+ {
+   "NOM1 singular": "táta",
+   "NOM1": "tátové",
+   "GEN2": "tátů",
+   "DAT3": "tátům",
+   "AKU4": "táty",
+   "VOK5": "tátové",
+   "LOK6": "tátách",
+   "INST7": "táty"
+ },
+ {
+   "NOM1 singular": "kus",
+   "NOM1": "kusy",
+   "GEN2": "kusů",
+   "DAT3": "kusům",
+   "AKU4": "kusy",
+   "VOK5": "kusy",
+   "LOK6": "kusech",
+   "INST7": "kusy"
+ },
+ {
+   "NOM1 singular": "barva",
+   "NOM1": "barvy",
+   "GEN2": "barev",
+   "DAT3": "barvám",
+   "AKU4": "barvy",
+   "VOK5": "barvy",
+   "LOK6": "barvách",
+   "INST7": "barvami"
+ },
+ {
+   "NOM1 singular": "příklad",
+   "NOM1": "příklady",
+   "GEN2": "příkladů",
+   "DAT3": "příkladům",
+   "AKU4": "příklady",
+   "VOK5": "příklady",
+   "LOK6": "příkladech",
+   "INST7": "příklady"
+ },
+ {
+   "NOM1 singular": "jednání",
+   "NOM1": "jednání",
+   "GEN2": "jednání",
+   "DAT3": "jednáním",
+   "AKU4": "jednání",
+   "VOK5": "jednání",
+   "LOK6": "jednáních",
+   "INST7": "jednáními"
+ },
+ {
+   "NOM1 singular": "smlouva",
+   "NOM1": "smlouvy",
+   "GEN2": "smluv",
+   "DAT3": "smluvám",
+   "AKU4": "smlouvy",
+   "VOK5": "smlouvy",
+   "LOK6": "smluvách",
+   "INST7": "smlouvami"
+ },
+ {
+   "NOM1 singular": "plán",
+   "NOM1": "plány",
+   "GEN2": "plánů",
+   "DAT3": "plánům",
+   "AKU4": "plány",
+   "VOK5": "plány",
+   "LOK6": "plánech",
+   "INST7": "plány"
+ },
+ {
+   "NOM1 singular": "pohyb",
+   "NOM1": "pohyby",
+   "GEN2": "pohybů",
+   "DAT3": "pohybům",
+   "AKU4": "pohyby",
+   "VOK5": "pohyby",
+   "LOK6": "pohybech",
+   "INST7": "pohyby"
+ },
+ {
+   "NOM1 singular": "večer",
+   "NOM1": "večery",
+   "GEN2": "večerů",
+   "DAT3": "večerům",
+   "AKU4": "večery",
+   "VOK5": "večery",
+   "LOK6": "večerech",
+   "INST7": "večery"
+ },
+ {
+   "NOM1 singular": "fakt",
+   "NOM1": "fakta",
+   "GEN2": "faktů",
+   "DAT3": "faktům",
+   "AKU4": "fakta",
+   "VOK5": "fakta",
+   "LOK6": "faktech",
+   "INST7": "fakty"
+ },
+ {
+   "NOM1 singular": "rozhodnutí",
+   "NOM1": "rozhodnutí",
+   "GEN2": "rozhodnutí",
+   "DAT3": "rozhodnutím",
+   "AKU4": "rozhodnutí",
+   "VOK5": "rozhodnutí",
+   "LOK6": "rozhodnutích",
+   "INST7": "rozhodnutími"
+ },
+ {
+   "NOM1 singular": "kousek",
+   "NOM1": "kousky",
+   "GEN2": "kousků",
+   "DAT3": "kouskům",
+   "AKU4": "kousky",
+   "VOK5": "kousky",
+   "LOK6": "kouscích",
+   "INST7": "kousky"
+ },
+ {
+   "NOM1 singular": "rodič",
+   "NOM1": "rodiče",
+   "GEN2": "rodičů",
+   "DAT3": "rodičům",
+   "AKU4": "rodiče",
+   "VOK5": "rodiče",
+   "LOK6": "rodičích",
+   "INST7": "rodiči"
+ },
+ {
+   "NOM1 singular": "láska",
+   "NOM1": "lásky",
+   "GEN2": "lásek",
+   "DAT3": "láskám",
+   "AKU4": "lásky",
+   "VOK5": "lásky",
+   "LOK6": "láskách",
+   "INST7": "láskami"
+ },
+ {
+   "NOM1 singular": "neděle",
+   "NOM1": "neděle",
+   "GEN2": "nedělí",
+   "DAT3": "nedělím",
+   "AKU4": "neděle",
+   "VOK5": "neděle",
+   "LOK6": "nedělích",
+   "INST7": "nedělemi"
+ },
+ {
+   "NOM1 singular": "projekt",
+   "NOM1": "projekty",
+   "GEN2": "projektů",
+   "DAT3": "projektům",
+   "AKU4": "projekty",
+   "VOK5": "projekty",
+   "LOK6": "projektech",
+   "INST7": "projekty"
+ },
+ {
+   "NOM1 singular": "jazyk",
+   "NOM1": "jazyky",
+   "GEN2": "jazyků",
+   "DAT3": "jazykům",
+   "AKU4": "jazyky",
+   "VOK5": "jazyky",
+   "LOK6": "jazycích",
+   "INST7": "jazyky"
+ },
+ {
+   "NOM1 singular": "přístup",
+   "NOM1": "přístupy",
+   "GEN2": "přístupů",
+   "DAT3": "přístupům",
+   "AKU4": "přístupy",
+   "VOK5": "přístupy",
+   "LOK6": "přístupech",
+   "INST7": "přístupy"
+ },
+ {
+   "NOM1 singular": "duch",
+   "NOM1": "duchové / dusi",
+   "GEN2": "duchů",
+   "DAT3": "duchům",
+   "AKU4": "duchy",
+   "VOK5": "duchové / dusi",
+   "LOK6": "duších",
+   "INST7": "duchy"
+ },
+ {
+   "NOM1 singular": "návrh",
+   "NOM1": "návrhy",
+   "GEN2": "návrhů",
+   "DAT3": "návrhům",
+   "AKU4": "návrhy",
+   "VOK5": "návrhy",
+   "LOK6": "návrzích",
+   "INST7": "návrhy"
+ },
+ {
+   "NOM1 singular": "náklad",
+   "NOM1": "náklady",
+   "GEN2": "nákladů",
+   "DAT3": "nákladům",
+   "AKU4": "náklady",
+   "VOK5": "náklady",
+   "LOK6": "nákladech",
+   "INST7": "náklady"
+ },
+ {
+   "NOM1 singular": "výkon",
+   "NOM1": "výkony",
+   "GEN2": "výkonů",
+   "DAT3": "výkonům",
+   "AKU4": "výkony",
+   "VOK5": "výkony",
+   "LOK6": "výkonech",
+   "INST7": "výkony"
+ },
+ {
+   "NOM1 singular": "vlas",
+   "NOM1": "vlasy",
+   "GEN2": "vlasů",
+   "DAT3": "vlasům",
+   "AKU4": "vlasy",
+   "VOK5": "vlasy",
+   "LOK6": "vlasech",
+   "INST7": "vlasy"
+ },
+ {
+   "NOM1 singular": "strach",
+   "NOM1": "strachy",
+   "GEN2": "strachů",
+   "DAT3": "strachům",
+   "AKU4": "strachy",
+   "VOK5": "strachy",
+   "LOK6": "strachách",
+   "INST7": "stranami"
+ },
+ {
+   "NOM1 singular": "papír",
+   "NOM1": "papíry",
+   "GEN2": "papírů",
+   "DAT3": "papírům",
+   "AKU4": "papíry",
+   "VOK5": "papíry",
+   "LOK6": "papírech",
+   "INST7": "papíry"
+ },
+ {
+   "NOM1 singular": "závěr",
+   "NOM1": "závěry",
+   "GEN2": "závěrů",
+   "DAT3": "závěrům",
+   "AKU4": "závěry",
+   "VOK5": "závěry",
+   "LOK6": "závěrech",
+   "INST7": "závěry"
+ },
+ {
+   "NOM1 singular": "průběh",
+   "NOM1": "průběhy",
+   "GEN2": "průběhů",
+   "DAT3": "průběhům",
+   "AKU4": "průběhy",
+   "VOK5": "průběhy",
+   "LOK6": "průbězích",
+   "INST7": "průběhy"
+ },
+ {
+   "NOM1 singular": "volba",
+   "NOM1": "volby",
+   "GEN2": "voleb",
+   "DAT3": "volbám",
+   "AKU4": "volby",
+   "VOK5": "volby",
+   "LOK6": "volbách",
+   "INST7": "volbami"
+ }
+]
