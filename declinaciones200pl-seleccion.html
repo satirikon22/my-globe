@@ -103,7 +103,6 @@
 let words = [];
 let currentWord = null;
 let currentCaseKey = null;
-let currentCaseLabel = null;
 
 let total = 0;
 let correct = 0;
@@ -136,11 +135,10 @@ function newQuestion() {
 
   // ⭐ Case chosen by user
   currentCaseKey = document.getElementById("caseSelect").value;
-  currentCaseLabel = document.querySelector(`#caseSelect option[value="${currentCaseKey}"]`).textContent;
 
+  // ⭐ Only show the singular noun
   document.getElementById("pregunta").innerHTML =
-    `Sustantivo (singular): <em>${currentWord["NOM1 singular"]}</em><br>
-     Caso: <strong>${currentCaseLabel}</strong>`;
+    `Sustantivo (singular): <em>${currentWord["NOM1 singular"]}</em>`;
 
   document.getElementById("result").innerHTML = "";
 
@@ -178,3 +176,4 @@ function checkAnswer() {
 </script>
 
 </body>
+</html>
