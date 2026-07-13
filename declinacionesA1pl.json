@@ -1,7 +1,7 @@
 [
  {
    "NOM1 singular": "adresa",
-   "NOM1": "adresa",
+   "NOM1": "adresy",
    "GEN2": "adres",
    "DAT3": "adresám",
    "AKU4": "adresy",
@@ -21,7 +21,7 @@
  },
  {
    "NOM1 singular": "atlet",
-   "NOM1": "atlet",
+   "NOM1": "atleti",
    "GEN2": "atletů",
    "DAT3": "atletům",
    "AKU4": "atlety",
@@ -31,7 +31,7 @@
  },
  {
    "NOM1 singular": "auto",
-   "NOM1": "auto",
+   "NOM1": "auta",
    "GEN2": "aut",
    "DAT3": "autům",
    "AKU4": "auta",
@@ -41,7 +41,7 @@
  },
  {
    "NOM1 singular": "autobus",
-   "NOM1": "autobus",
+   "NOM1": "autobusy",
    "GEN2": "autobusů",
    "DAT3": "autobusům",
    "AKU4": "autobusy",
@@ -51,7 +51,7 @@
  },
  {
    "NOM1 singular": "babička",
-   "NOM1": "babička",
+   "NOM1": "babičky",
    "GEN2": "babiček",
    "DAT3": "babičkám",
    "AKU4": "babičky",
@@ -61,7 +61,7 @@
  },
  {
    "NOM1 singular": "banán",
-   "NOM1": "banán",
+   "NOM1": "banány",
    "GEN2": "banánů",
    "DAT3": "banánům",
    "AKU4": "banány",
@@ -71,8 +71,8 @@
  },
  {
    "NOM1 singular": "banka",
-   "NOM1": "banka",
-   "GEN2": "baněk",
+   "NOM1": "banky",
+   "GEN2": "bank",
    "DAT3": "bankám",
    "AKU4": "banky",
    "VOK5": "banky",
@@ -81,7 +81,7 @@
  },
  {
    "NOM1 singular": "bar",
-   "NOM1": "bar",
+   "NOM1": "bary",
    "GEN2": "barů",
    "DAT3": "barům",
    "AKU4": "bary",
@@ -91,7 +91,7 @@
  },
  {
    "NOM1 singular": "bota",
-   "NOM1": "bota",
+   "NOM1": "boty",
    "GEN2": "bot",
    "DAT3": "botám",
    "AKU4": "boty",
@@ -101,7 +101,7 @@
  },
  {
    "NOM1 singular": "brambor",
-   "NOM1": "brambor",
+   "NOM1": "brambory",
    "GEN2": "brambor",
    "DAT3": "bramborám",
    "AKU4": "brambory",
@@ -111,7 +111,7 @@
  },
  {
    "NOM1 singular": "bratr",
-   "NOM1": "bratr",
+   "NOM1": "bratři",
    "GEN2": "bratrů",
    "DAT3": "bratrům",
    "AKU4": "bratry",
@@ -121,7 +121,7 @@
  },
  {
    "NOM1 singular": "byt",
-   "NOM1": "byt",
+   "NOM1": "byty",
    "GEN2": "bytů",
    "DAT3": "bytům",
    "AKU4": "byty",
@@ -151,7 +151,7 @@
  },
  {
    "NOM1 singular": "čaj",
-   "NOM1": "čaj",
+   "NOM1": "čaje",
    "GEN2": "čajů",
    "DAT3": "čajům",
    "AKU4": "čaje",
@@ -161,7 +161,7 @@
  },
  {
    "NOM1 singular": "čas",
-   "NOM1": "čas",
+   "NOM1": "časy",
    "GEN2": "časů",
    "DAT3": "časům",
    "AKU4": "časy",
@@ -171,7 +171,7 @@
  },
  {
    "NOM1 singular": "časopis",
-   "NOM1": "časopis",
+   "NOM1": "časopisy",
    "GEN2": "časopisů",
    "DAT3": "časopisům",
    "AKU4": "časopisy",
@@ -181,7 +181,7 @@
  },
  {
    "NOM1 singular": "část",
-   "NOM1": "část  ",
+   "NOM1": "části",
    "GEN2": "částí",
    "DAT3": "částem",
    "AKU4": "části",
@@ -191,7 +191,7 @@
  },
  {
    "NOM1 singular": "Čech",
-   "NOM1": "Čech",
+   "NOM1": "Češi",
    "GEN2": "Čechů",
    "DAT3": "Čechům",
    "AKU4": "Čechy",
@@ -201,7 +201,7 @@
  },
  {
    "NOM1 singular": "Češka",
-   "NOM1": "Češka",
+   "NOM1": "Češky",
    "GEN2": "Češek",
    "DAT3": "Češkám",
    "AKU4": "Češky",
@@ -211,7 +211,7 @@
  },
  {
    "NOM1 singular": "číslo",
-   "NOM1": "číclo",
+   "NOM1": "čísla",
    "GEN2": "čísel",
    "DAT3": "číslům",
    "AKU4": "čísla",
@@ -221,7 +221,7 @@
  },
  {
    "NOM1 singular": "číšník",
-   "NOM1": "číšník",
+   "NOM1": "číšníci",
    "GEN2": "číšníků",
    "DAT3": "číšníkům",
    "AKU4": "číšníky",
@@ -231,7 +231,7 @@
  },
  {
    "NOM1 singular": "člověk",
-   "NOM1": "člověk",
+   "NOM1": "lidé",
    "GEN2": "lidí",
    "DAT3": "lidem",
    "AKU4": "lidi",
@@ -241,7 +241,7 @@
  },
  {
    "NOM1 singular": "čokoláda",
-   "NOM1": "čokoláda",
+   "NOM1": "čokolády",
    "GEN2": "čokolád",
    "DAT3": "čokoládám",
    "AKU4": "čokolády",
@@ -251,7 +251,7 @@
  },
  {
    "NOM1 singular": "čtvrtek",
-   "NOM1": "čtvrtek",
+   "NOM1": "čtvrtky",
    "GEN2": "čtvrtků",
    "DAT3": "čtvrtkům",
    "AKU4": "čtvrtky",
@@ -261,7 +261,7 @@
  },
  {
    "NOM1 singular": "datum",
-   "NOM1": "datum",
+   "NOM1": "data",
    "GEN2": "dat",
    "DAT3": "datům",
    "AKU4": "data",
@@ -271,7 +271,7 @@
  },
  {
    "NOM1 singular": "dcera",
-   "NOM1": "dcera",
+   "NOM1": "dcery",
    "GEN2": "dcer",
    "DAT3": "dcerám",
    "AKU4": "dcery",
@@ -281,7 +281,7 @@
  },
  {
    "NOM1 singular": "délka",
-   "NOM1": "délka",
+   "NOM1": "délky",
    "GEN2": "délek",
    "DAT3": "délkám",
    "AKU4": "délky",
@@ -291,7 +291,7 @@
  },
  {
    "NOM1 singular": "den",
-   "NOM1": "den",
+   "NOM1": "dny",
    "GEN2": "dnů / dní",
    "DAT3": "dnům",
    "AKU4": "dny",
@@ -301,7 +301,7 @@
  },
  {
    "NOM1 singular": "detektivka",
-   "NOM1": "detektivka",
+   "NOM1": "detektivky",
    "GEN2": "detektivek",
    "DAT3": "detektivkám",
    "AKU4": "detektivky",
@@ -311,7 +311,7 @@
  },
  {
    "NOM1 singular": "dezert",
-   "NOM1": "dezert",
+   "NOM1": "dezerty",
    "GEN2": "dezertů",
    "DAT3": "dezertům",
    "AKU4": "dezerty",
@@ -321,7 +321,7 @@
  },
  {
    "NOM1 singular": "diamant",
-   "NOM1": "diamant",
+   "NOM1": "diamanty",
    "GEN2": "diamantů",
    "DAT3": "diamantům",
    "AKU4": "diamanty",
@@ -331,7 +331,7 @@
  },
  {
    "NOM1 singular": "diskotéka",
-   "NOM1": "diskotéka",
+   "NOM1": "diskotéky",
    "GEN2": "diskoték",
    "DAT3": "diskotékám",
    "AKU4": "diskotéky",
@@ -341,7 +341,7 @@
  },
  {
    "NOM1 singular": "dítě",
-   "NOM1": "dítě",
+   "NOM1": "děti",
    "GEN2": "dětí",
    "DAT3": "dětem",
    "AKU4": "děti",
@@ -351,7 +351,7 @@
  },
  {
    "NOM1 singular": "divadlo",
-   "NOM1": "divadlo",
+   "NOM1": "divadla",
    "GEN2": "divadel",
    "DAT3": "divadlům",
    "AKU4": "divadla",
@@ -361,7 +361,7 @@
  },
  {
    "NOM1 singular": "doktor",
-   "NOM1": "doktor",
+   "NOM1": "doktoři",
    "GEN2": "doktorů",
    "DAT3": "doktorům",
    "AKU4": "doktory",
@@ -371,7 +371,7 @@
  },
  {
    "NOM1 singular": "dokument",
-   "NOM1": "dokument",
+   "NOM1": "dokumenty",
    "GEN2": "dokumentů",
    "DAT3": "dokumentům",
    "AKU4": "dokumenty",
@@ -381,7 +381,7 @@
  },
  {
    "NOM1 singular": "dort",
-   "NOM1": "dort",
+   "NOM1": "dorty",
    "GEN2": "dortů",
    "DAT3": "dortům",
    "AKU4": "dorty",
@@ -391,7 +391,7 @@
  },
  {
    "NOM1 singular": "dům",
-   "NOM1": "dům",
+   "NOM1": "domy",
    "GEN2": "domů",
    "DAT3": "domům",
    "AKU4": "domy",
@@ -401,7 +401,7 @@
  },
  {
    "NOM1 singular": "džus",
-   "NOM1": "džus",
+   "NOM1": "džusy",
    "GEN2": "džusů",
    "DAT3": "džusům",
    "AKU4": "džusy",
@@ -411,7 +411,7 @@
  },
  {
    "NOM1 singular": "email",
-   "NOM1": "email",
+   "NOM1": "emaily",
    "GEN2": "emailů",
    "DAT3": "emailům",
    "AKU4": "emaily",
@@ -421,7 +421,7 @@
  },
  {
    "NOM1 singular": "festival",
-   "NOM1": "festival",
+   "NOM1": "festivaly",
    "GEN2": "festivalů",
    "DAT3": "festivalům",
    "AKU4": "festivaly",
@@ -431,7 +431,7 @@
  },
  {
    "NOM1 singular": "film",
-   "NOM1": "film",
+   "NOM1": "filmy",
    "GEN2": "filmů",
    "DAT3": "filmům",
    "AKU4": "filmy",
@@ -441,7 +441,7 @@
  },
  {
    "NOM1 singular": "filozof",
-   "NOM1": "filozof",
+   "NOM1": "filozofové",
    "GEN2": "filozofů",
    "DAT3": "filozofům",
    "AKU4": "filozofy",
@@ -451,7 +451,7 @@
  },
  {
    "NOM1 singular": "firma",
-   "NOM1": "firma",
+   "NOM1": "firmy",
    "GEN2": "firem",
    "DAT3": "firmám",
    "AKU4": "firmy",
@@ -461,7 +461,7 @@
  },
  {
    "NOM1 singular": "forma",
-   "NOM1": "forma",
+   "NOM1": "formy",
    "GEN2": "forem",
    "DAT3": "formám",
    "AKU4": "formy",
@@ -471,7 +471,7 @@
  },
  {
    "NOM1 singular": "fotbal",
-   "NOM1": "fotbal",
+   "NOM1": "fotbaly",
    "GEN2": "fotbalů",
    "DAT3": "fotbalům",
    "AKU4": "fotbaly",
@@ -481,7 +481,7 @@
  },
  {
    "NOM1 singular": "fotograf",
-   "NOM1": "fotograf",
+   "NOM1": "fotografové",
    "GEN2": "fotografů",
    "DAT3": "fotografům",
    "AKU4": "fotografy",
@@ -491,7 +491,7 @@
  },
  {
    "NOM1 singular": "fotografka",
-   "NOM1": "fotografka",
+   "NOM1": "fotografky",
    "GEN2": "fotografek",
    "DAT3": "fotografkám",
    "AKU4": "fotografky",
@@ -501,7 +501,7 @@
  },
  {
    "NOM1 singular": "guláš",
-   "NOM1": "guláš",
+   "NOM1": "guláše",
    "GEN2": "gulášů",
    "DAT3": "gulášům",
    "AKU4": "guláše",
@@ -511,7 +511,7 @@
  },
  {
    "NOM1 singular": "herec",
-   "NOM1": "herec",
+   "NOM1": "herci",
    "GEN2": "herců",
    "DAT3": "hercům",
    "AKU4": "herce",
@@ -521,7 +521,7 @@
  },
  {
    "NOM1 singular": "herečka",
-   "NOM1": "herečka",
+   "NOM1": "herečky",
    "GEN2": "hereček",
    "DAT3": "herečkám",
    "AKU4": "herečky",
@@ -541,7 +541,7 @@
  },
  {
    "NOM1 singular": "hlad",
-   "NOM1": "hlad",
+   "NOM1": "hlady",
    "GEN2": "hladů",
    "DAT3": "hladům",
    "AKU4": "hlad",
@@ -551,7 +551,7 @@
  },
  {
    "NOM1 singular": "hodina",
-   "NOM1": "hodina",
+   "NOM1": "hodiny",
    "GEN2": "hodin",
    "DAT3": "hodinám",
    "AKU4": "hodiny",
@@ -561,7 +561,7 @@
  },
  {
    "NOM1 singular": "hokej",
-   "NOM1": "hokej",
+   "NOM1": "hokeje",
    "GEN2": "hokejů",
    "DAT3": "hokejům",
    "AKU4": "hokeje",
@@ -571,7 +571,7 @@
  },
  {
    "NOM1 singular": "holič",
-   "NOM1": "holič",
+   "NOM1": "holiči",
    "GEN2": "holičů",
    "DAT3": "holičům",
    "AKU4": "holiče",
@@ -581,7 +581,7 @@
  },
  {
    "NOM1 singular": "holička",
-   "NOM1": "holička",
+   "NOM1": "holičky",
    "GEN2": "holiček",
    "DAT3": "holičkám",
    "AKU4": "holičky",
@@ -591,7 +591,7 @@
  },
  {
    "NOM1 singular": "hora",
-   "NOM1": "hora",
+   "NOM1": "hory",
    "GEN2": "hor",
    "DAT3": "horám",
    "AKU4": "hory",
@@ -601,7 +601,7 @@
  },
  {
    "NOM1 singular": "hospoda",
-   "NOM1": "hospoda",
+   "NOM1": "hospody",
    "GEN2": "hospod",
    "DAT3": "hospodám",
    "AKU4": "hospody",
@@ -611,7 +611,7 @@
  },
  {
    "NOM1 singular": "host",
-   "NOM1": "host",
+   "NOM1": "hosté",
    "GEN2": "hostů",
    "DAT3": "hostům",
    "AKU4": "hosty",
@@ -621,7 +621,7 @@
  },
  {
    "NOM1 singular": "hostel",
-   "NOM1": "hostel",
+   "NOM1": "hostely",
    "GEN2": "hostelů",
    "DAT3": "hostelům",
    "AKU4": "hostely",
@@ -631,7 +631,7 @@
  },
  {
    "NOM1 singular": "hra",
-   "NOM1": "hra",
+   "NOM1": "hry",
    "GEN2": "her",
    "DAT3": "hrám",
    "AKU4": "hry",
@@ -641,7 +641,7 @@
  },
  {
    "NOM1 singular": "hrad",
-   "NOM1": "hrad",
+   "NOM1": "hrady",
    "GEN2": "hradů",
    "DAT3": "hradům",
    "AKU4": "hrady",
@@ -651,7 +651,7 @@
  },
  {
    "NOM1 singular": "hudba",
-   "NOM1": "hudba",
+   "NOM1": "hudby",
    "GEN2": "hudeb",
    "DAT3": "hudbám",
    "AKU4": "hudby",
@@ -661,7 +661,7 @@
  },
  {
    "NOM1 singular": "chata",
-   "NOM1": "chata",
+   "NOM1": "chaty",
    "GEN2": "chat",
    "DAT3": "chatám",
    "AKU4": "chaty",
@@ -671,7 +671,7 @@
  },
  {
    "NOM1 singular": "Chilan",
-   "NOM1": "Chilan",
+   "NOM1": "Chilané",
    "GEN2": "Chilanů",
    "DAT3": "Chilanům",
    "AKU4": "Chilany",
@@ -681,7 +681,7 @@
  },
  {
    "NOM1 singular": "Chilanka",
-   "NOM1": "Chilanka",
+   "NOM1": "Chilanky",
    "GEN2": "Chilanek",
    "DAT3": "Chilankám",
    "AKU4": "Chilanky",
@@ -711,7 +711,7 @@
  },
  {
    "NOM1 singular": "inspektor",
-   "NOM1": "inspektor",
+   "NOM1": "inspektoři",
    "GEN2": "inspektorů",
    "DAT3": "inspektorům",
    "AKU4": "inspektory",
@@ -721,7 +721,7 @@
  },
  {
    "NOM1 singular": "internet",
-   "NOM1": "internet",
+   "NOM1": "internety",
    "GEN2": "internetů",
    "DAT3": "internetům",
    "AKU4": "internety",
@@ -731,7 +731,7 @@
  },
  {
    "NOM1 singular": "jazyk",
-   "NOM1": "jazyk",
+   "NOM1": "jazyky",
    "GEN2": "jazyků",
    "DAT3": "jazykům",
    "AKU4": "jazyky",
@@ -741,7 +741,7 @@
  },
  {
    "NOM1 singular": "jídlo",
-   "NOM1": "jídlo",
+   "NOM1": "jídla",
    "GEN2": "jídel",
    "DAT3": "jídlům",
    "AKU4": "jídla",
@@ -751,7 +751,7 @@
  },
  {
    "NOM1 singular": "jih",
-   "NOM1": "jih",
+   "NOM1": "jihy",
    "GEN2": "jihů",
    "DAT3": "jihům",
    "AKU4": "jih",
@@ -761,7 +761,7 @@
  },
  {
    "NOM1 singular": "kamarád",
-   "NOM1": "kamarád",
+   "NOM1": "kamarádi",
    "GEN2": "kamarádů",
    "DAT3": "kamarádům",
    "AKU4": "kamarády",
@@ -771,7 +771,7 @@
  },
  {
    "NOM1 singular": "kamarádka",
-   "NOM1": "kamarádka",
+   "NOM1": "kamarádky",
    "GEN2": "kamarádek",
    "DAT3": "kamarádkám",
    "AKU4": "kamarádky",
@@ -781,7 +781,7 @@
  },
  {
    "NOM1 singular": "kancelář",
-   "NOM1": "kancelář",
+   "NOM1": "kanceláře",
    "GEN2": "kanceláří",
    "DAT3": "kancelářím",
    "AKU4": "kanceláře",
@@ -791,7 +791,7 @@
  },
  {
    "NOM1 singular": "karamel",
-   "NOM1": "karamel",
+   "NOM1": "karamely",
    "GEN2": "karamelů",
    "DAT3": "karamelům",
    "AKU4": "karamely",
@@ -801,7 +801,7 @@
  },
  {
    "NOM1 singular": "káva",
-   "NOM1": "káva",
+   "NOM1": "kávy",
    "GEN2": "káv",
    "DAT3": "kávám",
    "AKU4": "kávy",
@@ -811,7 +811,7 @@
  },
  {
    "NOM1 singular": "kavárna",
-   "NOM1": "kavárna",
+   "NOM1": "kavárny",
    "GEN2": "kaváren",
    "DAT3": "kavárnám",
    "AKU4": "kavárny",
@@ -821,7 +821,7 @@
  },
  {
    "NOM1 singular": "kilometr",
-   "NOM1": "kilometr",
+   "NOM1": "kilometry",
    "GEN2": "kilometrů",
    "DAT3": "kilometrům",
    "AKU4": "kilometry",
@@ -831,7 +831,7 @@
  },
  {
    "NOM1 singular": "kino",
-   "NOM1": "kino",
+   "NOM1": "kina",
    "GEN2": "kin",
    "DAT3": "kinům",
    "AKU4": "kina",
@@ -841,7 +841,7 @@
  },
  {
    "NOM1 singular": "klub",
-   "NOM1": "klub",
+   "NOM1": "kluby",
    "GEN2": "klubů",
    "DAT3": "klubům",
    "AKU4": "kluby",
@@ -851,7 +851,7 @@
  },
  {
    "NOM1 singular": "knedlík",
-   "NOM1": "knedlík",
+   "NOM1": "knedlíky",
    "GEN2": "knedlíků",
    "DAT3": "knedlíkům",
    "AKU4": "knedlíky",
@@ -861,7 +861,7 @@
  },
  {
    "NOM1 singular": "kniha",
-   "NOM1": "kniha",
+   "NOM1": "knihy",
    "GEN2": "knih",
    "DAT3": "knihám",
    "AKU4": "knihy",
@@ -871,7 +871,7 @@
  },
  {
    "NOM1 singular": "kočka",
-   "NOM1": "kočka",
+   "NOM1": "kočky",
    "GEN2": "koček",
    "DAT3": "kočkám",
    "AKU4": "kočky",
@@ -881,7 +881,7 @@
  },
  {
    "NOM1 singular": "koktejl",
-   "NOM1": "koktejl",
+   "NOM1": "koktejly",
    "GEN2": "koktejlů",
    "DAT3": "koktejlům",
    "AKU4": "koktejly",
@@ -891,7 +891,7 @@
  },
  {
    "NOM1 singular": "kola",
-   "NOM1": "kola",
+   "NOM1": "koly",
    "GEN2": "kol",
    "DAT3": "kolám",
    "AKU4": "koly",
@@ -901,7 +901,7 @@
  },
  {
    "NOM1 singular": "kolega",
-   "NOM1": "kolega",
+   "NOM1": "kolegové",
    "GEN2": "kolegů",
    "DAT3": "kolegům",
    "AKU4": "kology",
@@ -921,7 +921,7 @@
  },
  {
    "NOM1 singular": "kolo",
-   "NOM1": "kolo",
+   "NOM1": "kola",
    "GEN2": "kol",
    "DAT3": "kolům",
    "AKU4": "kola",
@@ -931,7 +931,7 @@
  },
  {
    "NOM1 singular": "koncert",
-   "NOM1": "koncert",
+   "NOM1": "koncerty",
    "GEN2": "koncertů",
    "DAT3": "koncertům",
    "AKU4": "koncerty",
@@ -951,7 +951,7 @@
  },
  {
    "NOM1 singular": "koruna",
-   "NOM1": "koruna",
+   "NOM1": "koruny",
    "GEN2": "korun",
    "DAT3": "korunám",
    "AKU4": "koruny",
@@ -961,7 +961,7 @@
  },
  {
    "NOM1 singular": "kosmetika",
-   "NOM1": "kosmetika",
+   "NOM1": "kosmetiky",
    "GEN2": "kosmetik",
    "DAT3": "kosmetikám",
    "AKU4": "kosmetiky",
@@ -971,7 +971,7 @@
  },
  {
    "NOM1 singular": "kostel",
-   "NOM1": "kostel",
+   "NOM1": "kostely",
    "GEN2": "kostelů",
    "DAT3": "kostelům",
    "AKU4": "kostely",
@@ -981,7 +981,7 @@
  },
  {
    "NOM1 singular": "král",
-   "NOM1": "král",
+   "NOM1": "králové",
    "GEN2": "králů",
    "DAT3": "králům",
    "AKU4": "krále",
@@ -991,7 +991,7 @@
  },
  {
    "NOM1 singular": "královna",
-   "NOM1": "královna",
+   "NOM1": "královny",
    "GEN2": "královen",
    "DAT3": "královnám",
    "AKU4": "královny",
@@ -1001,7 +1001,7 @@
  },
  {
    "NOM1 singular": "křišťál",
-   "NOM1": "křišťál",
+   "NOM1": "křišťály",
    "GEN2": "křišťálů",
    "DAT3": "křišťálům",
    "AKU4": "křišťály",
@@ -1011,7 +1011,7 @@
  },
  {
    "NOM1 singular": "kuře",
-   "NOM1": "kuře",
+   "NOM1": "kuřata",
    "GEN2": "kuřat",
    "DAT3": "kuřatům",
    "AKU4": "kuřata",
@@ -1031,7 +1031,7 @@
  },
  {
    "NOM1 singular": "let",
-   "NOM1": "let",
+   "NOM1": "lety",
    "GEN2": "let",
    "DAT3": "letům",
    "AKU4": "leta",
@@ -1051,7 +1051,7 @@
  },
  {
    "NOM1 singular": "léto",
-   "NOM1": "léto",
+   "NOM1": "léta",
    "GEN2": "let",
    "DAT3": "létům",
    "AKU4": "léta",
@@ -1061,7 +1061,7 @@
  },
  {
    "NOM1 singular": "lístek",
-   "NOM1": "lístek",
+   "NOM1": "lístky",
    "GEN2": "lístků",
    "DAT3": "lístkům",
    "AKU4": "lístky",
@@ -1071,7 +1071,7 @@
  },
  {
    "NOM1 singular": "malíř",
-   "NOM1": "malíř",
+   "NOM1": "malíři",
    "GEN2": "malířů",
    "DAT3": "malířům",
    "AKU4": "malíře",
@@ -1081,7 +1081,7 @@
  },
  {
    "NOM1 singular": "maminka",
-   "NOM1": "maminka",
+   "NOM1": "maminky",
    "GEN2": "maminek",
    "DAT3": "maminkám",
    "AKU4": "maminky",
@@ -1091,7 +1091,7 @@
  },
  {
    "NOM1 singular": "manažer",
-   "NOM1": "manažer",
+   "NOM1": "manažeři",
    "GEN2": "manažerů",
    "DAT3": "manažerům",
    "AKU4": "manažery",
@@ -1101,7 +1101,7 @@
  },
  {
    "NOM1 singular": "manažerka",
-   "NOM1": "manažerka",
+   "NOM1": "manažerky",
    "GEN2": "manažerek",
    "DAT3": "manažerkám",
    "AKU4": "manažerky",
@@ -1111,7 +1111,7 @@
  },
  {
    "NOM1 singular": "manžel",
-   "NOM1": "manžel",
+   "NOM1": "manželé",
    "GEN2": "manželů",
    "DAT3": "manželům",
    "AKU4": "manžele",
@@ -1121,7 +1121,7 @@
  },
  {
    "NOM1 singular": "manželka",
-   "NOM1": "manželka",
+   "NOM1": "manželky",
    "GEN2": "manželek",
    "DAT3": "manželkám",
    "AKU4": "manželky",
@@ -1131,7 +1131,7 @@
  },
  {
    "NOM1 singular": "mapa",
-   "NOM1": "mapa",
+   "NOM1": "mapy",
    "GEN2": "map",
    "DAT3": "mapám",
    "AKU4": "mapy",
@@ -1141,7 +1141,7 @@
  },
  {
    "NOM1 singular": "máslo",
-   "NOM1": "máslo",
+   "NOM1": "másla",
    "GEN2": "másel",
    "DAT3": "máslům",
    "AKU4": "másla",
@@ -1151,7 +1151,7 @@
  },
  {
    "NOM1 singular": "maso",
-   "NOM1": "maso",
+   "NOM1": "masa",
    "GEN2": "mas",
    "DAT3": "masům",
    "AKU4": "masa",
@@ -1161,7 +1161,7 @@
  },
  {
    "NOM1 singular": "matka",
-   "NOM1": "matka",
+   "NOM1": "matky",
    "GEN2": "matek",
    "DAT3": "matkám",
    "AKU4": "matky",
@@ -1181,7 +1181,7 @@
  },
  {
    "NOM1 singular": "medicína",
-   "NOM1": "medicína",
+   "NOM1": "medicíny",
    "GEN2": "medicín",
    "DAT3": "medicínám",
    "AKU4": "medicíny",
@@ -1191,7 +1191,7 @@
  },
  {
    "NOM1 singular": "mechanik",
-   "NOM1": "mechanik",
+   "NOM1": "mechanici",
    "GEN2": "mechaniků",
    "DAT3": "mechanikům",
    "AKU4": "mechaniky",
@@ -1201,7 +1201,7 @@
  },
  {
    "NOM1 singular": "měsíc",
-   "NOM1": "měsíc",
+   "NOM1": "měsíce",
    "GEN2": "měsíců",
    "DAT3": "měsícům",
    "AKU4": "měsíce",
@@ -1211,7 +1211,7 @@
  },
  {
    "NOM1 singular": "město",
-   "NOM1": "město",
+   "NOM1": "města",
    "GEN2": "měst",
    "DAT3": "městům",
    "AKU4": "města",
@@ -1221,7 +1221,7 @@
  },
  {
    "NOM1 singular": "metro",
-   "NOM1": "metro",
+   "NOM1": "metra",
    "GEN2": "metr",
    "DAT3": "metrům",
    "AKU4": "metra",
@@ -1231,7 +1231,7 @@
  },
  {
    "NOM1 singular": "minuta",
-   "NOM1": "minuta",
+   "NOM1": "minuty",
    "GEN2": "minut",
    "DAT3": "minutám",
    "AKU4": "minuty",
@@ -1241,7 +1241,7 @@
  },
  {
    "NOM1 singular": "mítink",
-   "NOM1": "mítink",
+   "NOM1": "mítinky",
    "GEN2": "mítinků",
    "DAT3": "mítinkům",
    "AKU4": "mítinky",
@@ -1251,7 +1251,7 @@
  },
  {
    "NOM1 singular": "mléko",
-   "NOM1": "mléko",
+   "NOM1": "mléka",
    "GEN2": "mlék",
    "DAT3": "mlékům",
    "AKU4": "mléka",
@@ -1261,7 +1261,7 @@
  },
  {
    "NOM1 singular": "mobil",
-   "NOM1": "mobil",
+   "NOM1": "mobily",
    "GEN2": "mobilů",
    "DAT3": "mobilům",
    "AKU4": "mobily",
@@ -1271,7 +1271,7 @@
  },
  {
    "NOM1 singular": "móda",
-   "NOM1": "móda",
+   "NOM1": "módy",
    "GEN2": "mód",
    "DAT3": "módám",
    "AKU4": "módy",
@@ -1281,7 +1281,7 @@
  },
  {
    "NOM1 singular": "moment",
-   "NOM1": "moment",
+   "NOM1": "momenty",
    "GEN2": "momentů",
    "DAT3": "momentům",
    "AKU4": "momenty",
@@ -1301,7 +1301,7 @@
  },
  {
    "NOM1 singular": "most",
-   "NOM1": "most",
+   "NOM1": "mosty",
    "GEN2": "mostů",
    "DAT3": "mostům",
    "AKU4": "mosty",
@@ -1311,7 +1311,7 @@
  },
  {
    "NOM1 singular": "muž",
-   "NOM1": "muž",
+   "NOM1": "muži",
    "GEN2": "mužů",
    "DAT3": "mužům",
    "AKU4": "muže",
@@ -1331,7 +1331,7 @@
  },
  {
    "NOM1 singular": "nápoj",
-   "NOM1": "nápoj",
+   "NOM1": "nápoje",
    "GEN2": "nápojů",
    "DAT3": "nápojům",
    "AKU4": "nápoje",
@@ -1341,7 +1341,7 @@
  },
  {
    "NOM1 singular": "návštěva",
-   "NOM1": "návštěva",
+   "NOM1": "návštěvy",
    "GEN2": "návštěv",
    "DAT3": "návštěvám",
    "AKU4": "návštěvy",
@@ -1371,7 +1371,7 @@
  },
  {
    "NOM1 singular": "obec",
-   "NOM1": "obec",
+   "NOM1": "obce",
    "GEN2": "obcí",
    "DAT3": "obcím",
    "AKU4": "obce",
@@ -1381,23 +1381,13 @@
  },
  {
    "NOM1 singular": "obchod",
-   "NOM1": "obchod",
+   "NOM1": "obchody",
    "GEN2": "obchodů",
    "DAT3": "obchodům",
    "AKU4": "obchody",
    "VOK5": "obchody",
    "LOK6": "obchodech",
    "INST7": "obchody"
- },
- {
-   "NOM1 singular": "oblečení",
-   "NOM1": "oblečení",
-   "GEN2": "oblečení",
-   "DAT3": "oblečením",
-   "AKU4": "oblečení",
-   "VOK5": "oblečení",
-   "LOK6": "oblečeních",
-   "INST7": "oblečeními"
  },
  {
    "NOM1 singular": "odpoledne",
@@ -1411,7 +1401,7 @@
  },
  {
    "NOM1 singular": "odpověď",
-   "NOM1": "odpověď",
+   "NOM1": "odpovědi",
    "GEN2": "odpovědí",
    "DAT3": "odpovědím",
    "AKU4": "odpovědi",
@@ -1421,7 +1411,7 @@
  },
  {
    "NOM1 singular": "okurka",
-   "NOM1": "okurka",
+   "NOM1": "okurky",
    "GEN2": "okurek",
    "DAT3": "okurkám",
    "AKU4": "okurky",
@@ -1431,7 +1421,7 @@
  },
  {
    "NOM1 singular": "omáčka",
-   "NOM1": "omáčka",
+   "NOM1": "omáčky",
    "GEN2": "omáček",
    "DAT3": "omáčkám",
    "AKU4": "omáčky",
@@ -1441,7 +1431,7 @@
  },
  {
    "NOM1 singular": "otázka",
-   "NOM1": "otázka",
+   "NOM1": "otázky",
    "GEN2": "otázek",
    "DAT3": "otázkám",
    "AKU4": "otázky",
@@ -1461,7 +1451,7 @@
  },
  {
    "NOM1 singular": "palačinka",
-   "NOM1": "palačinka",
+   "NOM1": "palačinky",
    "GEN2": "palačinek",
    "DAT3": "palačinkám",
    "AKU4": "palačinky",
@@ -1471,7 +1461,7 @@
  },
  {
    "NOM1 singular": "památka",
-   "NOM1": "památka",
+   "NOM1": "památky",
    "GEN2": "památek",
    "DAT3": "památkám",
    "AKU4": "památky",
@@ -1481,7 +1471,7 @@
  },
  {
    "NOM1 singular": "pan",
-   "NOM1": "pan",
+   "NOM1": "páni",
    "GEN2": "pánů",
    "DAT3": "pánům",
    "AKU4": "pány",
@@ -1501,7 +1491,7 @@
  },
  {
    "NOM1 singular": "park",
-   "NOM1": "park",
+   "NOM1": "parky",
    "GEN2": "parků",
    "DAT3": "parkům",
    "AKU4": "parky",
@@ -1541,7 +1531,7 @@
  },
  {
    "NOM1 singular": "penzion",
-   "NOM1": "penzion",
+   "NOM1": "penziony",
    "GEN2": "penzionů",
    "DAT3": "penzionům",
    "AKU4": "penziony",
@@ -1551,7 +1541,7 @@
  },
  {
    "NOM1 singular": "pes",
-   "NOM1": "pes",
+   "NOM1": "psi",
    "GEN2": "psů",
    "DAT3": "psům",
    "AKU4": "psy",
@@ -1571,7 +1561,7 @@
  },
  {
    "NOM1 singular": "pivo",
-   "NOM1": "pivo",
+   "NOM1": "piva",
    "GEN2": "piv",
    "DAT3": "pivům",
    "AKU4": "piva",
@@ -1591,7 +1581,7 @@
  },
  {
    "NOM1 singular": "počítač",
-   "NOM1": "počítač",
+   "NOM1": "počítače",
    "GEN2": "počítačů",
    "DAT3": "počítačům",
    "AKU4": "počítače",
@@ -1601,7 +1591,7 @@
  },
  {
    "NOM1 singular": "podzim",
-   "NOM1": "podzim",
+   "NOM1": "podzimy",
    "GEN2": "podzimů",
    "DAT3": "podzimům",
    "AKU4": "podzimy",
@@ -1611,7 +1601,7 @@
  },
  {
    "NOM1 singular": "polévka",
-   "NOM1": "polévka",
+   "NOM1": "polévky",
    "GEN2": "polévek",
    "DAT3": "polévkám",
    "AKU4": "polévky",
@@ -1621,7 +1611,7 @@
  },
  {
    "NOM1 singular": "politička",
-   "NOM1": "politička",
+   "NOM1": "političky",
    "GEN2": "političek",
    "DAT3": "političkám",
    "AKU4": "političky",
@@ -1631,7 +1621,7 @@
  },
  {
    "NOM1 singular": "politik",
-   "NOM1": "politik",
+   "NOM1": "politici",
    "GEN2": "politiků",
    "DAT3": "politikům",
    "AKU4": "politiky",
@@ -1641,7 +1631,7 @@
  },
  {
    "NOM1 singular": "pomeranč",
-   "NOM1": "pomeranč",
+   "NOM1": "pomeranče",
    "GEN2": "pomerančů",
    "DAT3": "pomerančům",
    "AKU4": "pomeranče",
@@ -1651,7 +1641,7 @@
  },
  {
    "NOM1 singular": "pomoc",
-   "NOM1": "pomoc",
+   "NOM1": "pomoci",
    "GEN2": "pomocí",
    "DAT3": "pomocím",
    "AKU4": "pomoci",
@@ -1671,7 +1661,7 @@
  },
  {
    "NOM1 singular": "povídka",
-   "NOM1": "povídka",
+   "NOM1": "povídky",
    "GEN2": "povídek",
    "DAT3": "povídkám",
    "AKU4": "povídky",
@@ -1691,7 +1681,7 @@
  },
  {
    "NOM1 singular": "pravda",
-   "NOM1": "pravda",
+   "NOM1": "pravdy",
    "GEN2": "pravd",
    "DAT3": "pravdám",
    "AKU4": "pravdy",
@@ -1701,7 +1691,7 @@
  },
  {
    "NOM1 singular": "prezident",
-   "NOM1": "prezident",
+   "NOM1": "prezidenti",
    "GEN2": "prezidentů",
    "DAT3": "prezidentům",
    "AKU4": "prezidenty",
@@ -1711,7 +1701,7 @@
  },
  {
    "NOM1 singular": "problém",
-   "NOM1": "problém",
+   "NOM1": "problémy",
    "GEN2": "problémů",
    "DAT3": "problémům",
    "AKU4": "problémy",
@@ -1721,7 +1711,7 @@
  },
  {
    "NOM1 singular": "prodavač",
-   "NOM1": "prodavač",
+   "NOM1": "prodavači",
    "GEN2": "prodavačů",
    "DAT3": "prodavačům",
    "AKU4": "prodavače",
@@ -1731,7 +1721,7 @@
  },
  {
    "NOM1 singular": "prodavačka",
-   "NOM1": "prodavačka",
+   "NOM1": "prodavačky",
    "GEN2": "prodavaček",
    "DAT3": "prodavačkám",
    "AKU4": "prodavačky",
@@ -1751,7 +1741,7 @@
  },
  {
    "NOM1 singular": "profesor",
-   "NOM1": "profesor",
+   "NOM1": "profesoři",
    "GEN2": "profesorů",
    "DAT3": "profesorům",
    "AKU4": "profesory",
@@ -1761,7 +1751,7 @@
  },
  {
    "NOM1 singular": "profesorka",
-   "NOM1": "profesorka",
+   "NOM1": "profesorky",
    "GEN2": "profesorek",
    "DAT3": "profesorkám",
    "AKU4": "profesorky",
@@ -1771,7 +1761,7 @@
  },
  {
    "NOM1 singular": "program",
-   "NOM1": "program",
+   "NOM1": "programy",
    "GEN2": "programů",
    "DAT3": "programům",
    "AKU4": "programy",
@@ -1781,7 +1771,7 @@
  },
  {
    "NOM1 singular": "procházka",
-   "NOM1": "procházka",
+   "NOM1": "procházky",
    "GEN2": "procházek",
    "DAT3": "procházkám",
    "AKU4": "procházky",
@@ -1791,7 +1781,7 @@
  },
  {
    "NOM1 singular": "projekt",
-   "NOM1": "projekt",
+   "NOM1": "projekty",
    "GEN2": "projektů",
    "DAT3": "projektům",
    "AKU4": "projekty",
@@ -1801,7 +1791,7 @@
  },
  {
    "NOM1 singular": "přítel",
-   "NOM1": "přítel",
+   "NOM1": "přátelé",
    "GEN2": "přátel",
    "DAT3": "přátelům",
    "AKU4": "přátele",
@@ -1821,7 +1811,7 @@
  },
  {
    "NOM1 singular": "rajče",
-   "NOM1": "rajče",
+   "NOM1": "rajčata",
    "GEN2": "rajčat",
    "DAT3": "rajčatům",
    "AKU4": "rajčata",
@@ -1831,7 +1821,7 @@
  },
  {
    "NOM1 singular": "rekord",
-   "NOM1": "rekord",
+   "NOM1": "rekordy",
    "GEN2": "rekordů",
    "DAT3": "rekordům",
    "AKU4": "rekordy",
@@ -1851,7 +1841,7 @@
  },
  {
    "NOM1 singular": "rodič",
-   "NOM1": "rodič",
+   "NOM1": "rodiče",
    "GEN2": "rodičů",
    "DAT3": "rodičům",
    "AKU4": "rodiče",
@@ -1861,7 +1851,7 @@
  },
  {
    "NOM1 singular": "rok",
-   "NOM1": "rok",
+   "NOM1": "roky",
    "GEN2": "roků / let",
    "DAT3": "rokům",
    "AKU4": "roky",
@@ -1871,7 +1861,7 @@
  },
  {
    "NOM1 singular": "román",
-   "NOM1": "román",
+   "NOM1": "romány",
    "GEN2": "románů",
    "DAT3": "románům",
    "AKU4": "romány",
@@ -1891,7 +1881,7 @@
  },
  {
    "NOM1 singular": "řeka",
-   "NOM1": "řeka",
+   "NOM1": "řeky",
    "GEN2": "řek",
    "DAT3": "řekám",
    "AKU4": "řeky",
@@ -1901,7 +1891,7 @@
  },
  {
    "NOM1 singular": "řízek",
-   "NOM1": "řízek",
+   "NOM1": "řízky",
    "GEN2": "řízků",
    "DAT3": "řízkům",
    "AKU4": "řízky",
@@ -1911,7 +1901,7 @@
  },
  {
    "NOM1 singular": "salát",
-   "NOM1": "salát",
+   "NOM1": "saláty",
    "GEN2": "salátů",
    "DAT3": "salátům",
    "AKU4": "saláty",
@@ -1921,7 +1911,7 @@
  },
  {
    "NOM1 singular": "servírka",
-   "NOM1": "servírka",
+   "NOM1": "servírky",
    "GEN2": "servírek",
    "DAT3": "servírkám",
    "AKU4": "servírky",
@@ -1931,7 +1921,7 @@
  },
  {
    "NOM1 singular": "sestra",
-   "NOM1": "sestra",
+   "NOM1": "sestry",
    "GEN2": "sester",
    "DAT3": "sestrám",
    "AKU4": "sestry",
@@ -1941,7 +1931,7 @@
  },
  {
    "NOM1 singular": "sešit",
-   "NOM1": "sešit",
+   "NOM1": "sešity",
    "GEN2": "sešitů",
    "DAT3": "sešitům",
    "AKU4": "sešity",
@@ -1951,7 +1941,7 @@
  },
  {
    "NOM1 singular": "sever",
-   "NOM1": "sever",
+   "NOM1": "severy",
    "GEN2": "severů",
    "DAT3": "severům",
    "AKU4": "sever",
@@ -1971,7 +1961,7 @@
  },
  {
    "NOM1 singular": "skandál",
-   "NOM1": "skandál",
+   "NOM1": "skandály",
    "GEN2": "skandálů",
    "DAT3": "skandálům",
    "AKU4": "skandály",
@@ -1981,7 +1971,7 @@
  },
  {
    "NOM1 singular": "skladatel",
-   "NOM1": "skladatel",
+   "NOM1": "skladatelé",
    "GEN2": "skladatelů",
    "DAT3": "skladatelům",
    "AKU4": "skladatele",
@@ -1991,7 +1981,7 @@
  },
  {
    "NOM1 singular": "skupina",
-   "NOM1": "skupina",
+   "NOM1": "skupiny",
    "GEN2": "skupin",
    "DAT3": "skupinám",
    "AKU4": "skupiny",
@@ -2001,7 +1991,7 @@
  },
  {
    "NOM1 singular": "slon",
-   "NOM1": "slon",
+   "NOM1": "sloni",
    "GEN2": "slonů",
    "DAT3": "slonům",
    "AKU4": "slony",
@@ -2011,7 +2001,7 @@
  },
  {
    "NOM1 singular": "slovník",
-   "NOM1": "slovník",
+   "NOM1": "slovníky",
    "GEN2": "slovníků",
    "DAT3": "slovníkům",
    "AKU4": "slovníky",
@@ -2021,7 +2011,7 @@
  },
  {
    "NOM1 singular": "slovo",
-   "NOM1": "slovo",
+   "NOM1": "slova",
    "GEN2": "slov",
    "DAT3": "slovům",
    "AKU4": "slova",
@@ -2031,7 +2021,7 @@
  },
  {
    "NOM1 singular": "sobota",
-   "NOM1": "sobota",
+   "NOM1": "soboty",
    "GEN2": "sobot",
    "DAT3": "sobotám",
    "AKU4": "soboty",
@@ -2041,7 +2031,7 @@
  },
  {
    "NOM1 singular": "socha",
-   "NOM1": "socha",
+   "NOM1": "sochy",
    "GEN2": "soch",
    "DAT3": "sochám",
    "AKU4": "sochy",
@@ -2051,7 +2041,7 @@
  },
  {
    "NOM1 singular": "sport",
-   "NOM1": "sport",
+   "NOM1": "sporty",
    "GEN2": "sportů",
    "DAT3": "sportům",
    "AKU4": "sporty",
@@ -2071,7 +2061,7 @@
  },
  {
    "NOM1 singular": "strana",
-   "NOM1": "strana",
+   "NOM1": "strany",
    "GEN2": "stran",
    "DAT3": "stranám",
    "AKU4": "strany",
@@ -2081,7 +2071,7 @@
  },
  {
    "NOM1 singular": "strom",
-   "NOM1": "strom",
+   "NOM1": "stromy",
    "GEN2": "stromů",
    "DAT3": "stromům",
    "AKU4": "stromy",
@@ -2091,7 +2081,7 @@
  },
  {
    "NOM1 singular": "středa",
-   "NOM1": "středa",
+   "NOM1": "středy",
    "GEN2": "střed",
    "DAT3": "středám",
    "AKU4": "středy",
@@ -2101,7 +2091,7 @@
  },
  {
    "NOM1 singular": "student",
-   "NOM1": "student",
+   "NOM1": "studenti",
    "GEN2": "studentů",
    "DAT3": "studentům",
    "AKU4": "studenty",
@@ -2111,7 +2101,7 @@
  },
  {
    "NOM1 singular": "studentka",
-   "NOM1": "studentka",
+   "NOM1": "studentky",
    "GEN2": "studentek",
    "DAT3": "studentkám",
    "AKU4": "studentky",
@@ -2121,7 +2111,7 @@
  },
  {
    "NOM1 singular": "stupeň",
-   "NOM1": "stupeň",
+   "NOM1": "stupně",
    "GEN2": "stupňů",
    "DAT3": "stupňům",
    "AKU4": "stupně",
@@ -2131,7 +2121,7 @@
  },
  {
    "NOM1 singular": "supermarket",
-   "NOM1": "supermarket",
+   "NOM1": "supermarkety",
    "GEN2": "supermarketů",
    "DAT3": "supermarketům",
    "AKU4": "supermarkety",
@@ -2141,7 +2131,7 @@
  },
  {
    "NOM1 singular": "svetr",
-   "NOM1": "svetr",
+   "NOM1": "svetry",
    "GEN2": "svetrů",
    "DAT3": "svetrům",
    "AKU4": "svetry",
@@ -2151,7 +2141,7 @@
  },
  {
    "NOM1 singular": "syn",
-   "NOM1": "syn",
+   "NOM1": "synové",
    "GEN2": "synů",
    "DAT3": "synům",
    "AKU4": "syny",
@@ -2161,7 +2151,7 @@
  },
  {
    "NOM1 singular": "škola",
-   "NOM1": "škola",
+   "NOM1": "školy",
    "GEN2": "škol",
    "DAT3": "školám",
    "AKU4": "školy",
@@ -2171,7 +2161,7 @@
  },
  {
    "NOM1 singular": "tabulka",
-   "NOM1": "tabulka",
+   "NOM1": "tabulky",
    "GEN2": "tabulek",
    "DAT3": "tabulkám",
    "AKU4": "tabulky",
@@ -2191,7 +2181,7 @@
  },
  {
    "NOM1 singular": "taxík",
-   "NOM1": "taxík",
+   "NOM1": "taxíky",
    "GEN2": "taxíků",
    "DAT3": "taxíkům",
    "AKU4": "taxíky",
@@ -2201,7 +2191,7 @@
  },
  {
    "NOM1 singular": "telefon",
-   "NOM1": "telefon",
+   "NOM1": "telefony",
    "GEN2": "telefonů",
    "DAT3": "telefonům",
    "AKU4": "telefony",
@@ -2221,7 +2211,7 @@
  },
  {
    "NOM1 singular": "tenis",
-   "NOM1": "tenis",
+   "NOM1": "tenisy",
    "GEN2": "tenisů",
    "DAT3": "tenisům",
    "AKU4": "tenisy",
@@ -2231,7 +2221,7 @@
  },
  {
    "NOM1 singular": "test",
-   "NOM1": "test",
+   "NOM1": "testy",
    "GEN2": "testů",
    "DAT3": "testům",
    "AKU4": "testy",
@@ -2241,7 +2231,7 @@
  },
  {
    "NOM1 singular": "trénink",
-   "NOM1": "trénik",
+   "NOM1": "tréninky",
    "GEN2": "tréninků",
    "DAT3": "tréninkům",
    "AKU4": "tréninky",
@@ -2251,7 +2241,7 @@
  },
  {
    "NOM1 singular": "tričko",
-   "NOM1": "tričko",
+   "NOM1": "trička",
    "GEN2": "triček",
    "DAT3": "tričkům",
    "AKU4": "trička",
@@ -2261,7 +2251,7 @@
  },
  {
    "NOM1 singular": "týden",
-   "NOM1": "týdeb",
+   "NOM1": "týdny",
    "GEN2": "týdnů",
    "DAT3": "týdnům",
    "AKU4": "týdny",
@@ -2271,7 +2261,7 @@
  },
  {
    "NOM1 singular": "učitel",
-   "NOM1": "učitel",
+   "NOM1": "učitelé",
    "GEN2": "učitelů",
    "DAT3": "učitelům",
    "AKU4": "učitele",
@@ -2281,7 +2271,7 @@
  },
  {
    "NOM1 singular": "učitelka",
-   "NOM1": "učitelka",
+   "NOM1": "učitelky",
    "GEN2": "učitelek",
    "DAT3": "učitelkám",
    "AKU4": "učitelky",
@@ -2311,7 +2301,7 @@
  },
  {
    "NOM1 singular": "univerzita",
-   "NOM1": "univerzita",
+   "NOM1": "univerzity",
    "GEN2": "univerzit",
    "DAT3": "univerzitám",
    "AKU4": "univerzity",
@@ -2321,7 +2311,7 @@
  },
  {
    "NOM1 singular": "věc",
-   "NOM1": "věc",
+   "NOM1": "věci",
    "GEN2": "věcí",
    "DAT3": "věcem",
    "AKU4": "věci",
@@ -2331,7 +2321,7 @@
  },
  {
    "NOM1 singular": "večer",
-   "NOM1": "večer",
+   "NOM1": "večery",
    "GEN2": "večerů",
    "DAT3": "večerům",
    "AKU4": "večery",
@@ -2351,7 +2341,7 @@
  },
  {
    "NOM1 singular": "vítr",
-   "NOM1": "vítr",
+   "NOM1": "větry",
    "GEN2": "větrů",
    "DAT3": "větrům",
    "AKU4": "větry",
@@ -2361,7 +2351,7 @@
  },
  {
    "NOM1 singular": "vlas",
-   "NOM1": "vlas",
+   "NOM1": "vlasy",
    "GEN2": "vlasů",
    "DAT3": "vlasům",
    "AKU4": "vlasy",
@@ -2371,7 +2361,7 @@
  },
  {
    "NOM1 singular": "vnuk",
-   "NOM1": "vnuk",
+   "NOM1": "vnuci",
    "GEN2": "vnuků",
    "DAT3": "vnukům",
    "AKU4": "vnuky",
@@ -2381,7 +2371,7 @@
  },
  {
    "NOM1 singular": "voda",
-   "NOM1": "voda",
+   "NOM1": "vody",
    "GEN2": "vod",
    "DAT3": "vodám",
    "AKU4": "vody",
@@ -2391,7 +2381,7 @@
  },
  {
    "NOM1 singular": "východ",
-   "NOM1": "východ",
+   "NOM1": "východy",
    "GEN2": "východů",
    "DAT3": "východům",
    "AKU4": "východy",
@@ -2401,7 +2391,7 @@
  },
  {
    "NOM1 singular": "výlet",
-   "NOM1": "výlet",
+   "NOM1": "výlety",
    "GEN2": "výletů",
    "DAT3": "výletům",
    "AKU4": "výlety",
@@ -2411,7 +2401,7 @@
  },
  {
    "NOM1 singular": "výrobek",
-   "NOM1": "výrobek",
+   "NOM1": "výrobky",
    "GEN2": "výrobků",
    "DAT3": "výrobkům",
    "AKU4": "výrobky",
@@ -2421,7 +2411,7 @@
  },
  {
    "NOM1 singular": "výstava",
-   "NOM1": "výstava",
+   "NOM1": "výstavy",
    "GEN2": "výstav",
    "DAT3": "výstavám",
    "AKU4": "výstavy",
@@ -2431,7 +2421,7 @@
  },
  {
    "NOM1 singular": "západ",
-   "NOM1": "západ",
+   "NOM1": "západy",
    "GEN2": "západů",
    "DAT3": "západům",
    "AKU4": "západy",
@@ -2441,7 +2431,7 @@
  },
  {
    "NOM1 singular": "zastávka",
-   "NOM1": "zastávka",
+   "NOM1": "zastávky",
    "GEN2": "zastávek",
    "DAT3": "zastávkám",
    "AKU4": "zastávky",
@@ -2451,7 +2441,7 @@
  },
  {
    "NOM1 singular": "závod",
-   "NOM1": "závod",
+   "NOM1": "závody",
    "GEN2": "závodů",
    "DAT3": "závodům",
    "AKU4": "závody",
@@ -2461,7 +2451,7 @@
  },
  {
    "NOM1 singular": "zelenina",
-   "NOM1": "zelenina",
+   "NOM1": "zeleniny",
    "GEN2": "zelenin",
    "DAT3": "zeleninám",
    "AKU4": "zeleniny",
@@ -2481,7 +2471,7 @@
  },
  {
    "NOM1 singular": "zima",
-   "NOM1": "zima",
+   "NOM1": "zimy",
    "GEN2": "zim",
    "DAT3": "zimám",
    "AKU4": "zimy",
@@ -2491,7 +2481,7 @@
  },
  {
    "NOM1 singular": "zloděj",
-   "NOM1": "zloděj",
+   "NOM1": "zloději",
    "GEN2": "zlodějů",
    "DAT3": "zlodějům",
    "AKU4": "zloděje",
@@ -2501,7 +2491,7 @@
  },
  {
    "NOM1 singular": "zmrzlina",
-   "NOM1": "zmrzlina",
+   "NOM1": "zmrzliny",
    "GEN2": "zmrzlin",
    "DAT3": "zmrzlinám",
    "AKU4": "zmrzliny",
@@ -2511,7 +2501,7 @@
  },
  {
    "NOM1 singular": "zpěvačka",
-   "NOM1": "zpěvačka",
+   "NOM1": "zpěvačky",
    "GEN2": "zpěvaček",
    "DAT3": "zpěvačkám",
    "AKU4": "zpěvačky",
@@ -2521,7 +2511,7 @@
  },
  {
    "NOM1 singular": "zpěvák",
-   "NOM1": "zpěvák",
+   "NOM1": "zpěváci",
    "GEN2": "zpěváků",
    "DAT3": "zpěvákům",
    "AKU4": "zpěváky",
@@ -2531,7 +2521,7 @@
  },
  {
    "NOM1 singular": "žena",
-   "NOM1": "žena",
+   "NOM1": "ženy",
    "GEN2": "žen",
    "DAT3": "ženám",
    "AKU4": "ženy",
@@ -2541,7 +2531,7 @@
  },
  {
    "NOM1 singular": "žízeň",
-   "NOM1": "žízeň",
+   "NOM1": "žizně",
    "GEN2": "žízní",
    "DAT3": "žízním",
    "AKU4": "žízně",
@@ -2550,3 +2540,4 @@
    "INST7": "žízněmi"
  }
 ]
+
