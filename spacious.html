@@ -9,26 +9,45 @@
     display: block;
     margin: 20px auto;
   }
+
+  #question-box {
+    width: 90%;
+    max-width: 400px;
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  #infinity-btn {
+    font-size: 40px;
+    display: block;
+    margin: 10px auto;
+    cursor: pointer;
+    background: none;
+    border: none;
+  }
 </style>
 </head>
 
 <body>
 
-<button id="random-btn">Show Random Card</button>
+<input id="question-box" type="text" placeholder="Write your question here">
+<button id="infinity-btn">∞</button>
+
 <div id="card-area"></div>
 
 <script>
-// Generate numbers 1–78
+// Random card from 1–78
 function showRandomCard() {
   const n = Math.floor(Math.random() * 78) + 1;
   const img = new Image();
   img.src = `cards/${n}.png`;
 
   img.onload = () => {
-    console.log(`Loaded card ${n}`);
     const area = document.getElementById('card-area');
-    area.innerHTML = '';        // clear previous card
-    area.appendChild(img);      // show new card
+    area.innerHTML = '';
+    area.appendChild(img);
   };
 
   img.onerror = () => {
@@ -36,8 +55,8 @@ function showRandomCard() {
   };
 }
 
-// Button triggers the random card
-document.getElementById('random-btn').addEventListener('click', showRandomCard);
+// Infinity button triggers the random card
+document.getElementById('infinity-btn').addEventListener('click', showRandomCard);
 
 // Optional: show one card on load
 showRandomCard();
