@@ -61,11 +61,14 @@
 <div id="card-area"></div>
 
 <script>
-// Random card from 1–78
+let lastQuestion = "";   // remembers the previous question
+
 function showRandomCard() {
   const n = Math.floor(Math.random() * 78) + 1;
   const img = new Image();
-  img.src = `cards/${n}.png`;
+
+  // CACHE-BUSTER FIX → forces new image every click
+  img.src = `cards/${n}.png?cb=${Date.now()}`;
 
   img.onload = () => {
     const area = document.getElementById('card-area');
@@ -78,8 +81,15 @@ function showRandomCard() {
   };
 }
 
-// Infinity button triggers the random card
-document.getElementById('infinity-btn').addEventListener('click', showRandomCard);
+document.getElementById('infinity-btn').addEventListener('click', () => {
+  const question = document.getElementById('question-box').value.trim();
+
+  // Only show a new card if the question is NEW and NOT empty
+  if (question !== "" && question !== lastQuestion) {
+    lastQuestion = question;
+    showRandomCard();
+  }
+});
 </script>
 
 </body>
