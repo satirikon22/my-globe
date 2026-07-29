@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>The Oracle</title>
+<title>Random Card Test</title>
 
 <!-- Rubik font -->
 <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
@@ -13,35 +13,42 @@
     color: white;
     font-family: 'Rubik', sans-serif;
     text-align: center;
+    margin: 0;
+    padding: 0;
   }
 
+  /* Responsive card */
   #card-area img {
-    max-width: 500px;   /* bigger card */
+    width: 90vw;          /* fills mobile screen */
+    max-width: 500px;     /* desktop size */
     display: block;
     margin: 30px auto;
   }
 
+  /* Responsive text input */
   #question-box {
     width: 90%;
     max-width: 500px;
     display: block;
     margin: 30px auto;
     padding: 15px;
-    font-size: 26px;    /* bigger text */
+    font-size: clamp(20px, 5vw, 28px);  /* responsive text */
     background: #222;
     color: white;
     border: 1px solid #555;
     border-radius: 6px;
   }
 
+  /* Responsive infinity button */
   #infinity-btn {
-    font-size: 60px;    /* bigger ∞ */
+    font-size: clamp(50px, 10vw, 80px); /* scales on mobile */
     display: block;
     margin: 20px auto;
     cursor: pointer;
     background: none;
     border: none;
     color: white;
+    padding: 10px;
   }
 </style>
 </head>
