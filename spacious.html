@@ -1,3 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Random Card Test</title>
+<style>
+  #card-area img {
+    max-width: 300px;
+    display: block;
+    margin: 20px auto;
+  }
+</style>
+</head>
+
+<body>
+
+<button id="random-btn">Show Random Card</button>
+<div id="card-area"></div>
+
+<script>
+// Generate numbers 1–78
 function showRandomCard() {
   const n = Math.floor(Math.random() * 78) + 1;
   const img = new Image();
@@ -5,7 +26,9 @@ function showRandomCard() {
 
   img.onload = () => {
     console.log(`Loaded card ${n}`);
-    document.body.appendChild(img);
+    const area = document.getElementById('card-area');
+    area.innerHTML = '';        // clear previous card
+    area.appendChild(img);      // show new card
   };
 
   img.onerror = () => {
@@ -13,4 +36,12 @@ function showRandomCard() {
   };
 }
 
+// Button triggers the random card
+document.getElementById('random-btn').addEventListener('click', showRandomCard);
+
+// Optional: show one card on load
 showRandomCard();
+</script>
+
+</body>
+</html>
