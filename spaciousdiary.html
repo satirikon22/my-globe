@@ -23,7 +23,8 @@
     margin: 30px auto;
   }
 
-  .rubik-field {
+  /* SAME SIZE FOR ALL TEXT FIELDS INCLUDING DIARY */
+  .rubik-field, .diary-text {
     width: 95%;
     max-width: 700px;
     display: block;
@@ -82,6 +83,13 @@
     border-radius: 6px;
     font-family: 'Rubik', sans-serif;
   }
+
+  .mini-card {
+    width: 120px;
+    border-radius: 6px;
+    display: block;
+    margin: 10px 0;
+  }
 </style>
 </head>
 
@@ -102,6 +110,7 @@
 let lastQuestion = "";
 let lastCard = null;
 
+/* HYBRID RANDOMNESS */
 function hybridRandom(question) {
   let sum = 0;
   for (let i = 0; i < question.length; i++) sum += question.charCodeAt(i);
@@ -111,28 +120,30 @@ function hybridRandom(question) {
   return (sum % 78) + 1;
 }
 
+/* SAVE ENTRY */
 function saveDiaryEntry(question, cardNumber, notes) {
   const entry = {
     question,
     card: cardNumber,
     notes,
-    date: new Date().toLocaleString()
+    date: new Date().toLocaleDateString()  // ONLY DAY
   };
   let diary = JSON.parse(localStorage.getItem("oracleDiary") || "[]");
   diary.push(entry);
   localStorage.setItem("oracleDiary", JSON.stringify(diary));
 }
 
+/* RENDER DIARY */
 function renderDiary() {
   let diary = JSON.parse(localStorage.getItem("oracleDiary") || "[]");
   const box = document.getElementById('diary-entries');
   box.innerHTML = "";
   diary.forEach(e => {
     const div = document.createElement('div');
-    div.className = "entry";
+    div.className = "entry diary-text";
     div.innerHTML = `
       <p><strong>Question:</strong> ${e.question}</p>
-      <p><strong>Card:</strong> ${e.card}</p>
+      <img class="mini-card" src="cards/${e.card}.png">
       <p><strong>Date:</strong> ${e.date}</p>
       <p><strong>Notes:</strong><br>${e.notes}</p>
     `;
@@ -140,6 +151,7 @@ function renderDiary() {
   });
 }
 
+/* SHOW CARD + NOTES + BOOK BUTTON */
 function showHybridCard(question) {
   const n = hybridRandom(question);
   lastCard = n;
@@ -179,6 +191,7 @@ function showHybridCard(question) {
   };
 }
 
+/* DRAW CARD */
 document.getElementById('infinity-btn').addEventListener('click', () => {
   const question = document.getElementById('question-box').value.trim();
   if (question !== "" && question !== lastQuestion) {
@@ -187,6 +200,7 @@ document.getElementById('infinity-btn').addEventListener('click', () => {
   }
 });
 
+/* TORII BUTTON SHOWS DIARY */
 document.getElementById('torii-btn').addEventListener('click', () => {
   renderDiary();
   document.getElementById('diary-panel').style.display = "block";
