@@ -58,7 +58,7 @@ let questions = [];
 let currentQuestion = null;
 
 // Load questions from your GitHub Pages URL
-fetch('https://satirikon22.github.io/my-globe/question.json?nocache=' + Date.now())
+fetch('https://satirikon22.github.io/my-globe/questions.json?nocache=' + Date.now())
   .then(r => r.json())
   .then(data => {
     questions = data.questions;
@@ -68,7 +68,7 @@ fetch('https://satirikon22.github.io/my-globe/question.json?nocache=' + Date.now
 function newQuestion() {
   if (!questions.length) return;
 
-  // ⭐ RANDOM QUESTION
+  // RANDOM QUESTION
   currentQuestion = questions[Math.floor(Math.random() * questions.length)];
 
   document.getElementById("pregunta").innerHTML =
@@ -78,4 +78,5 @@ function newQuestion() {
 
 </body>
 </html>
+
 
