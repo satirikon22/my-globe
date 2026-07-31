@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Practica las preguntas de tarea 1</title>
+  <title>Practica las preguntas de la tarea 1</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
 
@@ -16,33 +16,28 @@
     }
 
     .title {
-      font-size: 1.15rem;
-      font-weight: 500;
-      margin: 0 0 6px 0;
-    }
-
-    .nivel {
-      font-size: 1.3em;
+      font-size: 1.25rem;
       font-weight: 600;
+      margin: 0 0 10px 0;
     }
 
     #pregunta {
-      margin: 10px 0 12px 0;
-      font-size: 1.2rem;
+      margin: 12px 0 14px 0;
+      font-size: 1.25rem;
       font-weight: 500;
     }
 
     button {
       font-family: 'Rubik', sans-serif;
-      padding: 5px 8px;
+      padding: 6px 10px;
       margin: 3px 3px 0 0;
-      font-size: 13px;
+      font-size: 14px;
       cursor: pointer;
     }
 
     @media (min-width: 700px) {
       .title {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
       }
       #pregunta {
         font-size: 1.4rem;
@@ -52,17 +47,17 @@
 </head>
 <body>
 
-<div class="title">Practica las preguntas de tarea 1 <span class="nivel">200</span></div>
+<div class="title">Practica las preguntas de la tarea 1</div>
 
 <div id="pregunta"></div>
 
-<button onclick="newQuestion()">Siguiente pregunta</button>
+<button onclick="newQuestion()">Siguiente</button>
 
 <script>
 let questions = [];
 let currentQuestion = null;
 
-// Load questions from question.json
+// Load questions from your GitHub Pages URL
 fetch('https://satirikon22.github.io/my-globe/question.json?nocache=' + Date.now())
   .then(r => r.json())
   .then(data => {
@@ -71,4 +66,16 @@ fetch('https://satirikon22.github.io/my-globe/question.json?nocache=' + Date.now
   });
 
 function newQuestion() {
-  if (!questions
+  if (!questions.length) return;
+
+  // ⭐ RANDOM QUESTION
+  currentQuestion = questions[Math.floor(Math.random() * questions.length)];
+
+  document.getElementById("pregunta").innerHTML =
+    `<em>${currentQuestion}</em>`;
+}
+</script>
+
+</body>
+</html>
+
