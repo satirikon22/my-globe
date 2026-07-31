@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Tarot Hybrid Diary</title>
+<title>Little Oracle Diary</title>
 
 <!-- Rubik font -->
 <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
@@ -17,6 +17,13 @@
     padding: 0;
   }
 
+  h1 {
+    font-size: clamp(32px, 8vw, 60px);
+    margin-top: 20px;
+    color: #f5e6c8;
+    text-shadow: 0 0 12px #c9a86a;
+  }
+
   #card-area img {
     width: 100vw;
     max-width: 700px;
@@ -28,7 +35,7 @@
     width: 95%;
     max-width: 700px;
     display: block;
-    margin: 30px auto;
+    margin: 20px auto;
     padding: 20px;
     font-size: clamp(28px, 8vw, 40px);
     background: #222;
@@ -40,4 +47,64 @@
   #infinity-btn {
     font-size: clamp(70px, 15vw, 120px);
     display: block;
-    margin
+    margin: 10px auto 20px auto;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: white;
+    padding: 10px;
+  }
+
+  /* ALWAYS VISIBLE DIARY BUTTON */
+  #diary-btn {
+    font-size: clamp(50px, 12vw, 80px);
+    margin: 10px auto 30px auto;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #f5e6c8;
+    text-shadow: 0 0 12px #c9a86a;
+    transition: transform 0.2s;
+    display: block;
+  }
+  #diary-btn:hover {
+    transform: scale(1.15);
+  }
+
+  /* NOTES FIELD */
+  #notes-box {
+    width: 95%;
+    max-width: 700px;
+    height: 8em;
+    margin: 20px auto;
+    padding: 15px;
+    font-size: clamp(22px, 6vw, 30px);
+    background: #1e1e1e;
+    color: white;
+    border: 1px solid #555;
+    border-radius: 8px;
+    display: none;
+  }
+
+  /* SINGLE BOOK SAVE BUTTON */
+  #save-notes-btn {
+    font-size: clamp(50px, 12vw, 80px);
+    margin: 20px auto;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #f5e6c8;
+    text-shadow: 0 0 12px #c9a86a;
+    display: none;
+  }
+
+  /* DIARY PANEL */
+  #diary-panel {
+    display: none;
+    background: #111;
+    padding: 20px;
+    text-align: left;
+    max-width: 700px;
+    margin: 0 auto;
+    border-left: 2px solid #444;
+    border-right: 2px solid #444
