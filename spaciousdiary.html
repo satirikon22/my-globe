@@ -35,6 +35,7 @@
     color: white;
     border: 1px solid #555;
     border-radius: 8px;
+    font-family: 'Rubik', sans-serif;
   }
 
   #infinity-btn {
@@ -46,9 +47,10 @@
     border: none;
     color: white;
     padding: 10px;
+    font-family: 'Rubik', sans-serif;
   }
 
-  /* VISIBLE DIARY BUTTON */
+  /* ALWAYS VISIBLE DIARY BUTTON */
   #diary-btn {
     font-size: clamp(50px, 12vw, 80px);
     margin: 10px auto 30px auto;
@@ -59,6 +61,7 @@
     text-shadow: 0 0 12px #c9a86a;
     transition: transform 0.2s;
     display: block;
+    font-family: 'Rubik', sans-serif;
   }
   #diary-btn:hover {
     transform: scale(1.15);
@@ -77,9 +80,10 @@
     border: 1px solid #555;
     border-radius: 8px;
     display: none;
+    font-family: 'Rubik', sans-serif;
   }
 
-  /* SAVE NOTES BUTTON (BOOK ICON) */
+  /* BOOK SAVE BUTTON (ONLY ICON) */
   #save-notes-btn {
     font-size: clamp(50px, 12vw, 80px);
     margin: 20px auto;
@@ -89,6 +93,7 @@
     color: #f5e6c8;
     text-shadow: 0 0 12px #c9a86a;
     display: none;
+    font-family: 'Rubik', sans-serif;
   }
 
   /* DIARY PANEL */
@@ -101,6 +106,7 @@
     margin: 0 auto;
     border-left: 2px solid #444;
     border-right: 2px solid #444;
+    font-family: 'Rubik', sans-serif;
   }
 
   .entry {
@@ -109,6 +115,7 @@
     margin: 15px 0;
     border: 1px solid #333;
     border-radius: 6px;
+    font-family: 'Rubik', sans-serif;
   }
 
   #back-btn {
@@ -121,6 +128,7 @@
     padding: 10px 20px;
     border-radius: 6px;
     cursor: pointer;
+    font-family: 'Rubik', sans-serif;
   }
 </style>
 </head>
@@ -130,7 +138,7 @@
 <input id="question-box" type="text" placeholder="Write your question here">
 <button id="infinity-btn">∞</button>
 
-<!-- VISIBLE DIARY BUTTON -->
+<!-- ALWAYS VISIBLE DIARY BUTTON -->
 <button id="diary-btn">📖</button>
 
 <div id="card-area"></div>
@@ -138,8 +146,8 @@
 <!-- NOTES FIELD BELOW CARD -->
 <textarea id="notes-box" placeholder="Write your notes here..."></textarea>
 
-<!-- SAVE NOTES BUTTON BELOW NOTES -->
-<button id="save-notes-btn">📖 Save to Diary</button>
+<!-- SAVE NOTES BUTTON BELOW NOTES (ONLY ICON) -->
+<button id="save-notes-btn">📖</button>
 
 <!-- DIARY PANEL -->
 <div id="diary-panel"></div>
@@ -253,3 +261,4 @@ document.addEventListener('click', (e) => {
 
 </body>
 </html>
+
