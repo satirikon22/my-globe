@@ -4,7 +4,6 @@
 <meta charset="UTF-8">
 <title>Little Oracle Diary</title>
 
-<!-- Rubik font -->
 <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
 
 <style>
@@ -55,7 +54,6 @@
     padding: 10px;
   }
 
-  /* ALWAYS VISIBLE DIARY BUTTON */
   #diary-btn {
     font-size: clamp(50px, 12vw, 80px);
     margin: 10px auto 30px auto;
@@ -64,14 +62,8 @@
     border: none;
     color: #f5e6c8;
     text-shadow: 0 0 12px #c9a86a;
-    transition: transform 0.2s;
-    display: block;
-  }
-  #diary-btn:hover {
-    transform: scale(1.15);
   }
 
-  /* NOTES FIELD */
   #notes-box {
     width: 95%;
     max-width: 700px;
@@ -86,7 +78,6 @@
     display: none;
   }
 
-  /* SINGLE BOOK SAVE BUTTON */
   #save-notes-btn {
     font-size: clamp(50px, 12vw, 80px);
     margin: 20px auto;
@@ -98,13 +89,127 @@
     display: none;
   }
 
-  /* DIARY PANEL */
   #diary-panel {
-    display: none;
     background: #111;
     padding: 20px;
     text-align: left;
     max-width: 700px;
-    margin: 0 auto;
+    margin: 20px auto 40px auto;
     border-left: 2px solid #444;
-    border-right: 2px solid #444
+    border-right: 2px solid #444;
+  }
+
+  .entry {
+    background: #1c1c1c;
+    padding: 15px;
+    margin: 15px 0;
+    border: 1px solid #333;
+    border-radius: 6px;
+  }
+</style>
+</head>
+
+<body>
+
+<h1>Little Oracle Diary</h1>
+
+<input id="question-box" type="text" placeholder="Write your question here">
+<button id="infinity-btn">∞</button>
+<button id="diary-btn">📖</button>
+
+<div id="card-area"></div>
+
+<textarea id="notes-box" placeholder="Write your notes here..."></textarea>
+<button id="save-notes-btn">📖</button>
+
+<div id="diary-panel">
+  <h2>Your Tarot Diary</h2>
+  <div id="diary-entries"></div>
+</div>
+
+<script>
+let lastQuestion = "";
+let lastCard = null;
+
+function hybridRandom(question) {
+  let sum = 0;
+  for (let i = 0; i < question.length; i++) {
+    sum += question.charCodeAt(i);
+  }
+  sum += question.length * 13;
+  sum += Date.now() % 100000;
+  sum += Math.floor(Math.random() * 9999);
+  return (sum % 78) + 1;
+}
+
+function saveDiaryEntry(question, cardNumber, notes) {
+  const entry = {
+    question,
+    card: cardNumber,
+    notes,
+    date: new Date().toLocaleString()
+  };
+  let diary = JSON.parse(localStorage.getItem("tarotDiary") || "[]");
+  diary.push(entry);
+  localStorage.setItem("tarotDiary", JSON.stringify(diary));
+}
+
+function renderDiary() {
+  let diary = JSON.parse(localStorage.getItem("tarotDiary") || "[]");
+  const container = document.getElementById('diary-entries');
+  container.innerHTML = "";
+  diary.forEach(entry => {
+    const div = document.createElement('div');
+    div.className = "entry";
+    div.innerHTML = `
+      <p><strong>Question:</strong> ${entry.question}</p>
+      <p><strong>Card:</strong> ${entry.card}</p>
+      <p><strong>Date:</strong> ${entry.date}</p>
+      <p><strong>Notes:</strong><br>${entry.notes}</p>
+    `;
+    container.appendChild(div);
+  });
+}
+
+function showHybridCard(question) {
+  const n = hybridRandom(question);
+  lastCard = n;
+
+  const img = new Image();
+  img.src = `cards/${n}.png?cb=${Date.now()}`;
+  img.onload = () => {
+    const area = document.getElementById('card-area');
+    area.innerHTML = '';
+    area.appendChild(img);
+    document.getElementById('notes-box').style.display = "block";
+    document.getElementById('save-notes-btn').style.display = "block";
+  };
+}
+
+document.getElementById('infinity-btn').addEventListener('click', () => {
+  const question = document.getElementById('question-box').value.trim();
+  if (question !== "" && question !== lastQuestion) {
+    lastQuestion = question;
+    showHybridCard(question);
+  }
+});
+
+document.getElementById('save-notes-btn').addEventListener('click', () => {
+  const notes = document.getElementById('notes-box').value.trim();
+  if (lastQuestion && lastCard) {
+    saveDiaryEntry(lastQuestion, lastCard, notes);
+    renderDiary();
+    alert("Saved to diary.");
+  }
+});
+
+document.getElementById('diary-btn').addEventListener('click', () => {
+  renderDiary();
+  window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+});
+
+renderDiary();
+</script>
+
+</body>
+</html>
