@@ -23,7 +23,8 @@
     margin: 30px auto;
   }
 
-  #question-box {
+  /* SAME SIZE FOR ALL TEXT INPUTS */
+  .rubik-field {
     width: 95%;
     max-width: 700px;
     display: block;
@@ -49,20 +50,6 @@
     font-family: 'Rubik', sans-serif;
   }
 
-  #notes-box {
-    width: 95%;
-    max-width: 700px;
-    height: 8em;
-    margin: 20px auto;
-    padding: 15px;
-    font-size: clamp(22px, 6vw, 30px);
-    background: #1e1e1e;
-    color: white;
-    border: 1px solid #555;
-    border-radius: 8px;
-    font-family: 'Rubik', sans-serif;
-  }
-
   #save-notes-btn {
     font-size: clamp(50px, 12vw, 80px);
     background: none;
@@ -72,6 +59,19 @@
     cursor: pointer;
     margin: 20px auto;
     font-family: 'Rubik', sans-serif;
+  }
+
+  /* TORII GATE BUTTON */
+  #torii-btn {
+    font-size: clamp(70px, 15vw, 120px);
+    background: none;
+    border: none;
+    color: #f5e6c8;
+    text-shadow: 0 0 12px #c9a86a;
+    cursor: pointer;
+    margin: 40px auto;
+    font-family: 'Rubik', sans-serif;
+    display: block;
   }
 
   #diary-panel {
@@ -98,12 +98,14 @@
 
 <body>
 
-<input id="question-box" type="text" placeholder="Write your question here">
+<input id="question-box" class="rubik-field" type="text" placeholder="Write your question here">
 <button id="infinity-btn">∞</button>
 
 <div id="card-area"></div>
 
-<!-- Diary panel WITHOUT the “Your Diary” title -->
+<!-- TORII GATE BUTTON FOR DIARY -->
+<button id="torii-btn">⛩️</button>
+
 <div id="diary-panel">
   <div id="diary-entries"></div>
 </div>
@@ -112,6 +114,7 @@
 let lastQuestion = "";
 let lastCard = null;
 
+/* HYBRID RANDOMNESS */
 function hybridRandom(question) {
   let sum = 0;
   for (let i = 0; i < question.length; i++) sum += question.charCodeAt(i);
@@ -121,6 +124,7 @@ function hybridRandom(question) {
   return (sum % 78) + 1;
 }
 
+/* SAVE ENTRY */
 function saveDiaryEntry(question, cardNumber, notes) {
   const entry = {
     question,
@@ -133,6 +137,7 @@ function saveDiaryEntry(question, cardNumber, notes) {
   localStorage.setItem("oracleDiary", JSON.stringify(diary));
 }
 
+/* RENDER DIARY */
 function renderDiary() {
   let diary = JSON.parse(localStorage.getItem("oracleDiary") || "[]");
   const box = document.getElementById('diary-entries');
@@ -150,6 +155,7 @@ function renderDiary() {
   });
 }
 
+/* SHOW CARD + CREATE NOTES + BOOK BUTTON */
 function showHybridCard(question) {
   const n = hybridRandom(question);
   lastCard = n;
@@ -162,14 +168,17 @@ function showHybridCard(question) {
     area.innerHTML = "";
     area.appendChild(img);
 
+    /* NOTES FIELD */
     let notes = document.getElementById('notes-box');
     if (!notes) {
       notes = document.createElement('textarea');
       notes.id = 'notes-box';
+      notes.className = 'rubik-field';
       notes.placeholder = 'Write your notes here...';
       area.appendChild(notes);
     }
 
+    /* BOOK BUTTON */
     let saveBtn = document.getElementById('save-notes-btn');
     if (!saveBtn) {
       saveBtn = document.createElement('button');
@@ -181,7 +190,6 @@ function showHybridCard(question) {
         const notesText = notes.value.trim();
         if (lastQuestion && lastCard) {
           saveDiaryEntry(lastQuestion, lastCard, notesText);
-          renderDiary();
           alert("Saved.");
         }
       });
@@ -189,6 +197,7 @@ function showHybridCard(question) {
   };
 }
 
+/* DRAW CARD */
 document.getElementById('infinity-btn').addEventListener('click', () => {
   const question = document.getElementById('question-box').value.trim();
   if (question !== "" && question !== lastQuestion) {
@@ -197,8 +206,16 @@ document.getElementById('infinity-btn').addEventListener('click', () => {
   }
 });
 
+/* TORII BUTTON SHOWS DIARY */
+document.getElementById('torii-btn').addEventListener('click', () => {
+  renderDiary();
+  window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+});
+
+/* INITIAL DIARY LOAD */
 renderDiary();
 </script>
 
 </body>
 </html>
+
