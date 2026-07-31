@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Preguntador de Checo – 200 preguntas</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Rubik', sans-serif;
+      padding: 6px;
+      margin: 0;
+      line-height: 1.1;
+      font-size: 14px;
+    }
+
+    .title {
+      font-size: 1.15rem;
+      font-weight: 500;
+      margin: 0 0 6px 0;
+    }
+
+    .nivel {
+      font-size: 1.3em;
+      font-weight: 600;
+    }
+
+    #pregunta {
+      margin: 10px 0 12px 0;
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+
+    button {
+      font-family: 'Rubik', sans-serif;
+      padding: 5px 8px;
+      margin: 3px 3px 0 0;
+      font-size: 13px;
+      cursor: pointer;
+    }
+
+    @media (min-width: 700px) {
+      .title {
+        font-size: 1.4rem;
+      }
+      #pregunta {
+        font-size: 1.4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="title">Preguntador de checo – <span class="nivel">200</span></div>
+
+<div id="pregunta"></div>
+
+<button onclick="newQuestion()">Siguiente pregunta</button>
+
+<script>
+let questions = [];
+let currentQuestion = null;
+
+// Load questions from question.json
+fetch('question.json?nocache=' + Date.now())
+  .then(r => r.json())
+  .then(data => {
+    questions = data.questions;
+    newQuestion();
+  });
+
+function newQuestion() {
+  if (!questions.length) return;
+
+  currentQuestion = questions[Math.floor(Math.random() * questions.length)];
+
+  document.getElementById("pregunta").innerHTML =
+    `<em>${currentQuestion}</em>`;
+}
+</script>
+
+</body>
+</html>
