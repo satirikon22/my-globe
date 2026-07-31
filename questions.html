@@ -63,7 +63,7 @@ let questions = [];
 let currentQuestion = null;
 
 // Load questions from question.json
-fetch('question.json?nocache=' + Date.now())
+fetch('https://satirikon22.github.io/my-globe/question.json?nocache=' + Date.now())
   .then(r => r.json())
   .then(data => {
     questions = data.questions;
@@ -71,14 +71,4 @@ fetch('question.json?nocache=' + Date.now())
   });
 
 function newQuestion() {
-  if (!questions.length) return;
-
-  currentQuestion = questions[Math.floor(Math.random() * questions.length)];
-
-  document.getElementById("pregunta").innerHTML =
-    `<em>${currentQuestion}</em>`;
-}
-</script>
-
-</body>
-</html>
+  if (!questions
