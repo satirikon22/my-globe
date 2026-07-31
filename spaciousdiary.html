@@ -8,119 +8,110 @@
 
 <style>
   body {
-    background: black;
-    color: white;
-    font-family: 'Rubik', sans-serif;
-    text-align: center;
-    margin: 0;
-    padding: 0;
+    background:black;
+    color:white;
+    font-family:'Rubik',sans-serif;
+    text-align:center;
+    margin:0;
+    padding:0;
   }
 
-  h1 {
-    font-size: clamp(32px, 8vw, 60px);
-    margin-top: 20px;
-    color: #f5e6c8;
-    text-shadow: 0 0 12px #c9a86a;
+  #question-box{
+    width:95%;
+    max-width:700px;
+    margin:40px auto 20px auto;
+    padding:20px;
+    font-size:clamp(28px,8vw,40px);
+    background:#222;
+    border:1px solid #555;
+    border-radius:8px;
+    color:white;
   }
 
-  #card-area img {
-    width: 100vw;
-    max-width: 700px;
-    display: block;
-    margin: 30px auto;
+  #infinity-btn{
+    font-size:clamp(70px,15vw,120px);
+    background:none;
+    border:none;
+    color:white;
+    cursor:pointer;
+    margin-bottom:40px;
   }
 
-  #question-box {
-    width: 95%;
-    max-width: 700px;
-    display: block;
-    margin: 20px auto;
-    padding: 20px;
-    font-size: clamp(28px, 8vw, 40px);
-    background: #222;
-    color: white;
-    border: 1px solid #555;
-    border-radius: 8px;
+  #card-area img{
+    width:100vw;
+    max-width:700px;
+    margin:30px auto;
+    display:block;
   }
 
-  #infinity-btn {
-    font-size: clamp(70px, 15vw, 120px);
-    display: block;
-    margin: 10px auto 20px auto;
-    cursor: pointer;
-    background: none;
-    border: none;
-    color: white;
-    padding: 10px;
+  #notes-box{
+    width:95%;
+    max-width:700px;
+    height:8em;
+    margin:20px auto;
+    padding:15px;
+    font-size:clamp(22px,6vw,30px);
+    background:#1e1e1e;
+    border:1px solid #555;
+    border-radius:8px;
+    color:white;
+    display:none;
   }
 
-  #diary-btn {
-    font-size: clamp(50px, 12vw, 80px);
-    margin: 10px auto 30px auto;
-    cursor: pointer;
-    background: none;
-    border: none;
-    color: #f5e6c8;
-    text-shadow: 0 0 12px #c9a86a;
+  #save-notes-btn{
+    font-size:clamp(50px,12vw,80px);
+    background:none;
+    border:none;
+    color:#f5e6c8;
+    text-shadow:0 0 12px #c9a86a;
+    cursor:pointer;
+    margin:20px auto;
+    display:none;
   }
 
-  #notes-box {
-    width: 95%;
-    max-width: 700px;
-    height: 8em;
-    margin: 20px auto;
-    padding: 15px;
-    font-size: clamp(22px, 6vw, 30px);
-    background: #1e1e1e;
-    color: white;
-    border: 1px solid #555;
-    border-radius: 8px;
-    display: none;
+  #diary-panel{
+    display:none;
+    background:#111;
+    padding:20px;
+    max-width:700px;
+    margin:40px auto;
+    border-left:2px solid #444;
+    border-right:2px solid #444;
+    text-align:left;
   }
 
-  #save-notes-btn {
-    font-size: clamp(50px, 12vw, 80px);
-    margin: 20px auto;
-    cursor: pointer;
-    background: none;
-    border: none;
-    color: #f5e6c8;
-    text-shadow: 0 0 12px #c9a86a;
-    display: none;
+  .entry{
+    background:#1c1c1c;
+    padding:15px;
+    margin:15px 0;
+    border:1px solid #333;
+    border-radius:6px;
   }
 
-  #diary-panel {
-    background: #111;
-    padding: 20px;
-    text-align: left;
-    max-width: 700px;
-    margin: 20px auto 40px auto;
-    border-left: 2px solid #444;
-    border-right: 2px solid #444;
-  }
-
-  .entry {
-    background: #1c1c1c;
-    padding: 15px;
-    margin: 15px 0;
-    border: 1px solid #333;
-    border-radius: 6px;
+  #diary-btn{
+    font-size:clamp(50px,12vw,80px);
+    background:none;
+    border:none;
+    color:#f5e6c8;
+    text-shadow:0 0 12px #c9a86a;
+    cursor:pointer;
+    margin:40px auto;
+    display:block;
   }
 </style>
 </head>
 
 <body>
 
-<h1>Little Oracle Diary</h1>
-
 <input id="question-box" type="text" placeholder="Write your question here">
 <button id="infinity-btn">∞</button>
-<button id="diary-btn">📖</button>
 
 <div id="card-area"></div>
 
 <textarea id="notes-box" placeholder="Write your notes here..."></textarea>
 <button id="save-notes-btn">📖</button>
+
+<button id="diary-btn">📖</button>
 
 <div id="diary-panel">
   <h2>Your Tarot Diary</h2>
@@ -128,84 +119,78 @@
 </div>
 
 <script>
-let lastQuestion = "";
-let lastCard = null;
+let lastQuestion="";
+let lastCard=null;
 
-function hybridRandom(question) {
-  let sum = 0;
-  for (let i = 0; i < question.length; i++) {
-    sum += question.charCodeAt(i);
-  }
-  sum += question.length * 13;
-  sum += Date.now() % 100000;
-  sum += Math.floor(Math.random() * 9999);
-  return (sum % 78) + 1;
+function hybridRandom(q){
+  let s=0;
+  for(let i=0;i<q.length;i++) s+=q.charCodeAt(i);
+  s+=q.length*13;
+  s+=Date.now()%100000;
+  s+=Math.floor(Math.random()*9999);
+  return (s%78)+1;
 }
 
-function saveDiaryEntry(question, cardNumber, notes) {
-  const entry = {
-    question,
-    card: cardNumber,
-    notes,
-    date: new Date().toLocaleString()
-  };
-  let diary = JSON.parse(localStorage.getItem("tarotDiary") || "[]");
-  diary.push(entry);
-  localStorage.setItem("tarotDiary", JSON.stringify(diary));
+function saveDiaryEntry(q,c,n){
+  const e={question:q,card:c,notes:n,date:new Date().toLocaleString()};
+  let d=JSON.parse(localStorage.getItem("tarotDiary")||"[]");
+  d.push(e);
+  localStorage.setItem("tarotDiary",JSON.stringify(d));
 }
 
-function renderDiary() {
-  let diary = JSON.parse(localStorage.getItem("tarotDiary") || "[]");
-  const container = document.getElementById('diary-entries');
-  container.innerHTML = "";
-  diary.forEach(entry => {
-    const div = document.createElement('div');
-    div.className = "entry";
-    div.innerHTML = `
-      <p><strong>Question:</strong> ${entry.question}</p>
-      <p><strong>Card:</strong> ${entry.card}</p>
-      <p><strong>Date:</strong> ${entry.date}</p>
-      <p><strong>Notes:</strong><br>${entry.notes}</p>
+function renderDiary(){
+  let d=JSON.parse(localStorage.getItem("tarotDiary")||"[]");
+  const box=document.getElementById('diary-entries');
+  box.innerHTML="";
+  d.forEach(e=>{
+    const div=document.createElement('div');
+    div.className="entry";
+    div.innerHTML=`
+      <p><strong>Question:</strong> ${e.question}</p>
+      <p><strong>Card:</strong> ${e.card}</p>
+      <p><strong>Date:</strong> ${e.date}</p>
+      <p><strong>Notes:</strong><br>${e.notes}</p>
     `;
-    container.appendChild(div);
+    box.appendChild(div);
   });
 }
 
-function showHybridCard(question) {
-  const n = hybridRandom(question);
-  lastCard = n;
+function showCard(q){
+  const n=hybridRandom(q);
+  lastCard=n;
 
-  const img = new Image();
-  img.src = `cards/${n}.png?cb=${Date.now()}`;
-  img.onload = () => {
-    const area = document.getElementById('card-area');
-    area.innerHTML = '';
-    area.appendChild(img);
-    document.getElementById('notes-box').style.display = "block";
-    document.getElementById('save-notes-btn').style.display = "block";
+  const img=new Image();
+  img.src=`cards/${n}.png?cb=${Date.now()}`;
+  img.onload=()=>{
+    document.getElementById('card-area').innerHTML="";
+    document.getElementById('card-area').appendChild(img);
+
+    document.getElementById('notes-box').style.display="block";
+    document.getElementById('save-notes-btn').style.display="block";
   };
 }
 
-document.getElementById('infinity-btn').addEventListener('click', () => {
-  const question = document.getElementById('question-box').value.trim();
-  if (question !== "" && question !== lastQuestion) {
-    lastQuestion = question;
-    showHybridCard(question);
+document.getElementById('infinity-btn').addEventListener('click',()=>{
+  const q=document.getElementById('question-box').value.trim();
+  if(q!=="" && q!==lastQuestion){
+    lastQuestion=q;
+    showCard(q);
   }
 });
 
-document.getElementById('save-notes-btn').addEventListener('click', () => {
-  const notes = document.getElementById('notes-box').value.trim();
-  if (lastQuestion && lastCard) {
-    saveDiaryEntry(lastQuestion, lastCard, notes);
+document.getElementById('save-notes-btn').addEventListener('click',()=>{
+  const n=document.getElementById('notes-box').value.trim();
+  if(lastQuestion && lastCard){
+    saveDiaryEntry(lastQuestion,lastCard,n);
     renderDiary();
-    alert("Saved to diary.");
+    alert("Saved.");
   }
 });
 
-document.getElementById('diary-btn').addEventListener('click', () => {
+document.getElementById('diary-btn').addEventListener('click',()=>{
   renderDiary();
-  window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+  document.getElementById('diary-panel').style.display="block";
+  window.scrollTo({top:document.body.scrollHeight,behavior:'smooth'});
 });
 
 renderDiary();
