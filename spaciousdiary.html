@@ -49,15 +49,31 @@
   }
 
   #save-notes-btn,
-  #torii-btn {
+  #torii-btn,
+  #clear-btn {
     font-size: clamp(40px, 10vw, 50px);
     background: none;
     border: none;
-    color: #f5e6c8;
-    text-shadow: 0 0 12px #c9a86a;
     cursor: pointer;
     margin: 20px auto;
     display: block;
+    font-family: 'Rubik', sans-serif;
+  }
+
+  /* Blue butterfly */
+  #clear-btn {
+    color: #7ec8ff;
+    text-shadow: 0 0 12px #4fa3d1;
+  }
+
+  #torii-btn {
+    color: #f5e6c8;
+    text-shadow: 0 0 12px #c9a86a;
+  }
+
+  #save-notes-btn {
+    color: #f5e6c8;
+    text-shadow: 0 0 12px #c9a86a;
   }
 
   #diary-panel {
@@ -96,6 +112,7 @@
 <div id="card-area"></div>
 
 <button id="torii-btn">⛩️</button>
+<button id="clear-btn">🦋</button>
 
 <div id="diary-panel">
   <div id="diary-entries"></div>
@@ -116,10 +133,7 @@ function hybridRandom(question) {
 
 function formatDayOnly() {
   const d = new Date();
-  const day = d.getDate();
-  const month = d.getMonth() + 1;
-  const year = d.getFullYear();
-  return `${day}. ${month}. ${year}`;
+  return `${d.getDate()}. ${d.getMonth() + 1}. ${d.getFullYear()}`;
 }
 
 function saveDiaryEntry(question, cardNumber, notes) {
@@ -127,7 +141,7 @@ function saveDiaryEntry(question, cardNumber, notes) {
     question,
     card: cardNumber,
     notes,
-    date: formatDayOnly()   // day only, no time
+    date: formatDayOnly()
   };
   let diary = JSON.parse(localStorage.getItem("oracleDiary") || "[]");
   diary.push(entry);
@@ -206,8 +220,15 @@ document.getElementById('torii-btn').addEventListener('click', () => {
   document.getElementById('diary-panel').style.display = "block";
   window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
 });
+
+document.getElementById('clear-btn').addEventListener('click', () => {
+  localStorage.removeItem("oracleDiary");
+  document.getElementById('diary-entries').innerHTML = "";
+  alert("Diary cleared.");
+});
 </script>
 
 </body>
 </html>
+
 
