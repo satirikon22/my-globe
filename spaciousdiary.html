@@ -34,7 +34,6 @@
     color: white;
     border: 1px solid #555;
     border-radius: 8px;
-    font-family: 'Rubik', sans-serif;
   }
 
   #infinity-btn {
@@ -57,13 +56,6 @@
     cursor: pointer;
     margin: 20px auto;
     display: block;
-    font-family: 'Rubik', sans-serif;
-  }
-
-  /* Blue butterfly */
-  #clear-btn {
-    color: #7ec8ff;
-    text-shadow: 0 0 12px #4fa3d1;
   }
 
   #torii-btn {
@@ -74,6 +66,11 @@
   #save-notes-btn {
     color: #f5e6c8;
     text-shadow: 0 0 12px #c9a86a;
+  }
+
+  #clear-btn {
+    color: #7ec8ff;
+    text-shadow: 0 0 12px #4fa3d1;
   }
 
   #diary-panel {
@@ -153,7 +150,9 @@ function renderDiary() {
   const box = document.getElementById('diary-entries');
   box.innerHTML = "";
 
-  diary.forEach(e => {
+  // NEWEST FIRST
+  for (let i = diary.length - 1; i >= 0; i--) {
+    const e = diary[i];
     const div = document.createElement('div');
     div.className = "entry diary-text";
 
@@ -165,7 +164,7 @@ function renderDiary() {
     `;
 
     box.appendChild(div);
-  });
+  }
 }
 
 function showHybridCard(question) {
@@ -230,5 +229,4 @@ document.getElementById('clear-btn').addEventListener('click', () => {
 
 </body>
 </html>
-
 
