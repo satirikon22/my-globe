@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Little Oracle Diary</title>
+<title>Tarot Hybrid Diary</title>
 
 <!-- Rubik font -->
 <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
@@ -48,7 +48,7 @@
     padding: 10px;
   }
 
-  /* VISIBLE BOOK BUTTON */
+  /* VISIBLE DIARY BUTTON */
   #diary-btn {
     font-size: clamp(50px, 12vw, 80px);
     margin: 10px auto 30px auto;
@@ -82,7 +82,7 @@
   /* SAVE NOTES BUTTON (BOOK ICON) */
   #save-notes-btn {
     font-size: clamp(50px, 12vw, 80px);
-    margin: 10px auto;
+    margin: 20px auto;
     cursor: pointer;
     background: none;
     border: none;
@@ -135,11 +135,11 @@
 
 <div id="card-area"></div>
 
-<!-- NOTES FIELD -->
+<!-- NOTES FIELD BELOW CARD -->
 <textarea id="notes-box" placeholder="Write your notes here..."></textarea>
 
-<!-- SAVE NOTES BUTTON -->
-<button id="save-notes-btn">📖</button>
+<!-- SAVE NOTES BUTTON BELOW NOTES -->
+<button id="save-notes-btn">📖 Save to Diary</button>
 
 <!-- DIARY PANEL -->
 <div id="diary-panel"></div>
@@ -190,7 +190,7 @@ function showHybridCard(question) {
     area.innerHTML = '';
     area.appendChild(img);
 
-    // Show notes field and save button
+    // Show notes field and save button BELOW the card
     document.getElementById('notes-box').style.display = "block";
     document.getElementById('save-notes-btn').style.display = "block";
   };
