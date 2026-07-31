@@ -16,31 +16,35 @@
     }
 
     .title {
-      font-size: 1.25rem;
+      font-size: 1.15rem;
+      font-weight: 500;
+      margin: 0 0 6px 0;
+    }
+
+    .nivel {
+      font-size: 1.3em;
       font-weight: 600;
-      margin: 0 0 10px 0;
     }
 
     #pregunta {
-      margin: 12px 0 14px 0;
-      font-size: 1.25rem;
-      font-weight: 500;
+      margin: 5px 0 7px 0;
+      font-size: 1.1rem;
     }
 
     button {
       font-family: 'Rubik', sans-serif;
-      padding: 6px 10px;
+      padding: 4px 6px;
       margin: 3px 3px 0 0;
-      font-size: 14px;
+      font-size: 13px;
       cursor: pointer;
     }
 
     @media (min-width: 700px) {
       .title {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
       }
       #pregunta {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
       }
     }
   </style>
@@ -57,7 +61,7 @@
 let questions = [];
 let currentQuestion = null;
 
-// Load questions from your GitHub Pages URL
+// Load questions.json from your GitHub Pages
 fetch('https://satirikon22.github.io/my-globe/questions.json?nocache=' + Date.now())
   .then(r => r.json())
   .then(data => {
@@ -78,5 +82,6 @@ function newQuestion() {
 
 </body>
 </html>
+
 
 
