@@ -23,7 +23,6 @@
     margin: 30px auto;
   }
 
-  /* SAME SIZE FOR ALL TEXT FIELDS INCLUDING DIARY */
   .rubik-field, .diary-text {
     width: 95%;
     max-width: 700px;
@@ -47,7 +46,6 @@
     border: none;
     color: white;
     padding: 10px;
-    font-family: 'Rubik', sans-serif;
   }
 
   #save-notes-btn,
@@ -59,7 +57,6 @@
     text-shadow: 0 0 12px #c9a86a;
     cursor: pointer;
     margin: 20px auto;
-    font-family: 'Rubik', sans-serif;
     display: block;
   }
 
@@ -72,7 +69,6 @@
     border-left: 2px solid #444;
     border-right: 2px solid #444;
     text-align: left;
-    font-family: 'Rubik', sans-serif;
   }
 
   .entry {
@@ -81,7 +77,6 @@
     margin: 15px 0;
     border: 1px solid #333;
     border-radius: 6px;
-    font-family: 'Rubik', sans-serif;
   }
 
   .mini-card {
@@ -110,7 +105,6 @@
 let lastQuestion = "";
 let lastCard = null;
 
-/* HYBRID RANDOMNESS */
 function hybridRandom(question) {
   let sum = 0;
   for (let i = 0; i < question.length; i++) sum += question.charCodeAt(i);
@@ -120,38 +114,38 @@ function hybridRandom(question) {
   return (sum % 78) + 1;
 }
 
-/* SAVE ENTRY */
 function saveDiaryEntry(question, cardNumber, notes) {
   const entry = {
     question,
     card: cardNumber,
     notes,
-    date: new Date().toLocaleDateString()  // ONLY DAY
+    date: new Date().toLocaleDateString()  // only day
   };
   let diary = JSON.parse(localStorage.getItem("oracleDiary") || "[]");
   diary.push(entry);
   localStorage.setItem("oracleDiary", JSON.stringify(diary));
 }
 
-/* RENDER DIARY */
 function renderDiary() {
   let diary = JSON.parse(localStorage.getItem("oracleDiary") || "[]");
   const box = document.getElementById('diary-entries');
   box.innerHTML = "";
+
   diary.forEach(e => {
     const div = document.createElement('div');
     div.className = "entry diary-text";
+
     div.innerHTML = `
-      <p><strong>Question:</strong> ${e.question}</p>
+      ${e.question}<br>
       <img class="mini-card" src="cards/${e.card}.png">
-      <p><strong>Date:</strong> ${e.date}</p>
-      <p><strong>Notes:</strong><br>${e.notes}</p>
+      ${e.date}<br>
+      ${e.notes}
     `;
+
     box.appendChild(div);
   });
 }
 
-/* SHOW CARD + NOTES + BOOK BUTTON */
 function showHybridCard(question) {
   const n = hybridRandom(question);
   lastCard = n;
@@ -191,7 +185,6 @@ function showHybridCard(question) {
   };
 }
 
-/* DRAW CARD */
 document.getElementById('infinity-btn').addEventListener('click', () => {
   const question = document.getElementById('question-box').value.trim();
   if (question !== "" && question !== lastQuestion) {
@@ -200,7 +193,6 @@ document.getElementById('infinity-btn').addEventListener('click', () => {
   }
 });
 
-/* TORII BUTTON SHOWS DIARY */
 document.getElementById('torii-btn').addEventListener('click', () => {
   renderDiary();
   document.getElementById('diary-panel').style.display = "block";
@@ -210,3 +202,4 @@ document.getElementById('torii-btn').addEventListener('click', () => {
 
 </body>
 </html>
+
