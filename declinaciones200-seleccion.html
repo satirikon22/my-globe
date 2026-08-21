@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Declinador de sustantivos en checo - Nivel 200 palabras</title>
+  <title>Declinador de sustantivos en checo -sg- 200</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
 
@@ -70,15 +70,6 @@
       font-size: 13px;
       cursor: pointer;
     }
-
-    @media (min-width: 700px) {
-      .title {
-        font-size: 1.4rem;
-      }
-      #pregunta {
-        font-size: 1.3rem;
-      }
-    }
   </style>
 </head>
 <body>
@@ -91,7 +82,7 @@
 
 <div id="pregunta"></div>
 
-<!-- ⭐ Dropdown for case selection (singular) -->
+<!-- ⭐ Selector de caso (igual que en plural) -->
 <select id="caseSelect">
   <option value="NOM1">Nominativo (1)</option>
   <option value="GEN2">Genitivo (2)</option>
@@ -112,7 +103,6 @@
 let words = [];
 let currentWord = null;
 let currentCaseKey = null;
-let currentCaseLabel = null;
 
 let total = 0;
 let correct = 0;
@@ -142,14 +132,12 @@ function newQuestion() {
 
   currentWord = words[Math.floor(Math.random() * words.length)];
 
-  // ⭐ Case chosen by user from dropdown
-  const select = document.getElementById("caseSelect");
-  currentCaseKey = select.value;
-  currentCaseLabel = select.options[select.selectedIndex].text;
+  // ⭐ Case chosen by user
+  currentCaseKey = document.getElementById("caseSelect").value;
 
+  // ⭐ Show only the noun (like plural version)
   document.getElementById("pregunta").innerHTML =
-    `Sustantivo: <em>${currentWord.NOM1}</em><br>
-     Caso: <strong>${currentCaseLabel}</strong>`;
+    `Sustantivo: <em>${currentWord.NOM1}</em>`;
 
   document.getElementById("result").innerHTML = "";
 
