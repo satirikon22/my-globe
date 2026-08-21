@@ -82,7 +82,6 @@
 
 <div id="question"></div>
 
-<!-- Case selector -->
 <select id="caseSelect">
   <option value="NOM1">Nominative (1)</option>
   <option value="GEN2">Genitive (2)</option>
@@ -109,6 +108,7 @@ let correct = 0;
 
 let waitingForNext = false;
 
+// Load singular JSON ONLY
 fetch('declinaciones200.json?nocache=' + Date.now())
   .then(r => r.json())
   .then(data => {
@@ -135,7 +135,7 @@ function newQuestion() {
   // Case chosen by user
   currentCaseKey = document.getElementById("caseSelect").value;
 
-  // ⭐ Only show the noun (no case line)
+  // Show ONLY the singular noun
   document.getElementById("question").innerHTML =
     `Noun: <em>${currentWord.NOM1}</em>`;
 
