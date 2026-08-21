@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Czech Noun Declension App (sg) – 200 Words</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Rubik', sans-serif;
+      padding: 6px;
+      margin: 0;
+      line-height: 1.1;
+      font-size: 14px;
+    }
+
+    .title {
+      font-size: 1.15rem;
+      font-weight: 500;
+      margin: 0 0 6px 0;
+    }
+
+    .level {
+      font-size: 1.3em;
+      font-weight: 600;
+    }
+
+    #counter p {
+      margin: 2px 0;
+      font-size: 0.9rem;
+    }
+
+    #question {
+      margin: 5px 0 7px 0;
+      font-size: 1.1rem;
+    }
+
+    #result {
+      margin-top: 4px;
+      font-size: 0.95rem;
+    }
+
+    #result .incorrect {
+      color: #ff00a8;
+      font-weight: bold;
+    }
+
+    #result .correct {
+      color: green;
+      font-weight: bold;
+    }
+
+    input, select {
+      font-family: 'Rubik', sans-serif;
+      padding: 5px;
+      font-size: 14px;
+      margin-bottom: 4px;
+    }
+
+    input {
+      width: 50%;
+      box-sizing: border-box;
+    }
+
+    button {
+      font-family: 'Rubik', sans-serif;
+      padding: 4px 6px;
+      margin: 3px 3px 0 0;
+      font-size: 13px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<div class="title">Czech Noun Declension App (sg) – <span class="level">200 Words</span></div>
+
+<div id="counter">
+  <p><strong>Questions:</strong> 0 | <strong>Correct:</strong> 0 | <strong>Accuracy:</strong> 0%</p>
+</div>
+
+<div id="question"></div>
+
+<!-- Case selector -->
+<select id="caseSelect">
+  <option value="NOM1">Nominative (1)</option>
+  <option value="GEN2">Genitive (2)</option>
+  <option value="DAT3">Dative (3)</option>
+  <option value="AKU4">Accusative (4)</option>
+  <option value="VOK5">Vocative (5)</option>
+  <option value="LOK6">Locative (6)</option>
+  <option value="INST7">Instrumental (7)</option>
+</select>
+
+<input id="answer" type="text" placeholder="Type the correct form…" autocomplete="off">
+<button onclick="checkAnswer()">Check</button>
+<button onclick="newQuestion()">Next</button>
+
+<div id="result"></div>
+
+<script>
+let words = [];
+let currentWord = null;
+let currentCaseKey = null;
+
+let total = 0;
+let correct = 0;
+
+let waitingForNext = false;
+
+fetch('declinaciones200.json?nocache=' + Date.now())
+  .then(r => r.json())
+  .then(data => {
+    words = data;
+    updateCounter();
+    newQuestion();
+  });
+
+function updateCounter() {
+  const percent = total > 0 ? ((correct / total) * 100).toFixed(1) : 0;
+  document.getElementById("counter").innerHTML =
+    `<p><strong>Questions:</strong> ${total} |
+     <strong>Correct:</strong> ${correct} |
+     <strong>Accuracy:</strong> ${percent}%</p>`;
+}
+
+function newQuestion() {
+  if (!words.length) return;
+
+  waitingForNext = false;
+
+  currentWord = words[Math.floor(Math.random() * words.length)];
+
+  // Case chosen by user
+  currentCaseKey = document.getElementById("caseSelect").value;
+
+  // ⭐ Only show the noun (no case line)
+  document.getElementById("question").innerHTML =
+    `Noun: <em>${currentWord.NOM1}</em>`;
+
+  document.getElementById("result").innerHTML = "";
+
+  const input = document.getElementById("answer");
+  input.value = "";
+  input.focus();
+}
+
+function checkAnswer() {
+  if (waitingForNext) return;
+
+  const user = document.getElementById("answer").value.trim().toLowerCase();
+  const correctForm = currentWord[currentCaseKey];
+
+  const variants = correctForm
+    .split("/")
+    .map(v => v.trim().toLowerCase());
+
+  total++;
+
+  if (variants.includes(user)) {
+    correct++;
+    document.getElementById("result").innerHTML =
+      `<span class="correct">Correct</span><br>
+       Form: <strong>${correctForm}</strong>`;
+  } else {
+    document.getElementById("result").innerHTML =
+      `<span class="incorrect">Incorrect</span><br>
+       The correct form is: <strong>${correctForm}</strong>`;
+  }
+
+  updateCounter();
+  waitingForNext = true;
+}
+</script>
+
+</body>
+</html>
