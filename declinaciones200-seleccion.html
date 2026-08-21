@@ -82,7 +82,6 @@
 
 <div id="pregunta"></div>
 
-<!-- ⭐ Selector de caso (igual que en plural) -->
 <select id="caseSelect">
   <option value="NOM1">Nominativo (1)</option>
   <option value="GEN2">Genitivo (2)</option>
@@ -132,10 +131,8 @@ function newQuestion() {
 
   currentWord = words[Math.floor(Math.random() * words.length)];
 
-  // ⭐ Case chosen by user
   currentCaseKey = document.getElementById("caseSelect").value;
 
-  // ⭐ Show only the noun (like plural version)
   document.getElementById("pregunta").innerHTML =
     `Sustantivo: <em>${currentWord.NOM1}</em>`;
 
