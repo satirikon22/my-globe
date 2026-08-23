@@ -1901,12 +1901,12 @@
  },
  {
    "NOM1 singular": "duch",
-   "NOM1": "duchové / dusi",
+   "NOM1": "duchové",
    "GEN2": "duchů",
    "DAT3": "duchům",
    "AKU4": "duchy",
-   "VOK5": "duchové / dusi",
-   "LOK6": "duších",
+   "VOK5": "duchové",
+   "LOK6": "duších / duchách",
    "INST7": "duchy"
  },
  {
@@ -1957,7 +1957,7 @@
    "AKU4": "strachy",
    "VOK5": "strachy",
    "LOK6": "strachách",
-   "INST7": "stranami"
+   "INST7": "strachy"
  },
  {
    "NOM1 singular": "papír",
