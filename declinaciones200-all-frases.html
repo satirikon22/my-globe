@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Practicas las declinaciones en el contexto.</title>
+<style>
+body {
+  font-family: Rubik, sans-serif;
+  padding: 20px;
+  background: #f7f7f7;
+}
+#frase {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+#respuesta {
+  font-size: 20px;
+  padding: 8px;
+  width: 300px;
+}
+button {
+  font-size: 18px;
+  padding: 8px 14px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+#resultado {
+  margin-top: 20px;
+  font-size: 22px;
+}
+</style>
+</head>
+
+<body>
+
+<h2>Practicas las declinaciones en el contexto.</h2>
+
+<div id="frase"></div>
+
+<input id="respuesta" type="text" placeholder="Escribe la forma correcta…" autocomplete="off">
+<button onclick="comprobar()">Comprobar</button>
+<button onclick="nueva()">Siguiente</button>
+
+<div id="resultado"></div>
+
+<script>
+let palabras = [];
+let actual = null;
+let caso = null;
+let frase = null;
+
+const casos = [
+  "NOM1sg",
+  "GEN2sg",
+  "DAT3sg",
+  "AKU4sg",
+  "LOK6sg",
+  "INST7sg"
+];
+
+fetch('declinaciones200-all-frases.json?nocache=' + Date.now())
+  .then(r => r.json())
+  .then(data => {
+    palabras = data;
+    nueva();
+  });
+
+function nueva() {
+  actual = palabras[Math.floor(Math.random() * palabras.length)];
+  caso = casos[Math.floor(Math.random() * casos.length)];
+  frase = actual[caso + "_sentence"];
+
+  document.getElementById("frase").innerHTML =
+    `<strong>${actual.NOM1sg}</strong><br><br>${frase}`;
+
+  document.getElementById("resultado").innerHTML = "";
+  const input = document.getElementById("respuesta");
+  input.value = "";
+  input.focus();
+}
+
+function comprobar() {
+  const usuario = document.getElementById("respuesta").value.trim().toLowerCase();
+  const correcta = actual[caso].trim().toLowerCase();
+
+  if (usuario === correcta) {
+    document.getElementById("resultado").innerHTML =
+      `<span style="color:green;font-weight:bold;">Correcto</span><br>
+       Forma correcta: <strong>${actual[caso]}</strong>`;
+  } else {
+    document.getElementById("resultado").innerHTML =
+      `<span style="color:#ff00a8;font-weight:bold;">Incorrecto</span><br>
+       Forma correcta: <strong>${actual[caso]}</strong>`;
+  }
+}
+</script>
+
+</body>
+</html>
