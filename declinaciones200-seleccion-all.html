@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Declinador de sustantivos en checo – selección (sg/pl)</title>
+  <title>Declinador de sustantivos en checo – selección sg/pl</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
 
@@ -82,7 +82,7 @@
 
 <div id="pregunta"></div>
 
-<!-- ⭐ Selector de caso -->
+<!-- Selector de caso -->
 <select id="caseSelect">
   <option value="NOM1">Nominativo (1)</option>
   <option value="GEN2">Genitivo (2)</option>
@@ -93,7 +93,7 @@
   <option value="INST7">Instrumental (7)</option>
 </select>
 
-<!-- ⭐ Selector de número -->
+<!-- Selector de número -->
 <select id="numberSelect">
   <option value="sg">Singular</option>
   <option value="pl">Plural</option>
@@ -116,7 +116,7 @@ let correct = 0;
 
 let waitingForNext = false;
 
-// Carga del JSON unificado
+// Load unified JSON
 fetch('declinaciones200-all.json?nocache=' + Date.now())
   .then(r => r.json())
   .then(data => {
@@ -140,16 +140,12 @@ function newQuestion() {
 
   currentWord = words[Math.floor(Math.random() * words.length)];
 
-  // Caso elegido por el usuario
   currentCaseKey = document.getElementById("caseSelect").value;
-
-  // Número elegido por el usuario
   currentNumber = document.getElementById("numberSelect").value;
 
-  // Mostrar sustantivo SIEMPRE en singular
+  // ⭐ Only show the noun — NO case line
   document.getElementById("pregunta").innerHTML =
-    `Sustantivo: <em>${currentWord["NOM1sg"]}</em><br>
-     Caso: <strong>${currentCaseKey} ${currentNumber}</strong>`;
+    `Sustantivo: <em>${currentWord["NOM1sg"]}</em>`;
 
   document.getElementById("result").innerHTML = "";
 
@@ -162,7 +158,6 @@ function checkAnswer() {
   if (waitingForNext) return;
 
   const user = document.getElementById("answer").value.trim().toLowerCase();
-
   const correctForm = currentWord[currentCaseKey + currentNumber];
 
   const variants = correctForm
@@ -189,4 +184,5 @@ function checkAnswer() {
 
 </body>
 </html>
+
 
