@@ -83,10 +83,21 @@
 <script>
 let words = [];
 let currentWord = null;
+let currentCase = null;
 
 let total = 0;
 let correct = 0;
 let waitingForNext = false;
+
+// 7 cases (sg only)
+const cases = [
+  "NOM1sg",
+  "GEN2sg",
+  "DAT3sg",
+  "AKU4sg",
+  "LOK6sg",
+  "INST7sg"
+];
 
 fetch('declinaciones200-all-frases.json?nocache=' + Date.now())
   .then(r => r.json())
@@ -107,10 +118,17 @@ function updateCounter() {
 function newQuestion() {
   waitingForNext = false;
 
+  // pick noun
   currentWord = words[Math.floor(Math.random() * words.length)];
 
+  // pick case
+  currentCase = cases[Math.floor(Math.random() * cases.length)];
+
+  // noun
   const noun = currentWord.id;
-  const sentence = currentWord.NOM1sg_sentence;
+
+  // sentence for that case
+  const sentence = currentWord[currentCase + "_sentence"];
 
   document.getElementById("pregunta").innerHTML =
     `<strong>${noun}</strong><br><br>${sentence}`;
@@ -126,7 +144,7 @@ function checkAnswer() {
   if (waitingForNext) return;
 
   const user = document.getElementById("answer").value.trim().toLowerCase();
-  const correctForm = currentWord.NOM1sg.trim().toLowerCase();
+  const correctForm = currentWord[currentCase].trim().toLowerCase();
 
   total++;
 
@@ -134,11 +152,11 @@ function checkAnswer() {
     correct++;
     document.getElementById("result").innerHTML =
       `<span class="correct">Correcto</span><br>
-       Forma: <strong>${currentWord.NOM1sg}</strong>`;
+       Forma: <strong>${currentWord[currentCase]}</strong>`;
   } else {
     document.getElementById("result").innerHTML =
       `<span class="incorrect">Incorrecto</span><br>
-       La forma correcta es: <strong>${currentWord.NOM1sg}</strong>`;
+       La forma correcta es: <strong>${currentWord[currentCase]}</strong>`;
   }
 
   updateCounter();
