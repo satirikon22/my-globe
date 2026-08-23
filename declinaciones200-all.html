@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -67,15 +66,6 @@
       margin: 3px 3px 0 0;
       font-size: 13px;
       cursor: pointer;
-    }
-
-    @media (min-width: 700px) {
-      .title {
-        font-size: 1.4rem;
-      }
-      #pregunta {
-        font-size: 1.3rem;
-      }
     }
   </style>
 </head>
@@ -150,10 +140,10 @@ function newQuestion() {
   // Número aleatorio: sg o pl
   currentNumber = Math.random() < 0.5 ? "sg" : "pl";
 
-  // Mostrar sustantivo y caso
+  // Mostrar sustantivo SIEMPRE en singular
   document.getElementById("pregunta").innerHTML =
-    `Sustantivo: <em>${currentWord["NOM1 " + currentNumber]}</em><br>
-     Caso: <strong>${currentCaseLabel}</strong>`;
+    `Sustantivo: <em>${currentWord["NOM1sg"]}</em><br>
+     Caso: <strong>${currentCaseLabel} ${currentNumber}</strong>`;
 
   document.getElementById("result").innerHTML = "";
 
@@ -167,7 +157,7 @@ function checkAnswer() {
 
   const user = document.getElementById("answer").value.trim().toLowerCase();
 
-  const correctForm = currentWord[currentCaseKey + " " + currentNumber];
+  const correctForm = currentWord[currentCaseKey + currentNumber];
 
   const variants = correctForm
     .split("/")
