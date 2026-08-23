@@ -1,90 +1,153 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-<meta charset="UTF-8">
-<title>Practicas las declinaciones en el contexto.</title>
-<style>
-body {
-  font-family: Rubik, sans-serif;
-  padding: 20px;
-  background: #f7f7f7;
-}
-#frase {
-  font-size: 22px;
-  margin-bottom: 20px;
-}
-#respuesta {
-  font-size: 20px;
-  padding: 8px;
-  width: 300px;
-}
-button {
-  font-size: 18px;
-  padding: 8px 14px;
-  margin-right: 10px;
-  cursor: pointer;
-}
-#resultado {
-  margin-top: 20px;
-  font-size: 22px;
-}
-</style>
-</head>
+  <meta charset="UTF-8">
+  <title>Practicas las declinaciones en el contexto</title>
 
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Rubik', sans-serif;
+      padding: 6px;
+      margin: 0;
+      line-height: 1.1;
+      font-size: 14px;
+    }
+
+    .title {
+      font-size: 1.15rem;
+      font-weight: 500;
+      margin: 0 0 6px 0;
+    }
+
+    #contador p {
+      margin: 2px 0;
+      font-size: 0.9rem;
+    }
+
+    #pregunta {
+      margin: 5px 0 7px 0;
+      font-size: 1.1rem;
+    }
+
+    #result {
+      margin-top: 4px;
+      font-size: 0.95rem;
+    }
+
+    #result .incorrect {
+      color: #ff00a8;
+      font-weight: bold;
+    }
+
+    #result .correct {
+      color: green;
+      font-weight: bold;
+    }
+
+    input {
+      font-family: 'Rubik', sans-serif;
+      padding: 5px;
+      font-size: 14px;
+      width: 50%;
+      box-sizing: border-box;
+      margin-bottom: 4px;
+    }
+
+    button {
+      font-family: 'Rubik', sans-serif;
+      padding: 4px 6px;
+      margin: 3px 3px 0 0;
+      font-size: 13px;
+      cursor: pointer;
+    }
+  </style>
+</head>
 <body>
 
-<h2>Practicas las declinaciones en el contexto.</h2>
+<div class="title">Practicas las declinaciones en el contexto</div>
 
-<div id="frase"></div>
+<div id="contador">
+  <p><strong>Preguntas:</strong> 0 | <strong>Aciertos:</strong> 0 | <strong>Porcentaje:</strong> 0%</p>
+</div>
 
-<input id="respuesta" type="text" placeholder="Escribe la forma correcta…" autocomplete="off">
-<button onclick="comprobar()">Comprobar</button>
-<button onclick="nueva()">Siguiente</button>
+<div id="pregunta"></div>
 
-<div id="resultado"></div>
+<input id="answer" type="text" placeholder="Escribe la forma correcta…" autocomplete="off">
+<button onclick="checkAnswer()">Comprobar</button>
+<button onclick="newQuestion()">Siguiente</button>
+
+<div id="result"></div>
 
 <script>
-let palabras = [];
-let actual = null;
+let words = [];
+let currentWord = null;
+
+let total = 0;
+let correct = 0;
+let waitingForNext = false;
 
 fetch('declinaciones200-all-frases.json?nocache=' + Date.now())
   .then(r => r.json())
   .then(data => {
-    palabras = data;
-    nueva();
+    words = data;
+    updateCounter();
+    newQuestion();
   });
 
-function nueva() {
-  actual = palabras[Math.floor(Math.random() * palabras.length)];
+function updateCounter() {
+  const percent = total > 0 ? ((correct / total) * 100).toFixed(1) : 0;
+  document.getElementById("contador").innerHTML =
+    `<p><strong>Preguntas:</strong> ${total} |
+     <strong>Aciertos:</strong> ${correct} |
+     <strong>Porcentaje:</strong> ${percent}%</p>`;
+}
 
-  const palabraId = actual.id;
-  const fraseNom = actual.NOM1sg_sentence;
+function newQuestion() {
+  if (!words.length) return;
 
-  document.getElementById("frase").innerHTML =
-    `<div style="font-size:26px; font-weight:bold;">${palabraId}</div><br>
-     <div>${fraseNom}</div>`;
+  waitingForNext = false;
 
-  document.getElementById("resultado").innerHTML = "";
-  const input = document.getElementById("respuesta");
+  currentWord = words[Math.floor(Math.random() * words.length)];
+
+  const noun = currentWord.id;
+  const sentence = currentWord.NOM1sg_sentence;
+
+  document.getElementById("pregunta").innerHTML =
+    `Palabra: <em>${noun}</em><br><br>${sentence}`;
+
+  document.getElementById("result").innerHTML = "";
+
+  const input = document.getElementById("answer");
   input.value = "";
   input.focus();
 }
 
-function comprobar() {
-  const usuario = document.getElementById("respuesta").value.trim().toLowerCase();
-  const correcta = actual.NOM1sg.trim().toLowerCase();
+function checkAnswer() {
+  if (waitingForNext) return;
 
-  if (usuario === correcta) {
-    document.getElementById("resultado").innerHTML =
-      `<span style="color:green;font-weight:bold;">Correcto</span><br>
-       Forma correcta: <strong>${actual.NOM1sg}</strong>`;
+  const user = document.getElementById("answer").value.trim().toLowerCase();
+  const correctForm = currentWord.NOM1sg.trim().toLowerCase();
+
+  total++;
+
+  if (user === correctForm) {
+    correct++;
+    document.getElementById("result").innerHTML =
+      `<span class="correct">Correcto</span><br>
+       Forma: <strong>${currentWord.NOM1sg}</strong>`;
   } else {
-    document.getElementById("resultado").innerHTML =
-      `<span style="color:#ff00a8;font-weight:bold;">Incorrecto</span><br>
-       Forma correcta: <strong>${actual.NOM1sg}</strong>`;
+    document.getElementById("result").innerHTML =
+      `<span class="incorrect">Incorrecto</span><br>
+       La forma correcta es: <strong>${currentWord.NOM1sg}</strong>`;
   }
+
+  updateCounter();
+  waitingForNext = true;
 }
 </script>
 
 </body>
 </html>
+
