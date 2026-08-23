@@ -71,7 +71,8 @@ function nueva() {
   frase = actual[caso + "_sentence"];
 
   document.getElementById("frase").innerHTML =
-    `<strong>${actual.NOM1sg}</strong><br><br>${frase}`;
+    `<div style="font-size:26px; font-weight:bold;">${actual.NOM1sg}</div><br>
+     <div>${frase}</div>`;
 
   document.getElementById("resultado").innerHTML = "";
   const input = document.getElementById("respuesta");
@@ -97,3 +98,4 @@ function comprobar() {
 
 </body>
 </html>
+
