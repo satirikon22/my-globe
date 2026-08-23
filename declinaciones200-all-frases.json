@@ -1,33 +1,32 @@
 [
- {
-   "id": "rok",
-   "NOM1sg": "rok",
-   "NOM1sg_sentence": "Tento ............................byl pro mě celkem náročný.",
-   "GEN2sg": "roku ",
-   "GEN2sg_sentence": "Do konce tohoto ..................... musím dokončit svůj projekt.",
-   "DAT3sg": "roku ",
-   "DAT3sg_sentence": "Díky tomuto ........................... jsem získal mnoho nových zkušeností v práci.",
-   "AKU4sg": "rok",
-   "AKU4sg_sentence": "Můj bratr plánuje strávit celý ..................... v zahraničí.",
-   "LOK6sg": " roce",
-   "LOK6sg_sentence": "V tomto ............ plánuju začít studovat na univerzitě.",
-   "INST7sg": "rokem",
-   "INST7sg_sentence": "Před ............. jsem neuměl česky skoro nic.",
- },
- {
-   "id": "člověk",
-   "NOM1sg": "člověk",
-   "NOM1sg_sentence": "Ten starý .............................. seděl v parku.",
-   "GEN2sg": "člověka",
-   "GEN2sg_sentence": "Potřebuju pomoc od nějakého rozumného ..............................",
-   "DAT3sg": "člověku",
-   "DAT3sg_sentence": "Věřím tomuto  .............................., protože říká pravdu.",
-   "AKU4sg": "člověka",
-   "AKU4sg_sentence": "Včera jsem viděl toho .............................. na autobusovém nádraží.",
-   "LOK6sg": "člověku",
-   "LOK6sg_sentence": "Mluvili jsme o tom ......................, který napsal tuto knihu.",
-   "INST7sg": "člověkem",
-   "INST7sg_sentence": "Petr se stal lepším ................... díky své rodině.",
-  
- }
+  {
+    "id": "rok",
+    "NOM1sg": "rok",
+    "NOM1sg_sentence": "Tento ............................byl pro mě celkem náročný.",
+    "GEN2sg": "roku",
+    "GEN2sg_sentence": "Do konce tohoto ..................... musím dokončit svůj projekt.",
+    "DAT3sg": "roku",
+    "DAT3sg_sentence": "Díky tomuto ........................... jsem získal mnoho nových zkušeností v práci.",
+    "AKU4sg": "rok",
+    "AKU4sg_sentence": "Můj bratr plánuje strávit celý ..................... v zahraničí.",
+    "LOK6sg": "roce",
+    "LOK6sg_sentence": "V tomto ............ plánuju začít studovat na univerzitě.",
+    "INST7sg": "rokem",
+    "INST7sg_sentence": "Před ............. jsem neuměl česky skoro nic."
+  },
+  {
+    "id": "člověk",
+    "NOM1sg": "člověk",
+    "NOM1sg_sentence": "Ten starý .............................. seděl v parku.",
+    "GEN2sg": "člověka",
+    "GEN2sg_sentence": "Potřebuju pomoc od nějakého rozumného ..............................",
+    "DAT3sg": "člověku",
+    "DAT3sg_sentence": "Věřím tomuto .............................., protože říká pravdu.",
+    "AKU4sg": "člověka",
+    "AKU4sg_sentence": "Včera jsem viděl toho .............................. na autobusovém nádraží.",
+    "LOK6sg": "člověku",
+    "LOK6sg_sentence": "Mluvili jsme o tom ......................, který napsal tuto knihu.",
+    "INST7sg": "člověkem",
+    "INST7sg_sentence": "Petr se stal lepším ................... díky své rodině."
+  }
 ]
