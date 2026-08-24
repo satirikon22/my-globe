@@ -13,37 +13,5 @@
     "LOK6sg_sentence": "V tomto ............ plánuju začít studovat na univerzitě.",
     "INST7sg": "rokem",
     "INST7sg_sentence": "Před ............. jsem neuměl česky skoro nic."
-  },
-  {
-    "id": "člověk",
-    "NOM1sg": "člověk",
-    "NOM1sg_sentence": "Ten starý .............................. seděl v parku.",
-    "GEN2sg": "člověka",
-    "GEN2sg_sentence": "Potřebuju pomoc od nějakého rozumného ..............................",
-    "DAT3sg": "člověku",
-    "DAT3sg_sentence": "Věřím tomuto .............................., protože říká pravdu.",
-    "AKU4sg": "člověka",
-    "AKU4sg_sentence": "Včera jsem viděl toho .............................. na autobusovém nádraží.",
-    "VOK5sg": "člověče",
-    "VOK5sg_sentence": ".............................,nezlob se!",
-    "LOK6sg": "člověku",
-    "LOK6sg_sentence": "Mluvili jsme o tom ......................, který napsal tuto knihu.",
-    "INST7sg": "člověkem",
-    "INST7sg_sentence": "Petr se stal lepším ................... díky své rodině."
-  },
-  {
-    "id": "den",
-    "NOM1sg": "den",
-    "NOM1sg_sentence": "„Ano, pane,“ odpověděl lev, „tak je tomu každý ................ — stále znovu je to jiné.",
-    "GEN2sg": "dne",
-    "GEN2sg_sentence": "Do konce tohoto .............................. musíme dokončit celý projekt.",
-    "DAT3sg": "dni / dnu",
-    "DAT3sg_sentence": "Díky dnešnímu slunečnému .............................. máme všichni skvělou náladu.",
-    "AKU4sg": "den",
-    "AKU4sg_sentence": "Přeju ti krásný ..............................!",
-    "LOK6sg": "dni / dnu",
-    "LOK6sg_sentence": "Zdálo se mi o krásném .............................., kdy jsme byli u moře.",
-    "INST7sg": "dnem",
-    "INST7sg_sentence": "Každým dalším .............................. se jeho stav zlepšuje."
-}
+  }
 ]
