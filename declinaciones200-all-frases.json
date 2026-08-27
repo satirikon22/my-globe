@@ -9,7 +9,7 @@
    "DAT3sg_sentence": "Díky tomuto ........................... jsem získal mnoho nových zkušeností v práci.",
    "AKU4sg": "rok",
    "AKU4sg_sentence": "Můj bratr plánuje strávit celý ..................... v zahraničí.",
-   "LOK6sg": " roce",
+   "LOK6sg": "roce",
    "LOK6sg_sentence": "V tomto ............ plánuju začít studovat na univerzitě.",
    "INST7sg": "rokem",
    "INST7sg_sentence": "Před ............. jsem neuměl česky skoro nic."
@@ -182,7 +182,7 @@
  {
    "id": "případ",
    "NOM1sg": "případ",
-   "NOM1sg_sentence": "Výsledek je v tomto ....................... vedlejší.",
+   "NOM1sg_sentence": "Ten nový .................. mě velmi zajímal",
    "GEN2sg": "případu",
    "GEN2sg_sentence": "Analýza daného ................... nezjistila žádnou chybu.",
    "DAT3sg": "případu",
