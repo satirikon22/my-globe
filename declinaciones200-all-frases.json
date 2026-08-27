@@ -173,8 +173,8 @@
    "INST7sg_sentence": "Dej to ..............................."
  },
  {
-   "id": "věc   ",
-   "NOM1sg": "věc   ",
+   "id": "věc",
+   "NOM1sg": "věc",
    "NOM1sg_sentence": "To je................... názoru.",
    "GEN2sg": "věci",
    "GEN2sg_sentence": "Vidíš na té věci nějakou chybu?",
@@ -188,8 +188,8 @@
    "INST7sg_sentence": "S tou ............................ si nevím rady."
  },
  {
-   "id": "země ",
-   "NOM1sg": "země ",
+   "id": "země",
+   "NOM1sg": "země",
    "NOM1sg_sentence": "Naše ................... je krásná.",
    "GEN2sg": "země",
    "GEN2sg_sentence": "Vyskočil ze ................................ a rychle utíkal pryč.",
