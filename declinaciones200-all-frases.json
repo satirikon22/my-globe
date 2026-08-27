@@ -53,7 +53,7 @@
    "LOK6pl": "lidech",
    "LOK6pl_sentence": "O kolika ........................... se tady bavíme?",
    "INST7pl": "lidmi",
-   "ISNT7pl_sentence": "Nerad mluvím před ....................."
+   "INST7pl_sentence": "Nerad mluvím před ....................."
  },
  {
    "id": "den",
@@ -80,7 +80,7 @@
    "LOK6pl": "dnech",
    "LOK6pl_sentence": "V nejbližších ...................... se to dozvíte.",
    "INST7pl": "dny / dni",
-   "ISNT7pl_sentence": "S těmi zameškanými ....................... musíme něco udělat."
+   "INST7pl_sentence": "S těmi zameškanými ....................... musíme něco udělat."
  },
  {
    "id": "doba",
