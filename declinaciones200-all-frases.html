@@ -89,14 +89,10 @@ let total = 0;
 let correct = 0;
 let waitingForNext = false;
 
-// 7 cases (sg only)
+// singular + plural cases
 const cases = [
-  "NOM1sg",
-  "GEN2sg",
-  "DAT3sg",
-  "AKU4sg",
-  "LOK6sg",
-  "INST7sg"
+  "NOM1sg", "GEN2sg", "DAT3sg", "AKU4sg", "LOK6sg", "INST7sg",
+  "NOM1pl", "GEN2pl", "DAT3pl", "AKU4pl", "LOK6pl", "INST7pl"
 ];
 
 fetch('declinaciones200-all-frases.json?nocache=' + Date.now())
@@ -118,16 +114,10 @@ function updateCounter() {
 function newQuestion() {
   waitingForNext = false;
 
-  // pick noun
   currentWord = words[Math.floor(Math.random() * words.length)];
-
-  // pick case
   currentCase = cases[Math.floor(Math.random() * cases.length)];
 
-  // noun
   const noun = currentWord.id;
-
-  // sentence for that case
   const sentence = currentWord[currentCase + "_sentence"];
 
   document.getElementById("pregunta").innerHTML =
@@ -144,11 +134,16 @@ function checkAnswer() {
   if (waitingForNext) return;
 
   const user = document.getElementById("answer").value.trim().toLowerCase();
-  const correctForm = currentWord[currentCase].trim().toLowerCase();
+
+  // raw correct form (may contain multiple options)
+  const raw = currentWord[currentCase].toLowerCase();
+
+  // split multiple forms: "roků / let" → ["roků", "let"]
+  const options = raw.split("/").map(x => x.trim());
 
   total++;
 
-  if (user === correctForm) {
+  if (options.includes(user)) {
     correct++;
     document.getElementById("result").innerHTML =
       `<span class="correct">Correcto</span><br>
@@ -166,3 +161,4 @@ function checkAnswer() {
 
 </body>
 </html>
+
