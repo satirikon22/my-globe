@@ -105,18 +105,17 @@ let correct = 0;
 
 let waitingForNext = false;
 
-// Mapa de casos para hispanohablantes
+// Casos en singular (sg) para A1
 const cases = [
-  { key: "NOM1",  label: "Nominativo (1)" },
-  { key: "GEN2",  label: "Genitivo (2)" },
-  { key: "DAT3",  label: "Dativo (3)" },
-  { key: "AKU4",  label: "Acusativo (4)" },
-  { key: "VOK5",  label: "Vocativo (5)" },
-  { key: "LOK6",  label: "Locativo (6)" },
-  { key: "INST7", label: "Instrumental (7)" }
+  { key: "NOM1sg",  label: "Nominativo (1)" },
+  { key: "GEN2sg",  label: "Genitivo (2)" },
+  { key: "DAT3sg",  label: "Dativo (3)" },
+  { key: "AKU4sg",  label: "Acusativo (4)" },
+  { key: "VOK5sg",  label: "Vocativo (5)" },
+  { key: "LOK6sg",  label: "Locativo (6)" },
+  { key: "INST7sg", label: "Instrumental (7)" }
 ];
 
-// Cargar el JSON correcto
 fetch('declinacionesA1.json?nocache=' + Date.now())
   .then(r => r.json())
   .then(data => {
@@ -144,7 +143,7 @@ function newQuestion() {
   currentCaseLabel = chosenCase.label;
 
   document.getElementById("pregunta").innerHTML =
-    `Sustantivo: <em>${currentWord.NOM1}</em><br>
+    `Sustantivo: <em>${currentWord.NOM1sg}</em><br>
      Caso: <strong>${currentCaseLabel}</strong>`;
 
   document.getElementById("result").innerHTML = "";
