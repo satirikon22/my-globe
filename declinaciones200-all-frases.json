@@ -1078,5 +1078,32 @@
    "LOK6pl_sentence": "Nabízíme rozhovor o aktuálních ...........................",
    "INST7pl": "otázkami",
    "INST7pl_sentence": "Jejich cílem je otrávit posluchače natolik, aby přestali otravovat se svými .............................."
+ },
+ {
+   "id": "skupina",
+   "NOM1sg": "skupina",
+   "NOM1sg_sentence": "Kláře ztížila transplantaci ledviny krevní ...........................",
+   "GEN2sg": "skupiny",
+   "GEN2sg_sentence": "To je restaurace ze čtvrté cenové ......................!",
+   "DAT3sg": "skupině",
+   "DAT3sg_sentence": "Určité .......................... dětí pomáhají přípravné třídy zvládnout přechod do školy.",
+   "AKU4sg": "skupinu",
+   "AKU4sg_sentence": "Nevlastní matky mají v Brně novou podpůrnou .......................... pro sdílení zkušeností.",
+   "LOK6sg": "skupině",
+   "LOK6sg_sentence": " Na soupeře v české ............................... se těším.",
+   "INST7sg": "skupinou",
+   "INST7sg_sentence": "Říční delfíni jsou samostatnou ......................... ozubených kytovců.",
+   "NOM1pl": "skupiny",
+   "NOM1pl_sentence": "Vulgarismy, spamování, nadávky. I to jsou whatsappové třídní .......................",
+   "GEN2pl": "skupin",
+   "GEN2pl_sentence": "Nahrávky zapomenutých ......................... a písničkářů.",
+   "DAT3pl": "skupinám",
+   "DAT3pl_sentence": "Pražská tržnice má sloužit všem věkovým i příjmovým ............................",
+   "AKU4pl": "skupiny",
+   "AKU4pl_sentence": "Obě ................................... po dvanácti lidech byly vybrány z více než sedmdesáti dobrovolníků.",
+   "LOK6pl": "skupinách",
+   "LOK6pl_sentence": "Přežijí lesní školky zákon o dětských ......................? ",
+   "INST7pl": "skupinami",
+   "INST7pl_sentence": "Netradiční průvodkyně s malými ............................. cestovatelů míří i do neklidných míst."
  }
 ]
