@@ -1105,5 +1105,32 @@
    "LOK6pl_sentence": "Přežijí lesní školky zákon o dětských ......................? ",
    "INST7pl": "skupinami",
    "INST7pl_sentence": "Netradiční průvodkyně s malými ............................. cestovatelů míří i do neklidných míst."
+ },
+  {
+   "id": "pravda",
+   "NOM1sg": "pravda",
+   "NOM1sg_sentence": "................................ je iluze, která má tolik podob, že neznáme tu pravou.",
+   "GEN2sg": "pravdy",
+   "GEN2sg_sentence": "Jde o hledání ................................, nacházení a někdy i ztrácení lásky, motiv, který se vine celou sezonou.",
+   "DAT3sg": "pravdě",
+   "DAT3sg_sentence": "Pokud si člověk kontroluje, co vycítil, a ten stav odpovídá ........................., samozřejmě zvyšuje své schopnosti cítit věci.",
+   "AKU4sg": "pravdu",
+   "AKU4sg_sentence": "Slyš ..................., hledej ......................., uč se pravdě, miluj....................... , mluv ........................., braň .........................až do smrti.",
+   "LOK6sg": "pravdě",
+   "LOK6sg_sentence": "Stalo se skutečností, že ti, kteří ví, co je pravda, o .............................. nikdy nerozhodují...",
+   "INST7sg": "pravdou",
+   "INST7sg_sentence": "Lež je vždy o krok před .............................",
+   "NOM1pl": "pravdy",
+   "NOM1pl_sentence": "Absolutní ......................... neexistují, říká filmová producentka.",
+   "GEN2pl": "pravd",
+   "GEN2pl_sentence": "Někdy se člověk dostane do kategorie zbytečných ........................, někdy má člověk mlčet.",
+   "DAT3pl": "pravdám",
+   "DAT3pl_sentence": "Věřte našim ............................ Jsou z dovozu.",
+   "AKU4pl": "pravdy",
+   "AKU4pl_sentence": "Vypráví o střetu různých pravd a o důsledcích plynoucích pro ty, co své ......................... slepě následují.",
+   "LOK6pl": "pravdách",
+   "LOK6pl_sentence": "Problém není v nepříjemných ............................ , ale ve špatné interpretaci.",
+   "INST7pl": "pravdami",
+   "INST7pl_sentence": "Jak je to tedy s historickými ...........................?"
  }
 ]
