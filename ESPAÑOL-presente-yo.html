@@ -103,7 +103,8 @@ let correct = 0;
 
 let waitingForNext = false;
 
-fetch('verbs_es.json?nocache=' + Date.now())
+// ⭐ Archivo renombrado correctamente
+fetch('espanol-presente-yo.json?nocache=' + Date.now())
   .then(r => r.json())
   .then(data => {
     verbs = data;
@@ -167,4 +168,3 @@ function checkAnswer() {
 
 </body>
 </html>
-
