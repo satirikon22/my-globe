@@ -1,0 +1,802 @@
+[
+ {
+   "id": "ser",
+   "yo": "soy"
+ },
+ {
+   "id": "haber",
+   "yo": "he"
+ },
+ {
+   "id": "tener",
+   "yo": "tengo"
+ },
+ {
+   "id": "estar",
+   "yo": "estoy"
+ },
+ {
+   "id": "hacer",
+   "yo": "hago"
+ },
+ {
+   "id": "decir",
+   "yo": "digo"
+ },
+ {
+   "id": "poder",
+   "yo": "puedo"
+ },
+ {
+   "id": "ir",
+   "yo": "voy"
+ },
+ {
+   "id": "ver",
+   "yo": "veo"
+ },
+ {
+   "id": "dar",
+   "yo": "doy"
+ },
+ {
+   "id": "saber",
+   "yo": "sé"
+ },
+ {
+   "id": "querer",
+   "yo": "quiero"
+ },
+ {
+   "id": "pasar",
+   "yo": "paso"
+ },
+ {
+   "id": "deber",
+   "yo": "debo"
+ },
+ {
+   "id": "llegar",
+   "yo": "llego"
+ },
+ {
+   "id": "creer",
+   "yo": "creo"
+ },
+ {
+   "id": "dejar",
+   "yo": "dejo"
+ },
+ {
+   "id": "parecer",
+   "yo": "parezco"
+ },
+ {
+   "id": "hablar",
+   "yo": "hablo"
+ },
+ {
+   "id": "poner",
+   "yo": "pongo"
+ },
+ {
+   "id": "seguir",
+   "yo": "sigo"
+ },
+ {
+   "id": "quedar(se)",
+   "yo": "me quedo"
+ },
+ {
+   "id": "llevar",
+   "yo": "llevo"
+ },
+ {
+   "id": "encontrar",
+   "yo": "encuentro"
+ },
+ {
+   "id": "pensar",
+   "yo": "pienso"
+ },
+ {
+   "id": "volver",
+   "yo": "vuelvo"
+ },
+ {
+   "id": "salir",
+   "yo": "salgo"
+ },
+ {
+   "id": "venir",
+   "yo": "vengo"
+ },
+ {
+   "id": "llamar",
+   "yo": "llamo"
+ },
+ {
+   "id": "mirar",
+   "yo": "miro"
+ },
+ {
+   "id": "conocer",
+   "yo": "conozco"
+ },
+ {
+   "id": "tomar",
+   "yo": "tomo"
+ },
+ {
+   "id": "sentir",
+   "yo": "siento"
+ },
+ {
+   "id": "tratar",
+   "yo": "trato"
+ },
+ {
+   "id": "vivir",
+   "yo": "vivo"
+ },
+ {
+   "id": "acercar",
+   "yo": "me acerco"
+ },
+ {
+   "id": "esperar",
+   "yo": "espero"
+ },
+ {
+   "id": "gustar",
+   "yo": "gusto"
+ },
+ {
+   "id": "contar",
+   "yo": "cuento"
+ },
+ {
+   "id": "trabajar",
+   "yo": "trabajo"
+ },
+ {
+   "id": "empezar",
+   "yo": "empiezo"
+ },
+ {
+   "id": "buscar",
+   "yo": "busco"
+ },
+ {
+   "id": "existir",
+   "yo": "existo"
+ },
+ {
+   "id": "perder",
+   "yo": "pierdo"
+ },
+ {
+   "id": "escribir",
+   "yo": "escribo"
+ },
+ {
+   "id": "realizar",
+   "yo": "realizo"
+ },
+ {
+   "id": "entrar",
+   "yo": "entro"
+ },
+ {
+   "id": "leer",
+   "yo": "leo"
+ },
+ {
+   "id": "recordar",
+   "yo": "recuerdo"
+ },
+ {
+   "id": "morir",
+   "yo": "muero"
+ },
+ {
+   "id": "recibir",
+   "yo": "recibo"
+ },
+ {
+   "id": "pedir",
+   "yo": "pido"
+ },
+ {
+   "id": "permitir",
+   "yo": "permito"
+ },
+ {
+   "id": "preguntar",
+   "yo": "pregunto"
+ },
+ {
+   "id": "entender",
+   "yo": "entiendo"
+ },
+ {
+   "id": "comenzar",
+   "yo": "comienzo"
+ },
+ {
+   "id": "presentar",
+   "yo": "presento"
+ },
+ {
+   "id": "crear",
+   "yo": "creo"
+ },
+ {
+   "id": "producir",
+   "yo": "produzco"
+ },
+ {
+   "id": "abrir",
+   "yo": "abro"
+ },
+ {
+   "id": "sentar",
+   "yo": "me siento"
+ },
+ {
+   "id": "caer",
+   "yo": "caigo"
+ },
+ {
+   "id": "terminar",
+   "yo": "termino"
+ },
+ {
+   "id": "oír",
+   "yo": "oigo"
+ },
+ {
+   "id": "cambiar",
+   "yo": "cambio"
+ },
+ {
+   "id": "considerar",
+   "yo": "considero"
+ },
+ {
+   "id": "convertir",
+   "yo": "convierto"
+ },
+ {
+   "id": "mantener",
+   "yo": "mantengo"
+ },
+ {
+   "id": "utilizar",
+   "yo": "utilizo"
+ },
+ {
+   "id": "sacar",
+   "yo": "saco"
+ },
+ {
+   "id": "necesitar",
+   "yo": "necesito"
+ },
+ {
+   "id": "resultar",
+   "yo": "resulto"
+ },
+ {
+   "id": "escuchar",
+   "yo": "escucho"
+ },
+ {
+   "id": "conseguir",
+   "yo": "consigo"
+ },
+ {
+   "id": "lograr",
+   "yo": "logro"
+ },
+ {
+   "id": "ocurrir",
+   "yo": "ocurro"
+ },
+ {
+   "id": "aparecer",
+   "yo": "aparezco"
+ },
+ {
+   "id": "ganar",
+   "yo": "gano"
+ },
+ {
+   "id": "acabar",
+   "yo": "acabo"
+ },
+ {
+   "id": "explicar",
+   "yo": "explico"
+ },
+ {
+   "id": "formar",
+   "yo": "formo"
+ },
+ {
+   "id": "servir",
+   "yo": "sirvo"
+ },
+ {
+   "id": "usar",
+   "yo": "uso"
+ },
+ {
+   "id": "tocar",
+   "yo": "toco"
+ },
+ {
+   "id": "ayudar",
+   "yo": "ayudo"
+ },
+ {
+   "id": "mostrar",
+   "yo": "muestro"
+ },
+ {
+   "id": "estudiar",
+   "yo": "estudio"
+ },
+ {
+   "id": "traer",
+   "yo": "traigo"
+ },
+ {
+   "id": "correr",
+   "yo": "corro"
+ },
+ {
+   "id": "comer",
+   "yo": "como"
+ },
+ {
+   "id": "ofrecer",
+   "yo": "ofrezco"
+ },
+ {
+   "id": "levantar",
+   "yo": "levanto"
+ },
+ {
+   "id": "jugar",
+   "yo": "juego"
+ },
+ {
+   "id": "comprar",
+   "yo": "compro"
+ },
+ {
+   "id": "decidir",
+   "yo": "decido"
+ },
+ {
+   "id": "alcanzar",
+   "yo": "alcanzo"
+ },
+ {
+   "id": "desarrollar",
+   "yo": "desarrollo"
+ },
+ {
+   "id": "pagar",
+   "yo": "pago"
+ },
+ {
+   "id": "meter",
+   "yo": "meto"
+ },
+ {
+   "id": "cumplir",
+   "yo": "cumplo"
+ },
+ {
+   "id": "dirigir",
+   "yo": "dirijo"
+ },
+ {
+   "id": "continuar",
+   "yo": "continúo"
+ },
+ {
+   "id": "reconocer",
+   "yo": "reconozco"
+ },
+ {
+   "id": "dormir",
+   "yo": "duermo"
+ },
+ {
+   "id": "establecer",
+   "yo": "establezco"
+ },
+ {
+   "id": "subir",
+   "yo": "subo"
+ },
+ {
+   "id": "intentar",
+   "yo": "intento"
+ },
+ {
+   "id": "descubrir",
+   "yo": "descubro"
+ },
+ {
+   "id": "olvidar",
+   "yo": "olvido"
+ },
+ {
+   "id": "incluir",
+   "yo": "incluyo"
+ },
+ {
+   "id": "andar",
+   "yo": "ando"
+ },
+ {
+   "id": "nacer",
+   "yo": "nazco"
+ },
+ {
+   "id": "aprender",
+   "yo": "aprendo"
+ },
+ {
+   "id": "dedicar",
+   "yo": "dedico"
+ },
+ {
+   "id": "suponer",
+   "yo": "supongo"
+ },
+ {
+   "id": "aceptar",
+   "yo": "acepto"
+ },
+ {
+   "id": "comprender",
+   "yo": "comprendo"
+ },
+ {
+   "id": "obtener",
+   "yo": "obtengo"
+ },
+ {
+   "id": "publicar",
+   "yo": "publico"
+ },
+ {
+   "id": "echar",
+   "yo": "echo"
+ },
+ {
+   "id": "responder",
+   "yo": "respondo"
+ },
+ {
+   "id": "mover",
+   "yo": "muevo"
+ },
+ {
+   "id": "señalar",
+   "yo": "señalo"
+ },
+ {
+   "id": "suceder",
+   "yo": "sucedo"
+ },
+ {
+   "id": "bajar",
+   "yo": "bajo"
+ },
+ {
+   "id": "evitar",
+   "yo": "evito"
+ },
+ {
+   "id": "asegurar",
+   "yo": "aseguro"
+ },
+ {
+   "id": "imaginar",
+   "yo": "imagino"
+ },
+ {
+   "id": "detener",
+   "yo": "detengo"
+ },
+ {
+   "id": "sufrir",
+   "yo": "sufro"
+ },
+ {
+   "id": "importar",
+   "yo": "importo"
+ },
+ {
+   "id": "ocupar",
+   "yo": "ocupo"
+ },
+ {
+   "id": "representar",
+   "yo": "represento"
+ },
+ {
+   "id": "repetir",
+   "yo": "repito"
+ },
+ {
+   "id": "caminar",
+   "yo": "camino"
+ },
+ {
+   "id": "cerrar",
+   "yo": "cierro"
+ },
+ {
+   "id": "faltar",
+   "yo": "falto"
+ },
+ {
+   "id": "indicar",
+   "yo": "indico"
+ },
+ {
+   "id": "vender",
+   "yo": "vendo"
+ },
+ {
+   "id": "acordar",
+   "yo": "acuerdo"
+ },
+ {
+   "id": "desear",
+   "yo": "deseo"
+ },
+ {
+   "id": "iniciar",
+   "yo": "inicio"
+ },
+ {
+   "id": "referir",
+   "yo": "refiero"
+ },
+ {
+   "id": "observar",
+   "yo": "observo"
+ },
+ {
+   "id": "soler",
+   "yo": "suelo"
+ },
+ {
+   "id": "crecer",
+   "yo": "crezco"
+ },
+ {
+   "id": "elegir",
+   "yo": "elijo"
+ },
+ {
+   "id": "demostrar",
+   "yo": "demuestro"
+ },
+ {
+   "id": "preparar",
+   "yo": "preparo"
+ },
+ {
+   "id": "valer",
+   "yo": "valgo"
+ },
+ {
+   "id": "regresar",
+   "yo": "regreso"
+ },
+ {
+   "id": "significar",
+   "yo": "significo"
+ },
+ {
+   "id": "interesar",
+   "yo": "intereso"
+ },
+ {
+   "id": "matar",
+   "yo": "mato"
+ },
+ {
+   "id": "compartir",
+   "yo": "comparto"
+ },
+ {
+   "id": "partit",
+   "yo": "parto"
+ },
+ {
+   "id": "mandar",
+   "yo": "mando"
+ },
+ {
+   "id": "participar",
+   "yo": "participo"
+ },
+ {
+   "id": "llenar",
+   "yo": "lleno"
+ },
+ {
+   "id": "acompañar",
+   "yo": "acompaño"
+ },
+ {
+   "id": "construir",
+   "yo": "construyo"
+ },
+ {
+   "id": "enseñar",
+   "yo": "enseño"
+ },
+ {
+   "id": "cubrir",
+   "yo": "cubro"
+ },
+ {
+   "id": "entregar",
+   "yo": "entrego"
+ },
+ {
+   "id": "llorar",
+   "yo": "lloro"
+ },
+ {
+   "id": "comentar",
+   "yo": "comento"
+ },
+ {
+   "id": "orientar",
+   "yo": "oriento"
+ },
+ {
+   "id": "afirmar",
+   "yo": "afirmo"
+ },
+ {
+   "id": "aumentar",
+   "yo": "aumento"
+ },
+ {
+   "id": "casar",
+   "yo": "me caso"
+ },
+ {
+   "id": "desaparecer",
+   "yo": "desaparezco"
+ },
+ {
+   "id": "oblicar",
+   "yo": "obligo"
+ },
+ {
+   "id": "apoyar",
+   "yo": "apoyo"
+ },
+ {
+   "id": "quitar",
+   "yo": "quito"
+ },
+ {
+   "id": "contestar",
+   "yo": "contesto"
+ },
+ {
+   "id": "provocar",
+   "yo": "provoco"
+ },
+ {
+   "id": "depender",
+   "yo": "dependo"
+ },
+ {
+   "id": "abandonar",
+   "yo": "abandono"
+ },
+ {
+   "id": "fijar",
+   "yo": "fijo"
+ },
+ {
+   "id": "reír",
+   "yo": "río"
+ },
+ {
+   "id": "tirar",
+   "yo": "tiro"
+ },
+ {
+   "id": "guardar",
+   "yo": "guardo"
+ },
+ {
+   "id": "gritar",
+   "yo": "grito"
+ },
+ {
+   "id": "notar",
+   "yo": "noto"
+ },
+ {
+   "id": "surgir",
+   "yo": "surjo"
+ },
+ {
+   "id": "expresar",
+   "yo": "expreso"
+ },
+ {
+   "id": "amar",
+   "yo": "amo"
+ },
+ {
+   "id": "vestir",
+   "yo": "visto"
+ },
+ {
+   "id": "enviar",
+   "yo": "envío"
+ },
+ {
+   "id": "parar",
+   "yo": "paro"
+ },
+ {
+   "id": "constituir",
+   "yo": "constituyo"
+ },
+ {
+   "id": "generar",
+   "yo": "genero"
+ },
+ {
+   "id": "preferir",
+   "yo": "prefiero"
+ },
+ {
+   "id": "cantar",
+   "yo": "canto"
+ },
+ {
+   "id": "proponer",
+   "yo": "propongo"
+ },
+ {
+   "id": "lanzar",
+   "yo": "lanzo"
+ },
+ {
+   "id": "permanecer",
+   "yo": "permanezco"
+ },
+ {
+   "id": "romper",
+   "yo": "rompo"
+ },
+ {
+   "id": "defender",
+   "yo": "defiendo"
+ },
+ {
+   "id": "cuidar",
+   "yo": "cuido"
+ }
+]
