@@ -68,6 +68,21 @@
       cursor: pointer;
     }
 
+    /* Czech keyboard styling */
+    #cz-keyboard button {
+      font-family: 'Rubik', sans-serif;
+      font-size: 17px;
+      padding: 5px 9px;
+      margin: 2px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      background: #f5f5f5;
+      cursor: pointer;
+    }
+    #cz-keyboard button:hover {
+      background: #e0e0e0;
+    }
+
     @media (min-width: 700px) {
       .title {
         font-size: 1.4rem;
@@ -91,6 +106,25 @@
 <input id="answer" type="text" placeholder="Type the correct form…" autocomplete="off">
 <button onclick="checkAnswer()">Check</button>
 <button onclick="newQuestion()">Next</button>
+
+<!-- Czech keyboard UNDER the buttons -->
+<div id="cz-keyboard" style="margin-top:8px;">
+  <button onclick="insertLetter('ě')">ě</button>
+  <button onclick="insertLetter('š')">š</button>
+  <button onclick="insertLetter('č')">č</button>
+  <button onclick="insertLetter('ř')">ř</button>
+  <button onclick="insertLetter('ž')">ž</button>
+  <button onclick="insertLetter('ý')">ý</button>
+  <button onclick="insertLetter('ď')">ď</button>
+  <button onclick="insertLetter('ť')">ť</button>
+  <button onclick="insertLetter('ň')">ň</button>
+  <button onclick="insertLetter('ů')">ů</button>
+  <button onclick="insertLetter('á')">á</button>
+  <button onclick="insertLetter('é')">é</button>
+  <button onclick="insertLetter('í')">í</button>
+  <button onclick="insertLetter('ó')">ó</button>
+  <button onclick="insertLetter('ú')">ú</button>
+</div>
 
 <div id="result"></div>
 
@@ -179,6 +213,18 @@ function checkAnswer() {
 
   updateCounter();
   waitingForNext = true;
+}
+
+// Czech keyboard logic
+function insertLetter(letter) {
+  const active = document.activeElement;
+  if (active && active.tagName === "INPUT") {
+    const start = active.selectionStart;
+    const end = active.selectionEnd;
+    active.value = active.value.substring(0, start) + letter + active.value.substring(end);
+    active.focus();
+    active.selectionStart = active.selectionEnd = start + letter.length;
+  }
 }
 </script>
 
