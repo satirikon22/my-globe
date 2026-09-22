@@ -215,16 +215,25 @@ function checkAnswer() {
   waitingForNext = true;
 }
 
-/* ⭐ Czech keyboard logic — THIS WAS MISSING */
+/* ⭐ FINAL FIX: case-insensitive check + fallback to #answer */
 function insertLetter(letter) {
-  const active = document.activeElement;
-  if (active && active.tagName === "INPUT") {
-    const start = active.selectionStart;
-    const end = active.selectionEnd;
-    active.value = active.value.substring(0, start) + letter + active.value.substring(end);
-    active.focus();
-    active.selectionStart = active.selectionEnd = start + letter.length;
+  let active = document.activeElement;
+
+  // If no input is focused, always use #answer
+  if (!active || active.tagName.toLowerCase() !== "input") {
+    active = document.getElementById("answer");
   }
+
+  const start = active.selectionStart;
+  const end = active.selectionEnd;
+
+  active.value =
+    active.value.substring(0, start) +
+    letter +
+    active.value.substring(end);
+
+  active.focus();
+  active.selectionStart = active.selectionEnd = start + letter.length;
 }
 </script>
 
